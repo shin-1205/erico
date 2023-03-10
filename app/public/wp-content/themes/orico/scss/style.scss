@@ -1,2 +1,8 @@
 @forward "./mixin";
 @forward "./top";
+
+@forward "./foundation/settings.scss";
+
+@forward "./layout/header.scss";
+@forward "./layout/main.scss";
+@forward "./layout/footer.scss";

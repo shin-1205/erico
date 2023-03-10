@@ -1,59 +1,54 @@
+
+@charset "UTF-8";
+
 /* リセットCSS
 ---------------------------------------------------------------------------- */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
-  vertical-align: baseline;
-  padding: 0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
+  padding: 0;
   border: 0;
-  font: inherit;
   font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
   line-height: inherit;
   letter-spacing: inherit;
 }
-
-img{
-  vertical-align: bottom;
-  border: 0;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+img { border: 0; vertical-align: bottom;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
-body{
+body {
   line-height: 1;
 }
-
-ol, ul{
+ol, ul {
   list-style: none;
 }
-
-blockquote, q{
+blockquote, q {
   quotes: none;
 }
-
-blockquote:before, blockquote:after, q:before, q:after{
-  content: "";
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
   content: none;
 }
-
-table{
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+@charset "utf-8";
 
-/*!
-Theme Name: Sample
-Version: 1.0.0
-Author: shijo
-Description: Original Theme
-*/
-
-@import"https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap";
-@import"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap";
-@import"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
-
-.wrapper{
-  background-color: blue;
-}
+@import"https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap";@import"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap";@import"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";*{-webkit-box-sizing:border-box;box-sizing:border-box}img{width:100%}a{color:inherit;text-decoration:none}li{list-style:none}.container{padding:0 20px}.l-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%;background-color:#fff;border-bottom:2px solid #ff4500;position:fixed;z-index:100}.l-header__logo{max-width:196px;margin:38px 30px}.l-header__logo img{width:170px}.l-header__nav{width:100%;position:relative}.l-header__navTop{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.l-header__navTopItem a span{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0 0 0 2rem;margin:17px 0;font-size:14px}.l-header__navTopItem a span img{width:8px}.l-header__navBottom{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:59px;position:absolute;left:0;right:0;bottom:0}.l-header__navBottomItem{-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;margin:auto 0 20px 0;cursor:pointer;font-weight:bold;line-height:55px;position:relative;-webkit-transition:.3s;transition:.3s}.l-header__navBottomItem:first-child{border-left:none}.l-header__navBottomItem a{padding:0 50px 0 45px;border-left:1px solid #e6e6e6}.l-header__navBottomItem:hover{background:#fe622f;background-image:-webkit-linear-gradient(315deg, #ff0600 0, #ff7200 100%);background-image:linear-gradient(135deg, #ff0600 0, #ff7200 100%);color:#fff}.l-header__navBottomItem::after{content:"▼";width:1px;cursor:pointer;color:#fe622f;font-size:1px;position:absolute;top:2px;right:20px}.l-header__navBottomItem::after:hover{-webkit-transform:rotateY(90deg);transform:rotateY(90deg)}.l-header__login{width:157px;padding:30px 25px;margin-left:14px;background-color:#ebebeb;text-align:center}.l-header__login img{max-width:98px;margin-bottom:10px}.l-header__login p{margin-bottom:10px;font-size:12px;font-weight:bold}.l-header__login a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:117px;height:33px;background:#fe622f;background-image:-webkit-linear-gradient(315deg, #ff0600 0, #ff7200 100%);background-image:linear-gradient(135deg, #ff0600 0, #ff7200 100%);border-radius:5px;color:#fff;font-size:12px;text-align:center}.l-header__login a img{width:8px;margin-top:9px;margin-left:10px}.headerInner{width:100%;position:fixed;top:145px;z-index:5}.headerInner__wrap{max-width:1200px;margin:40px auto}.headerInner__top{display:-webkit-box;display:-ms-flexbox;display:flex;padding:20px 0;border-bottom:1px solid #e6e6e6;font-size:18px;font-weight:bold}.headerInner__top img{width:20px;margin-right:10px}.headerInner__list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:40px}.headerInner__listInner{width:100%}.headerInner__listTitle{display:-webkit-box;display:-ms-flexbox;display:flex;padding:40px 0 30px 0;margin-bottom:20px;border-bottom:1px solid #e6e6e6}.headerInner__listTitle img{width:20px;margin-right:15px}.headerInner__listTitle h3{font-size:18px;font-weight:bold}.headerInner__list li{padding:15px 0;color:#666}.open{top:100px}
