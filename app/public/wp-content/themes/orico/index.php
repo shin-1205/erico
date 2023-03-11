@@ -1,18 +1,39 @@
-<!DOCTYPE html>
-<html lang="ja">
+<?php get_header(); ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/style.css">
+<main>
 
-  <title>Document</title>
-</head>
+  あああ
 
-<body>
+  <ul class="tab">
+    <li class="active">洋画</li>
+    <li>邦画</li>
+    <li>海外ドラマ</li>
+    <li>国内ドラマ</li>
+  </ul>
+  <div class="content">
+    <ul class="show">
+      <li>ハリーポッター</li>
+      <li>スパイダーマン</li>
+      <li>マトリックス</li>
+    </ul>
+    <ul>
+      <li>ALWAYS 三丁目の夕日</li>
+      <li>舟を編む</li>
+      <li>永遠の0</li>
+    </ul>
+    <ul>
+      <li>ウォーキング・デッド</li>
+      <li>ゴシップガール</li>
+      <li>スーツ</li>
+    </ul>
+    <ul>
+      <li>タラレバ娘</li>
+      <li>トリック</li>
+      <li>花より男子</li>
+    </ul>
+  </div>
 
-  <script src="<?php echo get_theme_file_uri(); ?>/js/bundle.js"></script>
-</body>
 
-</html>
+</main>
+
+<?php get_footer(); ?>

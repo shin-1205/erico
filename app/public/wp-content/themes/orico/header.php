@@ -66,9 +66,9 @@
 
         </ul>
 
-        <ul class="l-header__navBottom">
-          <li class="l-header__navBottomItem">
-            <a href="#">
+        <ul class="l-header__navBottom tab">
+          <li class="l-header__navBottomItem active">
+            <a href="#" class="active">
               <span>
                 トップ
               </span>
@@ -118,8 +118,16 @@
 
     </div>
 
-    <div class="headerInner" id="header">
-      <div class="headerInner__wrap">
+
+    <!-- タブメニュー　中身 -->
+
+    <div class="headerInner content" id="headerTab">
+
+
+      <!-- 内容 1 -->
+
+
+      <div class="headerInner__wrap show">
 
         <div class="headerInner__top">
           <a href="#">
@@ -270,6 +278,628 @@
         </div>
 
       </div>
+
+
+      <!-- 内容 2 -->
+
+      <div class="headerInner__wrap">
+
+        <div class="headerInner__top">
+          <a href="#">
+            <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            <span>クレジットカード 2</span>
+          </a>
+        </div>
+
+
+        <div class="headerInner__list">
+
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>カードの種類、特徴</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>会員さま向けサービス</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>ポイント</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>キャンペーン</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+
+      <!-- 内容  3 -->
+
+      <div class="headerInner__wrap">
+
+        <div class="headerInner__top">
+          <a href="#">
+            <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            <span>クレジットカード 3</span>
+          </a>
+        </div>
+
+
+        <div class="headerInner__list">
+
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>カードの種類、特徴</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>会員さま向けサービス</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>ポイント</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>キャンペーン</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+
+      <!-- 内容  4 -->
+
+      <div class="headerInner__wrap">
+
+        <div class="headerInner__top">
+          <a href="#">
+            <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            <span>クレジットカード 4</span>
+          </a>
+        </div>
+
+
+        <div class="headerInner__list">
+
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>カードの種類、特徴</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>会員さま向けサービス</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>ポイント</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>キャンペーン</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+
+      <!-- 内容  5 -->
+
+      <div class="headerInner__wrap">
+
+        <div class="headerInner__top">
+          <a href="#">
+            <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            <span>クレジットカード 5</span>
+          </a>
+        </div>
+
+
+        <div class="headerInner__list">
+
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>カードの種類、特徴</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>会員さま向けサービス</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>ポイント</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+          <ul class="headerInner__listInner">
+
+            <div class="headerInner__listTitle">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <h3>キャンペーン</h3>
+            </div>
+
+            <li>
+              <a href="#">
+                カード一覧
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                オリコカードのサービス・機能
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                クレジットカードでキャッシング
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                ゴールドカード専用サービス
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                入会の流れ
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+
     </div>
 
 
