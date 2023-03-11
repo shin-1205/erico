@@ -15,6 +15,57 @@ li{
   list-style: none;
 }
 
+body{
+  font-family: YakuHanJP,
+  "游ゴシック Medium",
+  "Yu Gothic Medium",
+  游ゴシック体,
+  YuGothic,
+  游ゴシック,
+  "Yu Gothic",
+  "ヒラギノ角ゴ Pro W3",
+  "Hiragino Kaku Gothic Pro",
+  メイリオ,
+  Meiryo,
+  "ＭＳ Ｐゴシック",
+  sans-serif;
+}
+
 .container{
   padding: 0 20px;
+}
+
+.wrapper{
+  margin: 0 142px;
+}
+
+
+/* ボタン */
+
+.btn{
+  display: block;
+  padding: 16px 78px 15px 78px;
+  background-color: #ffff;
+  border: 1px solid #fe622f;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fe622f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  position: relative;
+  transition: 0.3s;
+
+  span::after{
+    content: "›";
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 14px;
+  }
+
+  &:hover{
+    box-shadow: 0 0.1rem 0.5rem 0 rgb(0 0 0 / 10%);
+  }
 }

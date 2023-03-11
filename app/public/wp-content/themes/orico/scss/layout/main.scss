@@ -1,0 +1,295 @@
+main{
+  padding-top: 147px;
+}
+
+
+.hero{
+  .swiper-container{
+    width: 100%;
+    // height: 459px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .swiper-button{
+    &-next, &-prev{
+      color: #000;
+    }
+  }
+
+  .swiper-slide-duplicate, .swiper-slide{
+    /* Center slide text vertically */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    background-position: center center;
+    background-size: cover;
+    font-size: 18px;
+    text-align: center;
+
+    /* Slide content */
+    .description, .title{
+      display: block;
+      opacity: 0;
+      transition: 0.5s ease 0.5s;
+    }
+
+    &-active{
+      .description, .title{
+        opacity: 1;
+      }
+
+      .title{
+        margin-bottom: 0.5rem;
+        color: #000;
+        font-size: 24px;
+        transition: opacity 0.5s ease 0.5s;
+      }
+
+      .description{
+        color: #777;
+        font-size: 16px;
+        transition: opacity 0.5s ease 0.75s;
+      }
+    }
+  }
+
+  .swiper-progress-bar{
+    display: block;
+    width: 60%;
+    height: 2px;
+    position: relative;
+    top: 100px;
+    left: 12%;
+    z-index: 1;
+
+    .slide_progress-bar{
+      clear: both;
+      width: auto;
+      height: 2px;
+      background: #e6e6e6;
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 45px;
+
+      &:after{
+        content: "";
+        width: 0;
+        height: 100%;
+        background: #fe622f;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.1s width linear;
+      }
+    }
+
+    &.active{
+      .slide_progress-bar{
+        opacity: 1;
+      }
+    }
+
+    &.animate{
+      .slide_progress-bar{
+        &:after{
+          width: 100%;
+          transition: width linear;
+
+          transition-delay: unset;
+          transition-duration: 5s;
+        }
+      }
+    }
+  }
+}
+
+
+.swiper-pagination{
+  width: auto !important;
+  margin: 0;
+  position: absolute;
+  top: -52px !important;
+  left: auto !important;
+  right: -200px;
+
+
+  /* ページネーションのサイズと色 */
+  .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    background-color: #fe622f;
+  }
+}
+
+
+
+/* News */
+
+.NewsArea{
+  margin: 103px 142px 0 142px;
+  background-color: #ffece8;
+
+
+  .Newswrap{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  &__title{
+    margin: auto 68px;
+    color: #fe622f;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__list{
+    margin: auto 50px;
+
+    &Item{
+      display: flex;
+      gap: 40px;
+      margin: 36px 0;
+
+      dt{
+        color: #999;
+        font-size: 14px;
+      }
+
+      dd{
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+
+/* Card Area */
+
+.CardArea{
+  padding-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #f5f5f5;
+
+  &__title{
+    display: flex;
+    align-items: center;
+    padding: 100px 0 50px 0;
+
+    h2{
+      padding: 0 0 0 72px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    img{
+      width: 30px;
+    }
+  }
+
+  &__list{
+    display: flex;
+    gap: 38px;
+
+
+
+    &Image{
+      max-width: 317px;
+      margin-bottom: 24px;
+      background-color: #ffff;
+      border-radius: 5px;
+      box-shadow: 0 0.1rem 0.5rem 0 rgb(0 0 0 / 10%);
+      text-align: center;
+
+      img{
+        max-width: 150px;
+        margin: 58px 83px;
+      }
+    }
+
+    &Title{
+      margin-bottom: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+
+    &Description{
+      margin-bottom: 75px;
+      color: #999;
+    }
+  }
+
+  &__btn{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+
+
+/* Article Area */
+
+
+.ArticleArea{
+  padding-bottom: 80px;
+
+  &__title{
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &__card{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 103px;
+
+
+    &List{
+      max-width: 335px;
+    }
+
+    &Image{
+      margin-bottom: 20px;
+
+      img{
+        border-radius: 5px;
+      }
+    }
+
+    &Date{
+      margin-bottom: 11px;
+      color: #fe622f;
+      font-weight: bold;
+    }
+
+    &Title{
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.5;
+
+      p{
+        border-bottom: 1px solid #333;
+      }
+    }
+  }
+
+
+  &__btn{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+}
