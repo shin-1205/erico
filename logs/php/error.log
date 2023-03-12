@@ -1,0 +1,2 @@
+[12-Mar-2023 16:29:51 UTC] PHP Warning:  Attempt to read property "queue" on null in /Users/shin/Local Sites/test310/app/public/wp-includes/script-loader.php on line 2841
+[12-Mar-2023 16:29:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/shin/Local Sites/test310/app/public/wp-includes/script-loader.php on line 2841

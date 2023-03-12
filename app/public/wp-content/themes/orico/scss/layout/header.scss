@@ -256,3 +256,21 @@
 .content .headerInner__wrap.show{
   display: block;
 }
+
+
+
+@media screen and(max-width: 600px){
+  .headerInner{
+    display: none;
+  }
+
+  .l-header{
+    &__nav{
+      display: none;
+    }
+
+    &__login{
+      display: none;
+    }
+  }
+}

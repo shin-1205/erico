@@ -178,7 +178,7 @@ body{
 
 
 
-/* PDF */
+/* News Area　PDF New pic */
 
 
 .NewsArea1__innerItemContentPdf{
@@ -188,4 +188,37 @@ body{
 
 .NewsArea1__innerItemContentNew{
   width: 38px;
+}
+
+
+
+/* SP画像　非表示 */
+
+.img-sp{
+  display: none;
+}
+
+
+// 設定関連
+
+@media screen and(max-width: 600px){
+  .img-sp{
+    display: block;
+  }
+
+  .img-pc{
+    display: none;
+  }
+
+  .wrapper{
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+  .btn{
+    padding: 10px 39px;
+    font-size: 15px;
+    text-align: center;
+  }
 }

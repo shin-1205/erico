@@ -6,7 +6,7 @@
   <section class="hero">
 
 
-    <!-- Slider main container -->
+    <!-- Slider main container  -->
     <div class="swiper-container">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
@@ -383,9 +383,9 @@
 
           <div class="LoginArea__bottomLeftWrap">
 
+
             <img src="https://www.orico.co.jp/common/images/logo/e-orico/e-orico-02.svg" alt="">
-            <h3>ご利用明細の確認、ポイント(スマイル)の交換、<br>
-              各種手続きなどインターネットで簡単にできます。</h3>
+            <h3>ご利用明細の確認、ポイント(スマイル)の交換、各種手続きなどインターネットで簡単にできます。</h3>
 
 
             <div class="LoginArea__bottomLeftOrico">
@@ -445,7 +445,10 @@
             </div>
 
             <div class="LoginArea__bottomRightCardImage">
-              <img src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-02-430x534.jpg" alt="">
+              <img class="img-pc" src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-02-430x534.jpg"
+                alt="PC表示">
+              <img class="img-sp" src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-02-860x534.jpg"
+                alt="SP表示">
             </div>
 
             <div class="LoginArea__bottomRightCardName">
@@ -469,7 +472,10 @@
             </div>
 
             <div class="LoginArea__bottomRightCardImage">
-              <img src="https://www.orico.co.jp/common/images/logo/orico-mall/orico-mall-01-430x534.jpg" alt="">
+              <img class="img-pc" src="https://www.orico.co.jp/common/images/logo/orico-mall/orico-mall-01-430x534.jpg"
+                alt="PC表示">
+              <img class="img-sp" src="https://www.orico.co.jp/common/images/logo/orico-mall/orico-mall-01-860x534.jpg"
+                alt="SP表示">
             </div>
 
             <div class="LoginArea__bottomRightCardName">
@@ -563,7 +569,7 @@
   </section>
 
 
-  <section class="NewsArea1">
+  <!-- <section class="NewsArea1">
     <div class="wrapper">
 
       <div class="NewsArea1__title">
@@ -596,7 +602,7 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
+              <p><a href="">メンテナンスのお知らせ</a></p>
               <img class="NewsArea1__innerItemContentNew"
                 src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
                 alt="">
@@ -612,7 +618,7 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>「株式会社トマト」におけるお客さま情報の漏えいに関する発表について</p>
+              <p><a href="">「株式会社トマト」におけるお客さま情報の漏えいに関する発表について</a></p>
               <img class="NewsArea1__innerItemContentNew"
                 src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
                 alt="">
@@ -628,7 +634,7 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>クレジットカード搭載電子マネー変更のお知らせ</p>
+              <p><a href="">クレジットカード搭載電子マネー変更のお知らせ</a></p>
               <img class="NewsArea1__innerItemContentNew"
                 src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
                 alt="">
@@ -644,7 +650,7 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>オリコをかたるフィッシングサイトの発生について</p>
+              <p><a href="">オリコをかたるフィッシングサイトの発生について</a></p>
               <img class="NewsArea1__innerItemContentNew"
                 src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
                 alt="">
@@ -660,7 +666,7 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>「株式会社三京商会」におけるお客さま情報の漏えいに関する発表について</p>
+              <p><a href="">「株式会社三京商会」におけるお客さま情報の漏えいに関する発表について</a></p>
               <img class="NewsArea1__innerItemContentNew"
                 src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
                 alt="">
@@ -676,7 +682,7 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>「ソースネクスト株式会社」におけるお客さま情報の漏えいに関する発表について</p>
+              <p><a href="">「ソースネクスト株式会社」におけるお客さま情報の漏えいに関する発表について</a></p>
               <img class="NewsArea1__innerItemContentNew"
                 src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
                 alt="">
@@ -1338,9 +1344,9 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
-
+  <!-- 
   <section class="Caution">
     <div class="wrapper">
 
@@ -1503,23 +1509,23 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- トップに戻るリンク -->
 
-  <div class="returnTop">
+  <!-- <div class="returnTop">
     <div class="wrapper">
       <div class="LinkTextTop">
-        <a href="">
+        <a href="#">
           <span>
             ページトップ
           </span>
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 </main>
 
-<?php get_footer(); ?>
+<!-- <?php get_footer(); ?> -->
