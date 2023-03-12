@@ -65,14 +65,17 @@ $(document).ready(function () {
       }
     }
   });
-  // $(".swiper-container").hover(function () {
-  //   swiper.autoplay.stop();
-  //   $(".swiper-progress-bar").removeClass("animate");
-  // }, function () {
-  //   swiper.autoplay.start();
-  //   $(".swiper-progress-bar").addClass("animate");
-  // });
 });
 
 
 
+/* News Area 1 TabMenu */
+
+$(function () {
+  $(".tab a").click(function () {
+    $(this).parent().addClass("active").siblings(".active").removeClass("active");
+    var tabContents = $(this).attr("href");
+    $(tabContents).addClass("active").siblings(".active").removeClass("active");
+    return false;
+  });
+});

@@ -29,6 +29,7 @@ body{
   Meiryo,
   "ＭＳ Ｐゴシック",
   sans-serif;
+  font-size: 16px;
 }
 
 .container{
@@ -66,7 +67,7 @@ body{
   }
 
   &:hover{
-    box-shadow: 0 0.1rem 0.5rem 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0.1rem 1rem 0 rgb(0 0 0 / 10%);
   }
 }
 
@@ -93,5 +94,79 @@ body{
         left: -20px;
       }
     }
+  }
+}
+
+
+/*  border bottom circle left */
+
+.LinkTextCircle{
+  padding-left: 20px;
+
+  a{
+    span{
+      padding-bottom: 2px;
+      border-bottom: 1px solid #333;
+      position: relative;
+
+
+
+
+
+      &::before{
+        content: "●";
+        color: #fe622f;
+        font-size: 1px;
+        font-weight: bold;
+        position: absolute;
+        top: 6px;
+        left: -20px;
+      }
+    }
+  }
+}
+
+
+/*  border bottom Arrow Up left */
+
+.LinkTextTop{
+  padding-left: 20px;
+
+  a{
+    font-size: 20px;
+
+    span{
+      padding-bottom: 2px;
+      position: relative;
+
+      &::before{
+        content: "＾";
+        color: #fe622f;
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        left: -25px;
+      }
+    }
+  }
+}
+
+
+/* sectitle */
+
+
+.sectitle{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+
+  img{
+    width: 30px;
+  }
+
+  h2{
+    font-size: 32px;
+    font-weight: bold;
   }
 }
