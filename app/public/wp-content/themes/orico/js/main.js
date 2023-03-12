@@ -35,7 +35,7 @@ $(document).ready(function () {
   var swiper = new Swiper(".swiper-container", {
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
     },
     speed: 500,
     loop: true,
@@ -65,13 +65,13 @@ $(document).ready(function () {
       }
     }
   });
-  $(".swiper-container").hover(function () {
-    swiper.autoplay.stop();
-    $(".swiper-progress-bar").removeClass("animate");
-  }, function () {
-    swiper.autoplay.start();
-    $(".swiper-progress-bar").addClass("animate");
-  });
+  // $(".swiper-container").hover(function () {
+  //   swiper.autoplay.stop();
+  //   $(".swiper-progress-bar").removeClass("animate");
+  // }, function () {
+  //   swiper.autoplay.start();
+  //   $(".swiper-progress-bar").addClass("animate");
+  // });
 });
 
 

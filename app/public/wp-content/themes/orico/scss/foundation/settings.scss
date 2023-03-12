@@ -69,3 +69,29 @@ body{
     box-shadow: 0 0.1rem 0.5rem 0 rgb(0 0 0 / 10%);
   }
 }
+
+
+/* border bottom arrow left */
+
+.LinkTextArrow{
+  padding-left: 20px;
+
+  a{
+    font-size: 20px;
+
+    span{
+      padding-bottom: 2px;
+      border-bottom: 1px solid #333;
+      position: relative;
+
+      &::before{
+        content: "›";
+        color: #fe622f;
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        left: -20px;
+      }
+    }
+  }
+}

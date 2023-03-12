@@ -219,7 +219,7 @@
 
 
       <div class="ArticleArea__title">
-        <img src="" alt="">
+        <img src="https://www.orico.co.jp/common/images/pict/pict-recommend-02.svg" alt="">
         <h2>おすすめ情報</h2>
       </div>
 
@@ -326,9 +326,233 @@
     </div>
 
 
+    <div class="ArticleArea__topics">
+
+      <h3>トピック・コンテンツ</h3>
+
+      <div class="ArticleArea__topicsImage">
+        <a href="">
+          <img src="https://www.orico.co.jp/common/images/bnr/other/lp-oricocity2030-01-280x174.jpg" alt="">
+        </a>
+        <a href="">
+          <img src="https://www.orico.co.jp/common/images/bnr/other/lp-enlighten-01-280x174.png" alt="">
+        </a>
+        <a href="">
+          <img src="https://www.orico.co.jp/common/images/bnr/other/oricotori-01-280x174.jpg" alt="">
+        </a>
+        <a href="">
+          <img src="https://www.orico.co.jp/common/images/bnr/other/furusato-01-280x174.jpg" alt="">
+        </a>
+      </div>
+
+
+    </div>
+
 
 
   </section>
+
+
+  <section class="LoginArea">
+
+    <div class="wrapper">
+
+      <div class="LoginArea__title">
+        <img src="https://www.orico.co.jp/common/images/pict/pict-card-03.svg" alt="">
+        <h2>
+          すでにカードをお持ちの方
+        </h2>
+      </div>
+
+
+      <div class="LoginArea__bottom">
+
+
+        <!-- left -->
+
+        <div class="LoginArea__bottomLeft">
+
+          <div class="LoginArea__bottomLeftWrap">
+
+            <img src="https://www.orico.co.jp/common/images/logo/e-orico/e-orico-02.svg" alt="">
+            <h3>ご利用明細の確認、ポイント(スマイル)の交換、<br>
+              各種手続きなどインターネットで簡単にできます。</h3>
+
+
+            <div class="LoginArea__bottomLeftOrico">
+              <span>
+                <a href="">
+                  eオリコサービスとは
+                </a>
+              </span>
+            </div>
+
+
+
+            <a class="LoginArea__bottomLeftButton">
+              <p href="" class="LoginArea__bottomLeftButton1">
+                ログインする
+              </p>
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-02.svg" alt="">
+
+            </a>
+
+
+            <a class="LoginArea__bottomLeftButton">
+              <p href="" class="LoginArea__bottomLeftButton2">
+
+                ご利用登録
+              </p>
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+
+            </a>
+
+
+            <div class="LoginArea__bottomLeftLink">
+
+              <a href="">
+                <span>登録方法</span>
+              </a>
+
+              <a href="">
+                <span>ログインできない方</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- right -->
+
+        <div class="LoginArea__bottomRight">
+
+          <div class="LoginArea__bottomRightCard">
+
+            <div class="LoginArea__bottomRightCardTitle">
+              <img src="https://www.orico.co.jp/common/images/pict/pict-point-03.svg" alt="">
+              <h3>ためたポイントを使う</h3>
+            </div>
+
+            <div class="LoginArea__bottomRightCardImage">
+              <img src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-02-430x534.jpg" alt="">
+            </div>
+
+            <div class="LoginArea__bottomRightCardName">
+              <h4>
+                オリコポイントゲートウェイ
+              </h4>
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            </div>
+
+            <div class="LoginArea__bottomRightCardText">
+              ためたオリコポイントを、いろいろポイントやギフト券に交換できます！
+            </div>
+
+          </div>
+
+          <div class="LoginArea__bottomRightCard">
+
+            <div class="LoginArea__bottomRightCardTitle">
+              <img src="https://www.orico.co.jp/common/images/pict/pict-point-05.svg" alt="">
+              <h3>ポイントをためる</h3>
+            </div>
+
+            <div class="LoginArea__bottomRightCardImage">
+              <img src="https://www.orico.co.jp/common/images/logo/orico-mall/orico-mall-01-430x534.jpg" alt="">
+            </div>
+
+            <div class="LoginArea__bottomRightCardName">
+              <h4>
+                オリコモール
+              </h4>
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            </div>
+
+            <div class="LoginArea__bottomRightCardText">
+              オリコモール経由のショッピングでポイントをおトクにためよう！
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="LoginArea__app">
+
+        <div class="LoginArea__appImage">
+
+          <div class="LoginArea__appImageIcon">
+            <img src="https://www.orico.co.jp/common/images/logo/app/app-01.png" alt="">
+          </div>
+
+
+          <div class="LoginArea__appImageText">
+            <h3>
+              オリコ更新アプリをダウンロード
+            </h3>
+            <p>
+              ご請求総額やご利用明細の確認はもちろんたまったポイントもラクラク管理!
+            </p>
+          </div>
+
+          <div class="LoginArea__appImageBtn">
+
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/logo/applestore/applestore-01.svg" alt="">
+            </a>
+
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/logo/googlestore/googlestore-01.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+
+        <div class="LoginArea__appDiscript">
+
+          <div class="LinkTextArrow">
+            <a href="">
+              <span>
+                オリコ更新アプリについて
+              </span>
+            </a>
+          </div>
+
+          <div class="LoginArea__appDiscript">
+            <p>
+              ※　Apple、Apple ロゴ、iPhoneは米国および他の国々で登録された Apple Inc. の商標です。
+            </p>
+            <p>
+              ※　App Store は Apple Inc. のサービスマークです。
+            </p>
+            <p>
+              ※　Android、Google PlayはGoogle LLCの商標または登録商標です。
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="LoginArea__appBtn">
+          <div class="btn">
+            <a href="#">
+              よくある質問はこちらから
+              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
 
 </main>
 
