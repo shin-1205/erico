@@ -59,11 +59,10 @@
           </li>
 
           <li class="l-header__navTopItem">
-            <a href="#">
-              <span>
-                サイト内検索
-                <img src="https://www.orico.co.jp/common/images/icon/icon-search-01.svg" alt="">
-              </span>
+            <a class="l-header__navTopItemSearch" href="#">
+              <input type="text" placeholder="サイト内検索">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-search-01.svg" alt="">
+
             </a>
           </li>
 

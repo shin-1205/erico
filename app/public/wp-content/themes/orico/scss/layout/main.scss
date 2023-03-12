@@ -143,17 +143,35 @@ main{
   .Newswrap{
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
 
   &__title{
-    margin: auto 68px;
-    color: #fe622f;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    padding: 98px 68px;
+    margin: 10px;
+    border-right: 1px solid #ffff;
+    color: #fd4522;
     font-weight: bold;
+    text-align: center;
+
+    img{
+      width: 30px;
+    }
+
+    h2{
+      width: 177px;
+      font-size: 24px;
+    }
   }
 
   &__list{
+    width: 80%;
     margin: auto 50px;
 
     &Item{
@@ -167,7 +185,6 @@ main{
       }
 
       dd{
-        font-size: 15px;
       }
     }
   }
@@ -185,27 +202,34 @@ main{
   &__title{
     display: flex;
     align-items: center;
-    gap: 30px;
     padding: 100px 0 50px 0;
 
     h2{
+      margin-left: 25px;
       font-size: 26px;
       font-weight: bold;
     }
 
-    img{
-      width: 30px;
+    &Img{
+      padding-right: 25px;
+      border-right: 1px solid #e6e6e6;
+
+      img{
+        width: 30px;
+      }
     }
   }
 
   &__list{
     display: flex;
-    gap: 38px;
+    justify-content: space-between;
 
-
+    &Inner{
+      max-width: 316px;
+    }
 
     &Image{
-      max-width: 317px;
+      width: 100%;
       margin-bottom: 24px;
       background-color: #ffff;
       border-radius: 5px;
@@ -248,13 +272,23 @@ main{
 
   &__title{
     display: flex;
-    gap: 30px;
     margin-bottom: 40px;
     font-size: 26px;
     font-weight: bold;
 
-    img{
-      width: 30px;
+    h2{
+      margin-left: 25px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    &Img{
+      padding-right: 25px;
+      border-right: 1px solid #e6e6e6;
+
+      img{
+        width: 30px;
+      }
     }
   }
 
@@ -343,16 +377,21 @@ main{
 
   &__title{
     display: flex;
-    gap: 30px;
     margin-bottom: 50px;
 
-    img{
-      width: 30px;
+    h2{
+      margin-left: 25px;
+      font-size: 26px;
+      font-weight: bold;
     }
 
-    h2{
-      font-size: 32px;
-      font-weight: bold;
+    &Img{
+      padding-right: 25px;
+      border-right: 1px solid #e6e6e6;
+
+      img{
+        width: 30px;
+      }
     }
   }
 
@@ -567,8 +606,16 @@ main{
         background-color: #ffff;
         border-radius: 5px;
 
-        a img{
-          height: 40px;
+        a{
+          transition: 0.3s;
+
+          &:hover{
+            opacity: 0.5;
+          }
+
+          img{
+            height: 40px;
+          }
         }
       }
     }
@@ -680,7 +727,6 @@ main{
         font-size: 20px;
 
         img{
-          width: 38px;
           margin-left: 12px;
         }
       }

@@ -65,7 +65,7 @@
     <div class="Newswrap">
 
       <div class="NewsArea__title">
-        <img src="#" alt="">
+        <img src="https://www.orico.co.jp/common/images/pict/pict-important-01.svg" alt="">
         <h2>重要なお知らせ</h2>
       </div>
 
@@ -88,7 +88,7 @@
           </dt>
           <dd>
             <a href="#">
-              オリコをカルタフィッシングサイトの発生について
+              令和5年1月24日からの大雪により被害を受けられた地域の皆さまへ
             </a>
           </dd>
         </dl>
@@ -99,7 +99,7 @@
           </dt>
           <dd>
             <a href="#">
-              オリコをカルタフィッシングサイトの発生について
+              令和4年12月17日からの大雪により被害を受けられた地域の皆さまへ
             </a>
           </dd>
         </dl>
@@ -116,7 +116,9 @@
     <div class="wrapper">
 
       <div class="CardArea__title">
-        <img src="https://www.orico.co.jp/common/images/pict/pict-info-01.svg" alt="">
+        <div class="CardArea__titleImg">
+          <img src="https://www.orico.co.jp/common/images/pict/pict-info-01.svg" alt="">
+        </div>
         <h2>新たにカードの申し込みご検討の方</h2>
       </div>
 
@@ -137,6 +139,8 @@
           </div>
 
         </div>
+
+
         <div class="CardArea__listInner">
 
           <div class="CardArea__listImage">
@@ -146,7 +150,8 @@
           </div>
 
           <div class="CardArea__listTitle">
-            Orico Card THE POINT PREMIUM GOLD
+            Orico Card THE POINT <br>
+            PREMIUM GOLD
           </div>
 
           <div class="CardArea__listDescription">
@@ -219,7 +224,9 @@
 
 
       <div class="ArticleArea__title">
-        <img src="https://www.orico.co.jp/common/images/pict/pict-recommend-02.svg" alt="">
+        <div class="ArticleArea__titleImg">
+          <img src="https://www.orico.co.jp/common/images/pict/pict-recommend-02.svg" alt="">
+        </div>
         <h2>おすすめ情報</h2>
       </div>
 
@@ -358,7 +365,9 @@
     <div class="wrapper">
 
       <div class="LoginArea__title">
-        <img src="https://www.orico.co.jp/common/images/pict/pict-card-03.svg" alt="">
+        <div class="LoginArea__titleImg">
+          <img src="https://www.orico.co.jp/common/images/pict/pict-card-03.svg" alt="">
+        </div>
         <h2>
           すでにカードをお持ちの方
         </h2>
@@ -560,7 +569,9 @@
       <div class="NewsArea1__title">
 
         <div class="sectitle">
-          <img src="https://www.orico.co.jp/common/images/pict/pict-news-01.svg" alt="">
+          <div class="sectitleImg">
+            <img src="https://www.orico.co.jp/common/images/pict/pict-news-01.svg" alt="">
+          </div>
           <h2>お知らせ</h2>
         </div>
 
@@ -586,7 +597,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -597,8 +612,12 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <p>「株式会社トマト」におけるお客さま情報の漏えいに関する発表について</p>
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -609,8 +628,12 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <p>クレジットカード搭載電子マネー変更のお知らせ</p>
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -621,8 +644,12 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <p>オリコをかたるフィッシングサイトの発生について</p>
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -633,8 +660,12 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <p>「株式会社三京商会」におけるお客さま情報の漏えいに関する発表について</p>
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -645,8 +676,12 @@
 
 
             <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <p>「ソースネクスト株式会社」におけるお客さま情報の漏えいに関する発表について</p>
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -663,7 +698,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ2</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -675,7 +714,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -687,7 +730,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -699,7 +746,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -711,7 +762,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -723,7 +778,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -740,7 +799,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ3</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -752,7 +815,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -764,7 +831,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -776,7 +847,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -788,7 +863,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -800,7 +879,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -817,7 +900,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ4</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -829,7 +916,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -841,7 +932,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -853,7 +948,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -865,7 +964,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -877,7 +980,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -894,7 +1001,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ5</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -906,7 +1017,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -918,7 +1033,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -930,7 +1049,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -942,7 +1065,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -954,7 +1081,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -971,7 +1102,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ6</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -983,7 +1118,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -995,7 +1134,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1007,7 +1150,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1019,7 +1166,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1031,7 +1182,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1048,7 +1203,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ7</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1060,7 +1219,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1072,7 +1235,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1084,7 +1251,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1096,7 +1267,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>
@@ -1108,7 +1283,11 @@
 
             <li class="NewsArea1__innerItemContent">
               <p>メンテナンスのお知らせ</p>
-              <img src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+              <img class="NewsArea1__innerItemContentNew"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                alt="">
+              <img class="NewsArea1__innerItemContentPdf"
+                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
                 alt="">
             </li>
           </ul>

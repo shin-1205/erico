@@ -158,15 +158,34 @@ body{
 
 .sectitle{
   display: flex;
-  gap: 30px;
   margin-bottom: 50px;
 
-  img{
-    width: 30px;
-  }
-
   h2{
-    font-size: 32px;
+    margin-left: 25px;
+    font-size: 26px;
     font-weight: bold;
   }
+
+  &Img{
+    padding-right: 25px;
+    border-right: 1px solid #e6e6e6;
+
+    img{
+      width: 30px;
+    }
+  }
+}
+
+
+
+/* PDF */
+
+
+.NewsArea1__innerItemContentPdf{
+  width: 24px;
+}
+
+
+.NewsArea1__innerItemContentNew{
+  width: 38px;
 }
