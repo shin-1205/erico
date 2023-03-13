@@ -1,6 +1,6 @@
-main{
-  padding-top: 147px;
-}
+// main{
+//   padding-top: 147px;
+// }
 
 .tabContents{
   display: none;
@@ -22,9 +22,26 @@ main{
     position: relative;
   }
 
+
   .swiper-button{
     &-next, &-prev{
-      color: #000;
+      content: "";
+      width: 56px;
+      height: 56px;
+      margin: auto 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      box-shadow: 0 0.5rem 1rem 0 rgb(0 0 0 / 5%);
+      top: 40%;
+    }
+
+    &-next{
+      background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-14.svg") center center no-repeat;
+    }
+
+    &-prev{
+      background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-14.svg") center center no-repeat;
+      transform: rotate(180deg);
     }
   }
 
@@ -119,6 +136,12 @@ main{
   }
 }
 
+/* deleate default pagination */
+
+.swiper-button-next::after, .swiper-button-prev::after{
+  content: none !important;
+}
+
 
 /* pagination */
 
@@ -138,7 +161,6 @@ main{
     background-color: #fe622f;
   }
 }
-
 
 
 /* News */
@@ -191,6 +213,14 @@ main{
         color: #999;
         font-size: 14px;
       }
+
+      dd{
+        a{
+          &:hover{
+            border-bottom: 1px solid #333;
+          }
+        }
+      }
     }
   }
 }
@@ -228,7 +258,7 @@ main{
   &__list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
     &Inner{
       max-width: 316px;
@@ -265,6 +295,14 @@ main{
     display: flex;
     justify-content: center;
     gap: 25px;
+    margin: 0 auto;
+
+    .btn{
+      width: 456px;
+      // height: 65px;
+      font-size: 18px;
+      text-align: center;
+    }
   }
 }
 
@@ -353,6 +391,7 @@ main{
     padding: 75px 0;
     margin: 100px 0 0 0;
     background-color: #f5f5f5;
+    overflow: hidden;
 
     h3{
       margin-bottom: 50px;
@@ -365,6 +404,7 @@ main{
       display: flex;
       justify-content: center;
       gap: 38px;
+      overflow-x: scroll;
 
       img{
         width: 316px;
@@ -403,8 +443,10 @@ main{
 
   &__bottom{
     display: flex;
+    justify-content: space-between;
 
     &Left{
+      max-width: 663px;
       padding: 50px;
       background-color: #f5f5f5;
       border-radius: 5px;
@@ -412,6 +454,7 @@ main{
       &Wrap{
         background-color: #ffff;
         border-radius: 5px;
+        box-shadow: 0 0.2rem 0.3rem 0 rgb(0 0 0 / 10%);
         text-align: center;
       }
 
@@ -569,6 +612,9 @@ main{
   &__app{
     margin: 100px 0 154px 0;
 
+
+
+
     &Image{
       display: flex;
       justify-content: space-between;
@@ -581,11 +627,14 @@ main{
       background-size: cover;
       border-radius: 5px;
 
+      &Wrap{
+        display: flex;
+      }
+
       &Icon{
         width: 125px;
         margin-right: 38px;
       }
-
 
       &Text{
         margin-right: 113px;
@@ -606,11 +655,14 @@ main{
       &Btn{
         display: flex;
         gap: 25px;
+        width: 100%;
+        max-width: 303px;
         height: 90px;
         padding: 25px;
         margin-top: 15px;
         background-color: #ffff;
         border-radius: 5px;
+
 
         a{
           transition: 0.3s;
@@ -638,7 +690,7 @@ main{
     }
 
     &Btn{
-      max-width: 425px;
+      // max-width: 425px;
       height: 165px;
       padding: 50px;
       background-color: #f5f5f5;
@@ -646,6 +698,7 @@ main{
 
       .btn{
         width: 100%;
+        max-width: 425px;
         margin: 0 auto;
         position: relative;
       }
@@ -687,6 +740,14 @@ main{
         display: inline-block;
         transition: 0.3s;
 
+        a{
+          transition: 0.3s;
+
+          &:hover{
+            box-shadow: 0 0.2rem 0.2rem 0 rgb(0 0 0 / 20%);
+          }
+        }
+
         &.active{
           border-bottom: 2px solid #fe622f;
           color: #fe622f;
@@ -709,28 +770,14 @@ main{
 
   &__inner{
     &Item{
-      display: flex;
       margin-bottom: 52px;
+
+
 
       ul{
         display: flex;
         align-items: center;
         margin-bottom: 30px;
-
-        li:nth-child(1){
-          color: #999;
-          font-size: 18px;
-        }
-
-        li:nth-child(2){
-          width: 118px;
-          height: 29px;
-          border: 1px solid #cccc;
-          border-radius: 20px;
-          color: #666;
-          line-height: 26px;
-          text-align: center;
-        }
       }
 
       &Content{
@@ -740,6 +787,26 @@ main{
 
         img{
           margin-left: 12px;
+        }
+
+        &Wrap1{
+          display: flex;
+          align-items: center;
+
+          li:nth-child(1){
+            color: #999;
+            font-size: 18px;
+          }
+
+          li:nth-child(2){
+            width: 118px;
+            height: 29px;
+            border: 1px solid #cccc;
+            border-radius: 20px;
+            color: #666;
+            line-height: 26px;
+            text-align: center;
+          }
         }
       }
     }
@@ -770,7 +837,9 @@ main{
 
   &__pic{
     display: flex;
+    justify-content: space-between;
     gap: 50px;
+    padding: 0 15px;
     margin-bottom: 101px;
 
 
@@ -799,6 +868,7 @@ main{
 
 .Caution{
   margin-bottom: 153px;
+  overflow: hidden;
 
   &__Inner{
     display: flex;
@@ -837,6 +907,7 @@ main{
 
       &Mid{
         margin-bottom: 52px;
+        transition: 1s;
 
         ul{
           display: flex;
@@ -851,6 +922,8 @@ main{
       }
 
       &Bottom{
+        transition: 1s;
+
         ul{
           display: flex;
           flex-wrap: wrap;
@@ -869,9 +942,31 @@ main{
           }
         }
       }
+
+      &Hide{
+        display: none;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+
+        &::after{
+          content: "";
+          display: block;
+          width: 2%;
+          height: 100%;
+          background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-03.svg")left center no-repeat;
+          background-size: 100%;
+          position: absolute;
+          top: -1px;
+          right: 105px;
+          transform: rotate(90deg);
+        }
+      }
     }
   }
 }
+
 
 
 .returnTop{
@@ -879,7 +974,14 @@ main{
   text-align: right;
 }
 
+.menu{
+  transition: 1s;
+}
 
+.menu.is-open{
+  display: block;
+  transition: 1s;
+}
 
 
 
@@ -887,7 +989,662 @@ main{
 
 
 @media screen and(max-width: 600px){
+  .hero{
+    .swiper-button-prev{
+      display: none;
+    }
+
+    .swiper-button-next{
+      display: none;
+    }
+
+    .swiper-progress-bar{
+      top: 102px;
+      left: 8%;
+
+      .slide_progress-bar{
+        right: 32px !important;
+      }
+
+      &::after{
+        left: -30px;
+      }
+    }
+
+    .swiper-pagination{
+      top: -55px;
+      right: -105px !important;
+
+
+      .swiper-pagination-bullet{
+        width: 5px;
+        height: 5px;
+      }
+    }
+  }
+
+
   /* News Area */
+
+  .NewsArea{
+    margin: 30px 0 0 0;
+
+
+
+    .Newswrap{
+      flex-direction: column;
+    }
+
+    &__title{
+      justify-content: flex-start;
+      width: 96%;
+      padding: 12px 15px;
+      margin: 0 10px;
+      border-right: none;
+      border-bottom: 2px solid #ffff;
+
+      writing-mode: initial;
+
+      img{
+        width: 18px;
+      }
+
+      h2{
+        font-size: 13px;
+        text-align: left;
+      }
+    }
+
+    &__list{
+      width: 100%;
+      margin: 0;
+
+
+      &Item{
+        gap: 10px;
+        margin: 15px 16px;
+        font-size: 12px;
+        line-height: 1.7;
+
+        dt{
+          width: 166px !important;
+          font-size: 12px;
+        }
+
+        dd{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+  /* Card Area */
+
+
+  .CardArea{
+    margin-top: 40px;
+
+    &__title{
+      align-items: center;
+      padding: 50px 0 50px 0;
+
+      h2{
+        font-size: 17px;
+      }
+
+      &Img{
+        padding-right: 0;
+        border-right: none;
+
+        img{
+          width: 24px;
+        }
+      }
+    }
+
+    &__list{
+      justify-content: space-evenly;
+
+      &Image{
+        width: 100%;
+        margin-bottom: 15px;
+
+        img{
+          max-width: 85px;
+          margin: 20px auto;
+        }
+      }
+
+      &Title{
+        font-size: 15px;
+      }
+
+      &Description{
+        margin-bottom: 30px;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+
+      &Inner{
+        max-width: 44%;
+      }
+    }
+
+    &__btn{
+      flex-direction: column;
+
+      span{
+        &::after{
+          top: 5px;
+        }
+      }
+    }
+  }
+
+
+  /* Article */
+
+  .ArticleArea{
+    padding: 0 0 70px 0;
+
+
+    &__title{
+      align-items: center;
+      padding: 0 !important;
+
+
+      h2{
+        font-size: 17px;
+      }
+
+      &Img{
+        padding-right: 0;
+        border-right: none;
+
+        img{
+          width: 24px;
+        }
+      }
+    }
+
+    &__card{
+      overflow-x: scroll;
+
+
+      &List{
+        width: 282px;
+
+        &Image{
+          img{
+            width: 282px;
+          }
+        }
+      }
+    }
+
+    &__btn{
+      flex-direction: column;
+      padding: 40px 20px;
+
+      .btn{
+        width: 100%;
+
+        span::after{
+          top: 4px;
+        }
+      }
+    }
+
+    &__topics{
+      padding: 20px 0;
+
+
+
+      h3{
+        font-size: 17px;
+      }
+
+      &Image{
+        flex-wrap: wrap;
+        gap: 15px;
+        overflow-x: scroll;
+
+        img{
+          max-width: 165px;
+        }
+      }
+    }
+  }
+
+  /* Login Area */
+
+  .LoginArea{
+    &__title{
+      padding: 0 !important;
+      margin-bottom: 30px;
+
+      &Img{
+        padding-right: 0;
+        border-right: none;
+      }
+
+      img{
+        width: 24px;
+      }
+
+      h2{
+        font-size: 17px;
+      }
+    }
+
+    &__bottom{
+      flex-direction: column;
+
+      &Left{
+        padding: 20px;
+
+
+
+        img:first-child{
+          width: 150px;
+          margin: 45px auto 30px auto;
+        }
+
+        h3{
+          margin: 0 20px 20px 20px;
+          font-size: 14px;
+        }
+
+        &Orico{
+          padding: 0 0 20px 0;
+          font-size: 14px;
+        }
+
+        &Button{
+          height: 40px;
+          margin: 20px;
+          font-size: 15px;
+          line-height: 50px;
+
+          img{
+            top: -55px;
+            right: 5%;
+          }
+
+          &1{
+            width: 100%;
+            height: 47.5px;
+          }
+
+          &2{
+            width: 100%;
+            height: 47.5px;
+          }
+        }
+
+        &Link{
+          padding: 10px 30px 50px 0;
+
+          a{
+            span{
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &Right{
+        gap: 15px;
+
+        &Card{
+          &Title{
+            align-items: flex-start;
+
+            h3{
+              font-size: 16px;
+            }
+
+            img{
+              width: 16px;
+            }
+          }
+
+          &Name{
+            h4{
+              border-bottom: none;
+              font-size: 14px;
+            }
+          }
+
+          &Text{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    &__app{
+      margin: 90px 0 0 0;
+
+      &Image{
+        flex-direction: column;
+        height: 291px;
+        padding: 40px 20px;
+
+        &Icon{
+          width: 108px;
+          max-width: 60px;
+          margin-right: 10px;
+        }
+
+        &Text{
+          margin: 0 auto;
+
+          h3{
+            margin: 0 0 18px 0;
+            font-size: 17px;
+          }
+
+          p{
+            font-size: 13px;
+          }
+        }
+
+        &Btn{
+          gap: 20px;
+          height: 80px;
+          padding: 20px;
+        }
+      }
+
+      &Discript{
+        a{
+          font-size: 15px;
+        }
+
+        p{
+          font-size: 13px;
+        }
+      }
+
+      &Btn{
+        max-width: 100%;
+        height: auto;
+        padding: 40px 25px;
+
+        img{
+          top: 18px;
+        }
+      }
+    }
+  }
+
+
+
+  /* News Area */
+
+  .NewsArea1{
+    &__title{
+      ul{
+        overflow-x: scroll;
+      }
+    }
+
+    &__inner{
+      &Item{
+        ul{
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          border-bottom: 1px solid #e6e6e6;
+        }
+
+        &Content{
+          align-items: baseline;
+
+          p{
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    &__pic{
+      &Inner{
+        max-width: 165px;
+      }
+    }
+
+    &__Btn{
+      height: 100%;
+      padding: 40px 25px;
+    }
+  }
+
+
+  /* Caution */
+
+
+  .Caution{
+    &__Inner{
+      flex-direction: column;
+
+      &Left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 22px 0;
+        margin: 0 auto;
+        border-right: none;
+        border-bottom: 1px solid #fd4522;
+
+        h2{
+          writing-mode: inherit;
+        }
+
+        img{
+          margin-bottom: 0;
+        }
+      }
+
+      &Right{
+        padding: 30px 15px 22px 15px !important;
+
+        &Top{
+          gap: 15px;
+          padding-bottom: 30px;
+          margin-bottom: 22px;
+
+          .LinkTextArrow{
+            a{
+              line-height: 1.5;
+
+              span{
+                font-size: 15px;
+              }
+            }
+          }
+        }
+
+        &Mid{
+          display: none;
+        }
+
+        &Bottom{
+          display: none;
+          margin-bottom: 20px;
+
+          ul li{
+            max-width: 149px;
+          }
+        }
+
+        &Hide{
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and(max-width: 1360px){
+  /* Hero */
+
+  .hero{
+    .swiper-progress-bar{
+      .swiper-pagination{
+        top: -94px !important;
+        left: auto !important;
+        right: -150px;
+
+        .swiper-pagination-bullet{
+          width: 7px;
+          height: 7px;
+        }
+      }
+
+      .slide_progress-bar{
+        left: -8px;
+        right: 2px;
+        bottom: 84px;
+      }
+    }
+  }
+
+  /* Card Area */
+
+
+  .CardArea{
+    &__title{
+      align-items: center;
+
+      h2{
+        font-size: 17px;
+      }
+
+      img{
+        width: 24px;
+      }
+    }
+
+    &__btn{
+      padding: 0 15px;
+
+      .btn{
+        width: 100%;
+        font-size: 15px;
+      }
+    }
+  }
+
+
+  /* Article Area */
+
+  .ArticleArea{
+    &__title{
+      align-items: center;
+      padding: 0 15px;
+
+      h2{
+        font-size: 17px;
+      }
+
+      img{
+        width: 24px;
+      }
+    }
+
+    &__card{
+      // padding: 0 -15px 15px -15px;
+      overflow-x: scroll;
+
+      white-space: nowrap;
+
+
+      &List{
+        display: block;
+        // width: 298px;
+
+        a{
+          // display: block;
+        }
+      }
+    }
+  }
+
+
+  /* LoginArea */
+
+  .LoginArea{
+    &__title{
+      align-items: center;
+      padding: 0 15px;
+
+      h2{
+        font-size: 17px;
+      }
+
+      img{
+        width: 24px;
+      }
+    }
+
+    &__bottom{
+      flex-direction: column;
+      justify-content: center;
+
+      &Left{
+        margin: 0 auto;
+      }
+
+      &Right{
+        &Card{
+          border-top: none;
+        }
+      }
+    }
+
+    &__app{
+      &Image{
+        &Text{
+          margin-right: 0;
+
+          h3{
+            font-size: 20px;
+          }
+
+          p{
+            font-size: 16px;
+          }
+        }
+      }
+
+      &Btn{
+        img{
+          top: 18px;
+        }
+      }
+
+      &Discript{
+        margin: 28px 0 30px 0;
+
+        .LinkTextArrow{
+          a span{
+            font-size: 16px;
+          }
+        }
+
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  /* NewsArea at the Top */
 
   .NewsArea{
     margin: 30px 0 0 0;
@@ -939,273 +1696,182 @@ main{
     }
   }
 
+  /* NewsArea1 */
 
-  /* Card Area */
-
-
-  .CardArea{
-    margin-top: 40px;
-
-    &__title{
-      align-items: center;
-      padding: 50px 0 50px 0;
-
-      h2{
-        font-size: 17px;
-      }
-
-      &Img{
-        padding-right: 0;
-        border-right: none;
-
-        img{
-          width: 24px;
-        }
-      }
+  .NewsArea1{
+    .wrapper{
+      padding: 0;
     }
 
-    &__list{
-      &Image{
-        width: 100%;
+    .tab{
+      padding-bottom: 10px;
 
-        img{
-          max-width: 85px;
-          margin: 20px auto;
-        }
-      }
+      white-space: nowrap;
 
-      &Title{
-        font-size: 15px;
-      }
-
-      &Description{
+      li a{
         font-size: 13px;
       }
-
-
-      &Inner{
-        max-width: 44%;
-      }
     }
-
-    &__btn{
-      flex-direction: column;
-
-      span{
-        &::after{
-          top: 5px;
-        }
-      }
-    }
-  }
-
-
-  /* Article */
-
-  .ArticleArea{
-    padding: 0 0 70px 0;
-
 
     &__title{
-      align-items: center;
+      flex-direction: column;
+      overflow: auto;
 
-      h2{
-        font-size: 17px;
-      }
+      .sectitle{
+        align-items: center;
+        padding: 0 15px;
 
-      &Img{
-        padding-right: 0;
-        border-right: none;
+        h2{
+          font-size: 17px;
+        }
 
         img{
           width: 24px;
         }
       }
-    }
 
-    &__card{
-      overflow: hidden;
-    }
+      ul{
+        display: inline-block;
 
-    &__btn{
-      flex-direction: column;
-      padding: 40px 20px;
-
-      .btn{
-        width: 100%;
-
-        span::after{
-          top: 4px;
+        li{
+          margin: 5px;
         }
       }
     }
 
-    &__topics{
-      padding: 20px 0;
+    &__inner{
+      &Item{
+        padding: 0 15px;
 
-      h3{
-        font-size: 17px;
-      }
-
-      &Image{
-        flex-wrap: wrap;
-        gap: 15px;
-
-        img{
-          max-width: 165px;
-        }
-      }
-    }
-  }
-
-  /* Login Area */
-
-  .LoginArea{
-    &__title{
-      margin-bottom: 30px;
-
-      &Img{
-        padding-right: 0;
-        border-right: none;
-      }
-
-      img{
-        width: 24px;
-      }
-
-      h2{
-        font-size: 17px;
-      }
-    }
-
-    &__bottom{
-      flex-direction: column;
-
-      &Left{
-        padding: 20px;
-
-        img:first-child{
-          width: 150px;
+        ul{
+          flex-direction: column;
+          align-items: flex-start;
         }
 
-        h3{
-          margin: 0 20px 20px 20px;
-          font-size: 14px;
-        }
-
-        &Orico{
-          padding: 0 0 20px 0;
-          font-size: 14px;
-        }
-
-        &Button{
-          height: 40px;
-          margin: 20px;
-          font-size: 15px;
-          line-height: 50px;
-
-          img{
-            top: -55px;
-            right: 5%;
-          }
-
-          &1{
-            width: 100%;
-            height: 47.5px;
-          }
-
-          &2{
-            width: 100%;
-            height: 47.5px;
-          }
-        }
-
-        &Link{
-          padding: 10px 30px 50px 0;
-
-          a{
-            span{
-              font-size: 15px;
-            }
-          }
-        }
-      }
-
-      &Right{
-        &Card{
-          &Title{
-            align-items: flex-start;
-
-            h3{
-              font-size: 16px;
-            }
-
-            img{
-              width: 16px;
-            }
-          }
-
-          &Name{
-            h4{
-              border-bottom: none;
-              font-size: 14px;
-            }
-          }
-
-          &Text{
-            font-size: 14px;
-          }
-        }
-      }
-    }
-
-    &__app{
-      margin: 90px 0 0 0;
-
-      &Image{
-        padding: 40px 20px;
-
-        &Icon{
-          width: 60px;
-        }
-
-        &Text{
-          margin: 0 auto;
-
-          h3{
-            margin: 0 0 18px 0;
-            font-size: 17px;
-          }
-
-          p{
-            font-size: 13px;
-          }
-        }
-
-        &Btn{
-          display: none;
-        }
-      }
-
-      &Discript{
-        a{
-          font-size: 15px;
-        }
-
-        p{
+        &Content{
+          margin-left: 0;
           font-size: 13px;
         }
       }
+    }
 
-      &Btn{
-        max-width: 100%;
-        height: auto;
-        padding: 40px 25px;
+    &__Btn{
+      margin: 0 15px 90px 15px;
+
+      .btn{
+        width: 100%;
 
         img{
           top: 18px;
         }
       }
     }
+
+    &__pic{
+      flex-wrap: wrap;
+      gap: 15px;
+
+      &Inner{
+        width: 320px;
+      }
+    }
   }
+
+
+  .NewsArea1__innerItemContentWrap1{
+    gap: 10px;
+    margin-bottom: 12px;
+
+    li:nth-child(1){
+      font-size: 13px;
+    }
+
+    li:nth-child(2){
+      width: 94px;
+      height: 23px;
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
+
+
+  .Caution{
+    &__Inner{
+      &Left{
+        padding: 60px auto 18px auto;
+
+
+        img{
+          width: 30px;
+        }
+
+        h2{
+          font-size: 20px;
+        }
+      }
+
+      &Right{
+        padding: 45px 60px;
+
+        &Top{
+          flex-direction: column;
+          width: 100%;
+
+          .LinkTextArrow a{
+            font-size: 16px;
+            line-height: 1.5;
+
+            span{
+              &::before{
+                top: -5px;
+              }
+            }
+          }
+        }
+
+        &Mid{
+          ul{
+            gap: 20px 45px;
+
+            li{
+              width: 219px;
+              font-size: 14px;
+              line-height: 1.7;
+
+              .LinkTextCircle{
+                a span{
+                  &::before{
+                    font-size: 1px;
+                    top: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        &Bottom{
+          ul li{
+            width: 190px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .returnTop{
+    .LinkTextTop{
+      a span{
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
+
+/* sp 1360px */
+
+@media screen and(max-width: 1360px){
 }

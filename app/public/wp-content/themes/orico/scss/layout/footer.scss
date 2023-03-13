@@ -198,3 +198,10 @@ footer{
     }
   }
 }
+
+
+@media screen and(max-width: 1360px){
+  .footerInner{
+    display: none;
+  }
+}

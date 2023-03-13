@@ -191,26 +191,26 @@
         </div>
 
       </div>
+    </div>
 
 
-      <div class="CardArea__btn">
 
-        <div class="btn">
-          <a href="">
-            <span>
-              ぴったりのクレジットカードを探す
-            </span>
-          </a>
-        </div>
+    <div class="CardArea__btn">
 
-        <div class="btn">
-          <a href="">
-            <span>
-              クレジットカードについて知る
-            </span>
-          </a>
-        </div>
+      <div class="btn">
+        <a href="">
+          <span>
+            ぴったりのクレジットカードを探す
+          </span>
+        </a>
+      </div>
 
+      <div class="btn">
+        <a href="">
+          <span>
+            クレジットカードについて知る
+          </span>
+        </a>
       </div>
 
     </div>
@@ -230,87 +230,83 @@
         <h2>おすすめ情報</h2>
       </div>
 
-      <article class="ArticleArea__card">
-
-        <div class="ArticleArea__cardList">
-          <a href="#">
-
-            <div class="ArticleArea__cardImage">
-              <img src="https://www.orico.co.jp/common/images/bnr/campaign/200901-mynumbercardpoint-01-860x534.png"
-                alt="">
-            </div>
-            <div class="ArticleArea__cardDate">
-              期間：2022/1/1〜2023/5/31
-            </div>
-            <div class="ArticleArea__cardTitle">
-              <p>マイナポイント事業</p>
-            </div>
-
-          </a>
-        </div>
-
-
-        <div class="ArticleArea__cardList">
-          <a href="#">
-
-            <div class="ArticleArea__cardImage">
-              <img src="https://www.orico.co.jp/common/images/bnr/campaign/2301170416-thanksgiving-01-860x534.jpg"
-                alt="">
-            </div>
-            <div class="ArticleArea__cardDate">
-              期間：2022/1/1〜2023/5/31
-            </div>
-            <div class="ArticleArea__cardTitle">
-              <p>マイナポイント事業</p>
-            </div>
-
-          </a>
-        </div>
-
-
-        <div class="ArticleArea__cardList">
-          <a href="#">
-
-            <div class="ArticleArea__cardImage">
-              <img src="https://www.orico.co.jp/common/images/bnr/campaign/2210030331-sprivo-01-860x534.jpg" alt="">
-            </div>
-            <div class="ArticleArea__cardDate">
-              期間：2022/1/1〜2023/5/31
-            </div>
-            <div class="ArticleArea__cardTitle">
-              <p>マイナポイント事業</p>
-            </div>
-
-          </a>
-        </div>
-
-
-        <div class="ArticleArea__cardList">
-          <a href="#">
-
-            <div class="ArticleArea__cardImage">
-              <img src="https://www.orico.co.jp/common/images/bnr/campaign/2209300531-welcome-01-860x534.jpg" alt="">
-            </div>
-            <div class="ArticleArea__cardDate">
-              期間：2022/1/1〜2023/5/31
-            </div>
-            <div class="ArticleArea__cardTitle">
-              <p>マイナポイント事業</p>
-            </div>
-
-          </a>
-        </div>
-
-
-
-
-
-
-
-
-      </article>
-
     </div>
+
+    <article class="ArticleArea__card">
+
+      <div class="ArticleArea__cardList">
+        <a href="#">
+
+          <div class="ArticleArea__cardImage">
+            <img src="https://www.orico.co.jp/common/images/bnr/campaign/200901-mynumbercardpoint-01-860x534.png"
+              alt="">
+          </div>
+          <div class="ArticleArea__cardDate">
+            期間：2022/1/1〜2023/5/31
+          </div>
+          <div class="ArticleArea__cardTitle">
+            <p>マイナポイント事業</p>
+          </div>
+
+        </a>
+      </div>
+
+
+      <div class="ArticleArea__cardList">
+        <a href="#">
+
+          <div class="ArticleArea__cardImage">
+            <img src="https://www.orico.co.jp/common/images/bnr/campaign/2301170416-thanksgiving-01-860x534.jpg" alt="">
+          </div>
+          <div class="ArticleArea__cardDate">
+            期間：2022/1/1〜2023/5/31
+          </div>
+          <div class="ArticleArea__cardTitle">
+            <p>マイナポイント事業</p>
+          </div>
+
+        </a>
+      </div>
+
+
+      <div class="ArticleArea__cardList">
+        <a href="#">
+
+          <div class="ArticleArea__cardImage">
+            <img src="https://www.orico.co.jp/common/images/bnr/campaign/2210030331-sprivo-01-860x534.jpg" alt="">
+          </div>
+          <div class="ArticleArea__cardDate">
+            期間：2022/1/1〜2023/5/31
+          </div>
+          <div class="ArticleArea__cardTitle">
+            <p>マイナポイント事業</p>
+          </div>
+
+        </a>
+      </div>
+
+
+      <div class="ArticleArea__cardList">
+        <a href="#">
+
+          <div class="ArticleArea__cardImage">
+            <img src="https://www.orico.co.jp/common/images/bnr/campaign/2209300531-welcome-01-860x534.jpg" alt="">
+          </div>
+          <div class="ArticleArea__cardDate">
+            期間：2022/1/1〜2023/5/31
+          </div>
+          <div class="ArticleArea__cardTitle">
+            <p>マイナポイント事業</p>
+          </div>
+
+        </a>
+      </div>
+
+
+
+    </article>
+
+
 
     <div class="ArticleArea__btn">
 
@@ -499,20 +495,23 @@
 
       <div class="LoginArea__app">
 
+
         <div class="LoginArea__appImage">
+          <div class="LoginArea__appImageWrap">
 
-          <div class="LoginArea__appImageIcon">
-            <img src="https://www.orico.co.jp/common/images/logo/app/app-01.png" alt="">
-          </div>
+            <div class="LoginArea__appImageIcon">
+              <img src="https://www.orico.co.jp/common/images/logo/app/app-01.png" alt="">
+            </div>
 
 
-          <div class="LoginArea__appImageText">
-            <h3>
-              オリコ更新アプリをダウンロード
-            </h3>
-            <p>
-              ご請求総額やご利用明細の確認はもちろんたまったポイントもラクラク管理!
-            </p>
+            <div class="LoginArea__appImageText">
+              <h3>
+                オリコ更新アプリをダウンロード
+              </h3>
+              <p>
+                ご請求総額やご利用明細の確認はもちろんたまったポイントもラクラク管理!
+              </p>
+            </div>
           </div>
 
           <div class="LoginArea__appImageBtn">
@@ -569,7 +568,8 @@
   </section>
 
 
-  <!-- <section class="NewsArea1">
+  <section class="NewsArea1">
+
     <div class="wrapper">
 
       <div class="NewsArea1__title">
@@ -592,105 +592,149 @@
         </ul>
       </div>
 
+
+
       <div class="NewsArea1__inner">
 
         <div class="NewsArea1__innerItem tabContents active" id="tab1">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p><a href="">メンテナンスのお知らせ</a></p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p><a href="">「株式会社トマト」におけるお客さま情報の漏えいに関する発表について</a></p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">「株式会社トマト」におけるお客さま情報の漏えいに関する発表について</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p><a href="">クレジットカード搭載電子マネー変更のお知らせ</a></p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">クレジットカード搭載電子マネー変更のお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p><a href="">オリコをかたるフィッシングサイトの発生について</a></p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">オリコをかたるフィッシングサイトの発生について</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p><a href="">「株式会社三京商会」におけるお客さま情報の漏えいに関する発表について</a></p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">「株式会社三京商会」におけるお客さま情報の漏えいに関する発表について</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p><a href="">「ソースネクスト株式会社」におけるお客さま情報の漏えいに関する発表について</a></p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">「ソースネクスト株式会社」におけるお客さま情報の漏えいに関する発表について</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
 
@@ -698,605 +742,862 @@
         <div class="NewsArea1__innerItem tabContents" id="tab2">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ2</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ2</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ2</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ2</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
+
 
 
         <div class="NewsArea1__innerItem tabContents" id="tab3">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ3</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ3</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ3</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ3</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ2</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
+
 
 
         <div class="NewsArea1__innerItem tabContents" id="tab4">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ4</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ4</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ4</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ4</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
+
 
 
         <div class="NewsArea1__innerItem tabContents" id="tab5">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ5</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ5</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ5</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ5</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
+
 
 
         <div class="NewsArea1__innerItem tabContents" id="tab6">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ6</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ6</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ6</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ6</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
+
 
 
         <div class="NewsArea1__innerItem tabContents" id="tab7">
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ7</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ7</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ7</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
           <ul>
-            <li>2023年03月09日</li>
-            <li>システム</li>
+            <div class="NewsArea1__innerItemContentWrap1">
+              <li>2023年03月09日</li>
+              <li>システム</li>
+            </div>
 
 
-            <li class="NewsArea1__innerItemContent">
-              <p>メンテナンスのお知らせ</p>
-              <img class="NewsArea1__innerItemContentNew"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
-                alt="">
-              <img class="NewsArea1__innerItemContentPdf"
-                src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
-                alt="">
-            </li>
+            <div class="NewsArea1__innerItemContentWrap2">
+              <li class="NewsArea1__innerItemContent">
+
+                <p><a href="">メンテナンスのお知らせ7</a></p>
+                <img class="NewsArea1__innerItemContentNew"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/new.svg"
+                  alt="">
+                <img class="NewsArea1__innerItemContentPdf"
+                  src="https://ssl4.eir-parts.net/Custom/public/v5parts/8585/jp/20210624/app/img/filetype_icon/pdf.svg"
+                  alt="">
+              </li>
+            </div>
+
           </ul>
+
 
         </div>
 
@@ -1344,9 +1645,9 @@
       </div>
 
     </div>
-  </section> -->
+  </section>
 
-  <!-- 
+
   <section class="Caution">
     <div class="wrapper">
 
@@ -1380,7 +1681,7 @@
 
           </div>
 
-          <div class="Caution__InnerRightMid">
+          <div class="Caution__InnerRightMid menu">
 
             <ul>
 
@@ -1468,7 +1769,9 @@
 
           </div>
 
-          <div class="Caution__InnerRightBottom">
+          <div class="Caution__InnerRightBottom menu">
+
+
             <ul>
               <li>
                 <a href="">
@@ -1504,16 +1807,25 @@
           </div>
 
 
+          <!-- SP hide button -->
+
+          <div class="Caution__InnerRightHide menu-btn">
+
+            <span>さらに表示</span>
+
+          </div>
+
+
         </div>
 
       </div>
 
     </div>
-  </section> -->
+  </section>
 
   <!-- トップに戻るリンク -->
 
-  <!-- <div class="returnTop">
+  <div class="returnTop">
     <div class="wrapper">
       <div class="LinkTextTop">
         <a href="#">
@@ -1523,9 +1835,9 @@
         </a>
       </div>
     </div>
-  </div> -->
+  </div>
 
 
 </main>
 
-<!-- <?php get_footer(); ?> -->
+<?php get_footer(); ?>

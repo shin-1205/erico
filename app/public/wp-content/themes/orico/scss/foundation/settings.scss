@@ -16,6 +16,7 @@ li{
 }
 
 body{
+  overflow: auto;
   font-family: YakuHanJP,
   "游ゴシック Medium",
   "Yu Gothic Medium",
@@ -67,7 +68,7 @@ body{
   }
 
   &:hover{
-    box-shadow: 0 0.1rem 1rem 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0.1rem 1rem 0 rgb(0 0 0 / 20%);
   }
 }
 
@@ -220,5 +221,26 @@ body{
     padding: 10px 39px;
     font-size: 15px;
     text-align: center;
+  }
+}
+
+
+@media screen and(max-width: 1360px){
+  .wrapper{
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .btn{
+    max-width: 425px;
+    padding: 10px 39px;
+    font-size: 15px;
+    text-align: center;
+
+    span{
+      &::after{
+        top: 5px;
+      }
+    }
   }
 }
