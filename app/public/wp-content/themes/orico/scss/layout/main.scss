@@ -1344,11 +1344,11 @@
 
           h3{
             margin: 0 0 18px 0;
-            font-size: 17px;
+            font-size: 17px !important;
           }
 
           p{
-            font-size: 13px;
+            font-size: 13px !important;
           }
         }
 
@@ -1411,6 +1411,9 @@
     }
 
     &__pic{
+      flex-wrap: wrap;
+      justify-content: center;
+
       &Inner{
         max-width: 165px;
       }
@@ -1558,7 +1561,7 @@
     }
 
     &__card{
-      // padding: 0 -15px 15px -15px;
+      padding-bottom: 15px;
       overflow-x: scroll;
 
       white-space: nowrap;
@@ -1566,11 +1569,7 @@
 
       &List{
         display: block;
-        // width: 298px;
-
-        a{
-          // display: block;
-        }
+        width: 299px;
       }
     }
   }
@@ -1768,7 +1767,6 @@
     }
 
     &__pic{
-      flex-wrap: wrap;
       gap: 15px;
 
       &Inner{

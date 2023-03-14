@@ -1809,7 +1809,7 @@
 
           <!-- SP hide button -->
 
-          <div class="Caution__InnerRightHide menu-btn">
+          <div class="Caution__InnerRightHide menu-btn nav-open">
 
             <span>さらに表示</span>
 

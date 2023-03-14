@@ -1,6 +1,8 @@
 <footer>
   <div class="wrapper">
 
+
+
     <div class="footerInner">
       <div class="footerInner__1">
 
@@ -49,17 +51,27 @@
 
       </div>
 
+
+
       <div class="footerInner__2">
 
+        <!-- SPのみ -->
+
+        <div class="footerInner__2Top nav-open">
+          <span>トップ</span>
+        </div>
+
         <div class="footerInner__2List">
 
-          <h2>
+
+
+          <h2 class="nav-open">
             <a href="">
               クレジットカード
             </a>
           </h2>
 
-          <ul>
+          <ul class="footerListSP">
 
             <li>
               <a href="">
@@ -114,13 +126,13 @@
 
         <div class="footerInner__2List">
 
-          <h2>
+          <h2 class="nav-open">
             <a href="">
-              クレジットカード
+              ローン
             </a>
           </h2>
 
-          <ul>
+          <ul class="footerListSP">
 
             <li>
               <a href="">
@@ -175,13 +187,13 @@
 
         <div class="footerInner__2List">
 
-          <h2>
+          <h2 class="nav-open">
             <a href="">
-              クレジットカード
+              お客さまサポート
             </a>
           </h2>
 
-          <ul>
+          <ul class="footerListSP">
 
             <li>
               <a href="">
@@ -236,13 +248,13 @@
 
         <div class="footerInner__2List">
 
-          <h2>
+          <h2 class="nav-open">
             <a href="">
-              クレジットカード
+              便利なサービス
             </a>
           </h2>
 
-          <ul>
+          <ul class="footerListSP">
 
             <li>
               <a href="">
@@ -298,6 +310,11 @@
       </div>
 
       <div class="footerInner__3">
+
+
+
+
+
         <div class="footerInner__3Left">
 
           <ul class="footerInner__3LeftTop">
@@ -409,6 +426,210 @@
         <p>
           Copyright © Orient Corporation. All Rights Reserved.</p>
       </div>
+
+
+      <div class="footerInner__SP">
+
+
+        <div class="footerInner__SP1">
+          <div class="footerInner__SPTitle">
+            <h2>お問い合わせ</h2>
+          </div>
+
+          <ul class="footerInner__SP1Link">
+
+            <li>
+              <a href="#">
+                よくあるご質問
+
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#">
+                お客さまサポート
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                カード紛失・盗難
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footerInner__SP2">
+          <div class="footerInner__SPTitle">
+            <h2>会員サービス</h2>
+          </div>
+
+          <ul class="footerInner__SP1Link">
+
+            <li>
+              <a href="#">
+                eオリコサービス
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#">
+                オリコポイントゲートウェイ
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                オリコモール
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span>オリコ公式アプリ</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footerInner__SP3">
+          <div class="footerInner__SPTitle">
+            <h2>関連サイト</h2>
+          </div>
+
+          <ul class="footerInner__SP1Link">
+
+            <li>
+              <a href="#">
+                法人・個人事業主のお客さま
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#">
+                加盟店サービス
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                企業情報サイト
+                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footerInner__SP4">
+          <div class="footerInner__SPTitle">
+            <h2>公式メディア</h2>
+          </div>
+
+          <div class="footerInner__SP4Icon">
+
+
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-cardnews-01.svg" alt="">
+            </a>
+
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-facebook-01.svg" alt="">
+            </a>
+
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-youtube-01.svg" alt="">
+            </a>
+
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/icon/icon-line-01.svg" alt="">
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="footerInner__SP5">
+          <div class="footerInner__SPTitle">
+            <h2>コミュニケーションキャラクター</h2>
+          </div>
+
+          <div class="footerInner__SP5Icon">
+            <a href="">
+              <img src="https://www.orico.co.jp/common/images/chara/chara-orico-bird-01.svg" alt="">
+            </a>
+          </div>
+
+          <ul class="footerInner__SP5Link">
+
+            <li>
+              <a href="">
+                各種規約・方針
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                サイトポリシー
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                個人情報の取り扱い
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                クレジットポリシー
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="footerInner__SP5Descript">
+
+            <img src="https://www.orico.co.jp/common/images/logo/privacy/privacy-01.png" alt="">
+
+
+            <p>当社は個人情報の取扱いを適切に行う企業としてプライバシーマークの使用を認められた認定業者です。</p>
+
+          </div>
+
+          <ul class="footerInner__SP5Search">
+            <input type="text" placeholder="サイト内検索">
+            <span></span>
+          </ul>
+
+          <div class="footerInner__SP5Copy">
+            Copyright © Orient Corporation. All Rights Reserved.
+          </div>
+
+        </div>
+
+
+      </div>
+
+
     </div>
 
   </div>

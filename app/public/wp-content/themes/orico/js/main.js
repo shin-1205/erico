@@ -91,3 +91,16 @@ $('.menu-btn').click(function () {
   $(this).toggleClass('is-open');
   $(this).siblings('.menu').toggleClass('is-open');
 });
+
+
+
+/* footer acordion */
+
+$(function () {
+  //クリックで動く
+  $('.nav-open').click(function () {
+    $(this).toggleClass('footerOpen');
+    $(this).next('.footerListSP').slideToggle();
+  });
+
+});
