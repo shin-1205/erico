@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main id="main">
 
 
   <section class="hero">
