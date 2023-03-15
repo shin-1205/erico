@@ -179,6 +179,9 @@ body{
 
 
 
+
+
+
 /* News Area　PDF New pic */
 
 
@@ -223,6 +226,169 @@ body{
     text-align: center;
   }
 }
+
+
+/* page Link */
+
+
+.pageLink{
+  padding: 40px 10%;
+
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px 0;
+    width: 100%;
+
+    li{
+      width: 33%;
+      height: 70px;
+      padding: 15px 25px 0;
+      border-right: 1px solid #e6e6e6;
+      font-weight: bold;
+      line-height: 1.6;
+      position: relative;
+
+      &:nth-child(1){
+        border-left: 1px solid #e6e6e6;
+      }
+
+      &:nth-child(4){
+        border-left: 1px solid #e6e6e6;
+      }
+
+      span{
+        &::after{
+          content: "";
+          width: 20px;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: -27px;
+          transform: rotate(90deg);
+
+
+          &{
+            background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-03.svg");
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .pageLink{
+    ul{
+      gap: 23px 0 !important;
+
+      li{
+        width: 50%;
+        height: 63px;
+        padding: 9px 13px 0 23px;
+        font-size: 0.72rem !important;
+
+        span{
+          &::after{
+            top: -7px;
+            left: -27px;
+          }
+        }
+
+        &:nth-child(1){
+        }
+
+        &:nth-child(3){
+          border-left: 1px solid #e6e6e6;
+        }
+
+        &:nth-child(4){
+          border-left: none;
+        }
+
+        &:nth-child(5){
+          border-left: 1px solid #e6e6e6;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .pageLink{
+    padding: 40px 5%;
+
+    ul{
+      gap: 38px 0;
+
+      li{
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+
+/* page sectitle */
+
+.Sec-title{
+  display: flex;
+  padding: 0 10% 20px;
+  border-bottom: 1px solid #e6e6e6;
+
+  span{
+    position: relative;
+
+    &::after{
+      content: "";
+      width: 20px;
+      height: 3px;
+      background-color: #fe4521;
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+    }
+  }
+
+  img{
+    width: 30px;
+    margin-right: 20px;
+  }
+
+  h2{
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+
+@media screen and(max-width: 600px){
+  .Sec-title{
+    align-items: center;
+    padding: 0 5% 20px;
+
+    h2{
+      font-size: 17px;
+    }
+
+    img{
+      width: 24px;
+    }
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .Sec-title{
+    padding: 0 5% 20px;
+  }
+}
+
+
+
+/* SP  */
 
 
 @media screen and(max-width: 1360px){

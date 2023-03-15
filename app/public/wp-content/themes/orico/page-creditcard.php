@@ -4,22 +4,7 @@
 
   <!-- sidebar -->
 
-  <div class="sidebar">
-    <div class="sidebar__Inner">
-
-      <ul>
-        <li><a href="">クレジットカード トップ</a></li>
-        <li><a href="">カード一覧</a></li>
-        <li><a href="">入会の流れ</a></li>
-        <li><a href="">オリコカードのサービス・機能</a></li>
-        <li><a href="">eオリコサービスとは</a></li>
-        <li><a href="">オリコポイントゲートウェイとは</a></li>
-        <li><a href="">新規入会キャンペーン</a></li>
-        <li><a href="">オリコカードをご利用中のお客さま</a></li>
-      </ul>
-
-    </div>
-  </div>
+  <?php get_sidebar();?>
 
   <!-- creditcard inner -->
 
@@ -51,7 +36,11 @@
           <p>クレジットカードは、商品やサービスのお支払いを「後払い」にできる決済手段のことです。審査によってクレジットカード会社から信用を得られると、クレジットカードが発行され後払いができるようになります。</p>
         </div>
 
-        <div class="Creditcard__heroInnerLink">
+        <div class="Creditcard__heroInnerTitleSP">
+          <img src="https://www.orico.co.jp/common/images/hdg/hdg-creditcard-sp-01.jpg" alt="">
+        </div>
+
+        <div class="pageLink">
           <ul>
             <li><a href="#"><span>オリコカードのメリット</span></a></li>
             <li><a href="#"><span>クレジットカードのおすすめ情報</span></a></li>
@@ -65,7 +54,317 @@
       </div>
     </section>
 
+    <section class="Creditcard__1">
+
+      <div class="Creditcard__1Inner">
+
+        <div class="Sec-title">
+          <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-01.svg" alt=""></span>
+          <h2>
+            オリコカードのメリット
+          </h2>
+        </div>
+
+        <div class="Creditcard__1InnerText">
+          年会費無料！なのに、高還元。ポイントがためやすい、使いやすいオリコカード
+        </div>
+
+        <div class="Creditcard__1InnerGood">
+          <ul class="Creditcard__1InnerGoodList">
+
+            <li class="Creditcard__1InnerGoodListItem">
+              <a href="">
+
+                <h3>メリット1</h3>
+
+                <div class="Creditcard__1InnerGoodListItemBottom">
+                  <p><span>年会費無料のクレジットカード</span>がおトク（ETC・家族カードも無料）</p>
+                  <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-01.jpg" alt="">
+
+                  <span class="Creditcard__1InnerGoodListItemBottomArrow"></span>
+                </div>
+              </a>
+            </li>
+
+            <li class="Creditcard__1InnerGoodListItem">
+              <a href="">
+
+                <h3>メリット1</h3>
+
+                <div class="Creditcard__1InnerGoodListItemBottom">
+                  <p><span>ためやすい・使いやすい</span>ポイントサービス</p>
+                  <img src="https://www.orico.co.jp/common/images/logo/other/logo-17-350x218.jpg" alt="">
+
+                  <span class="Creditcard__1InnerGoodListItemBottomArrow"></span>
+                </div>
+              </a>
+            </li>
+
+            <li class="Creditcard__1InnerGoodListItem">
+              <a href="">
+
+                <h3>メリット1</h3>
+
+                <div class="Creditcard__1InnerGoodListItemBottom">
+                  <p><span>簡単・スピーディー！</span>使い勝手抜群の非接触決済</p>
+                  <img src="https://www.orico.co.jp/common/images/logo/other/logo-08-860x534.jpg" alt="">
+
+                  <span class="Creditcard__1InnerGoodListItemBottomArrow"></span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+
+          <div class="Creditcard__1InnerGoodYear">
+
+
+            <div class="Creditcard__1InnerGoodYearTitle">
+
+              <p>メリット1</p>
+              <h3>年会費無料のクレジットカードがおトク</h3>
+
+
+            </div>
+
+            <div class="Creditcard__1InnerGoodYearDescript">
+
+              <div class="Creditcard__1InnerGoodYearDescript1">
+                <span>年会費無料なのに高還元率！</span>
+                <p>おすすめの年会費無料のクレジットカード</p>
+              </div>
+
+
+              <div class="Creditcard__1InnerGoodYearDescript2">
+                <div class="Creditcard__1InnerGoodYearDescript2Name">
+                  <p>カード名</p>
+                </div>
+                <div class="Creditcard__1InnerGoodYearDescript2Item">
+
+                  <ul>
+
+                    <li>
+                      <img src="https://www.orico.co.jp/common/images/card/thepoint/thepoint-01-mastercard.png" alt="">
+                      <a href="">
+                        Orico Card THE POINT
+                      </a>
+
+                      <p>オリコカード ザ ポイント</p>
+
+                      <h4>最初に持つならこの1枚。入会後6ヵ月間はポイント還元率2％にアップ！</h4>
+                      <span>オンライン入会</span>
+                    </li>
+
+                    <li>
+                      <img src="https://www.orico.co.jp/common/images/card/thepointupty/thepointupty-01-master.png"
+                        alt="">
+                      <a href="">
+                        Orico Card THE POINT UPty
+                      </a>
+
+                      <p>オリコカード ザ ポイント アプティ</p>
+
+                      <h4>毎月のお支払額を 自由に設定したい方向け！入会後6ヵ月間はポイント還元率2%にアップ！</h4>
+                      <span>オンライン入会</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+
+              <div class="Creditcard__1InnerGoodYearDescript3">
+                <div class="Creditcard__1InnerGoodYearDescript3Name">
+                  <h3>年会費</h3>
+                </div>
+
+                <p>無料</p>
+                <p>無料</p>
+
+              </div>
+
+              <div class="Creditcard__1InnerGoodYearDescript4">
+
+                <div class="Creditcard__1InnerGoodYearDescript4Name">
+                  <h3>ポイント還元率</h3>
+                </div>
+
+
+                <ul>
+                  <li>
+                    <h4>常時1.0％</h4>
+                    <p>入会後6ヵ月間は2.0％※</p>
+                    <span>上限は期間中最大5,000オリコポイントとなります。</span>
+                  </li>
+                  <li>
+                    <h4>常時1.0％</h4>
+                    <p>入会後6ヵ月間は2.0％※</p>
+                    <span>上限は期間中最大5,000オリコポイントとなります。</span>
+                  </li>
+                </ul>
+
+              </div>
+
+              <div class="Creditcard__1InnerGoodYearDescript5">
+
+                <div class="Creditcard__1InnerGoodYearDescript5Name">
+                  <h3>ブランド</h3>
+                </div>
+
+                <ul>
+                  <li>
+                    <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
+                    <img src="https://www.orico.co.jp/common/images/logo/jcb/jcb-02.svg" alt="">
+                  </li>
+                  <li>
+                    <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
+                  </li>
+                </ul>
+
+              </div>
+
+
+              <div class="Creditcard__1InnerGoodYearDescript6">
+
+                <div class="Creditcard__1InnerGoodYearDescript6Name">
+                  <h3>付帯サービス</h3>
+                </div>
+
+                <ul>
+                  <li>
+                    <p>紛失・盗難保障</p>
+                    <p>トラベルサポート</p>
+                  </li>
+                  <li>
+                    <p>紛失・盗難保障</p>
+                    <p>Mastercard優待特典</p>
+                    <p>トラベルサポート</p>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="Creditcard__1InnerGoodYearDescript7">
+
+              <div class="Creditcard__1InnerGoodYearDescript7Name">
+                <h3>タッチ決済</h3>
+              </div>
+
+              <ul>
+                <li>
+                  <img
+                    src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-02.svg"
+                    alt="">
+                  <img src="https://www.orico.co.jp/common/images/logo/jcb/jcb-03.svg" alt="">
+                </li>
+                <li>
+                  <img
+                    src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-02.svg"
+                    alt="">
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="Creditcard__1InnerGoodYearDescript8">
+
+            <div class="Creditcard__1InnerGoodYearDescript8Name">
+              <h3>追加カード</h3>
+            </div>
+
+            <ul>
+              <li>
+                <p>ETCカード、家族カード、QUICPayカード型</p>
+              </li>
+              <li>
+                <p>ETCカード、家族カード、QUICPayカード型</p>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="Creditcard__1InnerGoodYearDescriptBtn">
+            <div class="btn">
+              <a href="">
+                <span>
+                  クレジットカード一覧はこちら
+                </span>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="Creditcard__1InnerGoodYearDescriptArticle">
+            <div class="Creditcard__1InnerGoodYearDescriptArticleTitle">
+              <h3>
+                ETCカードや家族カードも年会費無料ポイントもたまっておトク！
+              </h3>
+
+              <ul>
+                <li>
+                  <img src="https://www.orico.co.jp/common/images/card/etc/etc-01.png" alt="">
+                  <div class="Creditcard__1InnerGoodYearDescriptArticleInner">
+                    <a href="">
+                      ETCカード
+                    </a>
+                    <p>オリコ発行のクレジットカードに付帯して発行できる！</p>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-04.jpg" alt="">
+                  <div class="Creditcard__1InnerGoodYearDescriptArticleInner">
+                    <a href="">
+                      家族カード
+                    </a>
+                    <p>カードに付帯するサービス（海外・国内旅行傷害保険など）は、本人会員と同様！</p>
+                    <span>一部のサービスで、家族カードは対象外になる場合がございます。</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="Creditcard__1InnerGoodYearDescriptArticle2">
+            <div class="Creditcard__1InnerGoodYearDescriptArticleTitle">
+              <h3>
+                その他のカード
+              </h3>
+
+              <ul>
+                <li>
+                  <img src="https://www.orico.co.jp/common/images/card/tie_up/tie_up-19-mastercard.png" alt="">
+                  <div class="Creditcard__1InnerGoodYearDescriptArticleInner">
+                    <a href="">
+                      提携カード
+                    </a>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
   </div>
+
+
+</div>
+
+
+
+</section>
+
+</div>
 
 
 </div>

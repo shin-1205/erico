@@ -1,9 +1,7 @@
 .sidebar{
   width: 250px;
-  height: 100vh;
-  // position: sticky;
-  // top: 150px;
-  border-right: 1px solid #e6e6e6;
+  height: 400vh;
+
 
   &__Inner{
     width: 250px;
@@ -20,5 +18,13 @@
         font-size: 14px;
       }
     }
+  }
+}
+
+
+
+@media screen and(max-width: 1360px){
+  .sidebar{
+    display: none;
   }
 }
