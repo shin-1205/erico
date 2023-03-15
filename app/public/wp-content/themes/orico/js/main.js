@@ -1,4 +1,54 @@
 
+
+/* header toggle menu */
+
+
+$(function () {
+  $(".btn-trigger").on("click", function () {
+    $("#main").slideToggle();
+    $(this).toggleClass('active');
+    if ($('.l-header').hasClass('pick')) {
+      $('.l-header').removeClass('pick');
+    } else {
+      $('.l-header').addClass('pick');
+    }
+    if ($('.l-header__logo').hasClass('pick')) {
+      $('.l-header__logo').removeClass('pick');
+    } else {
+      $('.l-header__logo').addClass('pick');
+    }
+    if ($('.l-header__Search').hasClass('pick')) {
+      $('.l-header__Search').removeClass('pick');
+    } else {
+      $('.l-header__Search').addClass('pick');
+    }
+  });
+});
+
+
+/* s-header scroll */
+
+
+
+$(function () {
+  // 変数にクラスを入れる
+  var section = $('.product-popup');
+
+  //スクロールして、スクロール量が100を超えたら表示
+  $(window).on('scroll', function () {
+    if ($(this).scrollTop() > 150) {
+      section.addClass('popup');
+    } else {
+      section.removeClass('popup');
+    }
+  });
+
+
+});
+
+
+
+
 /* タブメニュー　hover 開閉 */
 
 $('.l-header__navBottomItem').on('mouseover', function () {
@@ -135,37 +185,5 @@ $(function () {
 
 });
 
-
-
-/* header toggle menu */
-
-
-$(function () {
-  $(".btn-trigger").on("click", function () {
-    $("#main").slideToggle();
-    $(this).toggleClass('active');
-  });
-});
-
-
-/* s-header scroll */
-
-
-
-$(function () {
-  // 変数にクラスを入れる
-  var section = $('.product-popup');
-
-  //スクロールして、スクロール量が100を超えたら表示
-  $(window).on('scroll', function () {
-    if ($(this).scrollTop() > 150) {
-      section.addClass('popup');
-    } else {
-      section.removeClass('popup');
-    }
-  });
-
-
-});
 
 

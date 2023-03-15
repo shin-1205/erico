@@ -205,10 +205,6 @@ footer{
       display: none;
     }
   }
-
-  .footerListSP{
-    display: none;
-  }
 }
 
 
@@ -299,6 +295,7 @@ footer{
           display: block;
           padding: 21px 44px 20px 15px;
           border-bottom: 1px solid #e6e6e6;
+          cursor: pointer;
           font-size: 14px;
           font-weight: 600;
           line-height: 1.7;
@@ -311,6 +308,7 @@ footer{
             padding: 21px 44px 20px 15px;
             margin: 0;
             border-bottom: 1px solid #e6e6e6;
+            cursor: pointer;
             font-size: 14px;
             line-height: 1.7;
           }
@@ -458,6 +456,8 @@ footer{
       }
 
       .footerListSP{
+        display: none;
+
         li{
           padding: 21px 34px 15px 15px;
           margin: 0;

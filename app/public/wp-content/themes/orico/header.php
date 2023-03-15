@@ -131,6 +131,14 @@
       </div>
 
 
+
+      <!-- search bar -->
+
+      <ul class="l-header__Search">
+        <input type="text" placeholder="サイト内検索">
+        <span></span>
+      </ul>
+
       <!-- toggle -->
 
       <div class="l-header__Toggle">
@@ -209,7 +217,7 @@
             </a>
           </li>
           <li class="s-header__navBottomItem">
-            <a href="#">
+            <a href="<?php bloginfo('url');?>/creditcard">
               <span>
                 クレジットカード
               </span>
