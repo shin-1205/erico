@@ -1,0 +1,107 @@
+.pagewrap{
+  display: flex;
+}
+
+
+.Creditcard{
+  width: 100%;
+
+  &__title{
+    display: flex;
+    padding: 10px 0 9px 5px;
+    background-color: #f5f5f5;
+    color: #9999;
+    font-size: 12px;
+
+    span{
+      margin: 0 10px;
+
+      &::after{
+        content: "›";
+      }
+
+      li a{
+        padding: 4px;
+        margin: 0 0 0 13px;
+      }
+    }
+  }
+
+  &__hero{
+    width: 100%;
+
+
+    &Inner{
+      &Title{
+        min-height: 230px;
+        padding: 40px 112px;
+        margin-bottom: 73px;
+        background-image: url("https://www.orico.co.jp/common/images/hdg/hdg-creditcard-01.jpg");
+        background-position: center center;
+        background-size: cover;
+
+
+        h2{
+          margin-bottom: 15px;
+          font-size: 36px;
+          font-weight: bold;
+        }
+
+        p{
+          width: 535px;
+          line-height: 1.3;
+        }
+      }
+
+      &Link{
+        padding: 40px 112px;
+
+
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          gap: 10px 0;
+          width: 100%;
+
+          li{
+            width: 33%;
+            height: 70px;
+            padding: 15px 37px 0;
+            border-right: 1px solid #e6e6e6;
+            font-weight: bold;
+            line-height: 1.6;
+            position: relative;
+
+            &:nth-child(1){
+              border-left: 1px solid #e6e6e6;
+            }
+
+            &:nth-child(4){
+              border-left: 1px solid #e6e6e6;
+            }
+
+            span{
+              &::after{
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 146px;
+                left: -168px;
+                transform: rotate(90deg);
+
+
+                &{
+                  background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-03.svg");
+                  background-repeat: no-repeat;
+                  ;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

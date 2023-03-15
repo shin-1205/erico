@@ -34,7 +34,7 @@
 
 
       <div class="l-header__logo">
-        <a href="#">
+        <a href="<?php echo home_url('/'); ?>">
           <img src="https://www.orico.co.jp/common/images/logo/orico/orico-01.svg" alt="">
         </a>
       </div>
@@ -82,35 +82,35 @@
 
         <ul class="l-header__navBottom tab">
           <li class="l-header__navBottomItem active">
-            <a href="#" class="active">
+            <a href="<?php echo home_url('/'); ?>" class="active">
               <span>
                 トップ
               </span>
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>creditcard/">
               <span>
                 クレジットカード
               </span>
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>">
               <span>
                 ローン
               </span>
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>v">
               <span>
                 お客さまサポート
               </span>
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>">
               <span>
                 便利なサービス
               </span>
@@ -217,7 +217,7 @@
             </a>
           </li>
           <li class="s-header__navBottomItem">
-            <a href="<?php bloginfo('url');?>/creditcard">
+            <a href="<?php echo home_url('/'); ?>creditcard/">
               <span>
                 クレジットカード
               </span>

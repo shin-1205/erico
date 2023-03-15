@@ -51,13 +51,13 @@ $(function () {
 
 /* タブメニュー　hover 開閉 */
 
-$('.l-header__navBottomItem').on('mouseover', function () {
-  if ($('#headerTab').hasClass('open')) {
-    $('#headerTab').removeClass('open');
-  } else {
-    $('#headerTab').addClass('open');
-  }
-});
+// $('.l-header__navBottomItem').on('mouseover', function () {
+//   if ($('#headerTab').hasClass('open')) {
+//     $('#headerTab').removeClass('open');
+//   } else {
+//     $('#headerTab').addClass('open');
+//   }
+// });
 
 
 
@@ -79,13 +79,13 @@ $(function () {
 
 /* タブメニュー　hover 開閉 */
 
-$('.s-header__navBottomItem').on('mouseover', function () {
-  if ($('#headerTab2').hasClass('open')) {
-    $('#headerTab2').removeClass('open');
-  } else {
-    $('#headerTab2').addClass('open');
-  }
-});
+// $('.s-header__navBottomItem').on('mouseover', function () {
+//   if ($('#headerTab2').hasClass('open')) {
+//     $('#headerTab2').removeClass('open');
+//   } else {
+//     $('#headerTab2').addClass('open');
+//   }
+// });
 
 
 
