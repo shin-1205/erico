@@ -967,6 +967,225 @@
 
 
 
+/* Black */
+
+.Craditcard__Black{
+  margin-top: 100px;
+
+  &Inner{
+    padding: 40px 10%;
+
+    &Table{
+      tr{
+        border-bottom: 1px solid #e6e6e6;
+      }
+
+      th{
+        vertical-align: top;
+        width: 160px;
+        padding: 2rem 0;
+        border-bottom: 1px solid #e6e6e6;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      td{
+        width: 28%;
+        padding: 30px 0 30px 40px;
+        line-height: 1.5;
+      }
+
+
+      &Name{
+        img{
+          max-width: 148px;
+          margin-bottom: 10px;
+        }
+
+        &Link{
+          max-width: 180px;
+
+          a{
+            border-bottom: 1px solid #333;
+            font-weight: bold;
+            line-height: 1.5;
+          }
+        }
+
+        p{
+          margin: 10px 0;
+          color: #9999;
+          font-size: 14px;
+        }
+      }
+
+      &Brand{
+        td{
+          img{
+            width: 32px;
+          }
+        }
+      }
+
+      &Service{
+        td{
+          display: table-cell;
+
+          ul{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            li{
+              span{
+                display: inline-block;
+                padding: 5px 10px;
+                margin: 0 0 5px 0;
+                background: #f5f5f5;
+                border: 1px solid #e6e6e6;
+                border-radius: 5px;
+                color: #666;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+
+      &Mobile{
+        &Master{
+          max-width: 102px;
+        }
+
+        &Jcb{
+          max-width: 66px;
+        }
+
+        &Id{
+          max-width: 44px;
+        }
+
+        &Q{
+          max-width: 37px;
+        }
+      }
+
+      &People{
+        td{
+          padding-left: 60px;
+
+          span{
+            display: block;
+            line-height: 1.7;
+            position: relative;
+
+            &::before{
+              content: "●";
+              width: 100%;
+              height: 100%;
+              color: #fe4521;
+              font-size: 1px;
+              position: absolute;
+              top: 5px;
+              left: -20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &Btn{
+    padding: 40px 25px;
+    margin: 30px 5% 75px 5%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+
+
+    .btn{
+      width: 392px;
+      margin: 0 auto;
+      font-size: 16px;
+    }
+  }
+}
+
+
+
+@media screen and(max-width: 600px){
+  .Craditcard__Black{
+    &Sec-title{
+      h2{
+        font-size: 15px;
+      }
+    }
+
+    &Inner{
+      padding: 20px 5% !important;
+      overflow-x: scroll;
+
+
+
+      &Table{
+        tr{
+          th{
+            display: block;
+            width: 96px;
+            padding: 0 0 30px 0;
+            border-bottom: none;
+            font-size: 15px;
+          }
+
+          td{
+            padding: 20px 0 30px 25px;
+            font-size: 13px;
+          }
+        }
+
+        &Service{
+          td{
+            ul{
+              li{
+                span{
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &Btn{
+      padding: 40px 25px;
+      margin: 30px 5% 75px 5%;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+
+
+      .btn{
+        width: auto;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .Craditcard__Black{
+    &Inner{
+      padding: 40px 5%;
+      overflow-x: scroll;
+    }
+
+    &Btn{
+      margin: 30px 5% 75px 5%;
+    }
+  }
+}
+
+
+
 /* 他 SP */
 
 
