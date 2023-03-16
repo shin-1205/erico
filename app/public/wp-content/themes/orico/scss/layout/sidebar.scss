@@ -1,15 +1,13 @@
 .sidebar{
   width: 250px;
-  height: 400vh;
 
 
   &__Inner{
     width: 250px;
     padding: 30px 15px 30px 0;
-    // margin-top: 120px;
     overflow: auto;
     position: sticky;
-    top: 100px;
+    top: 90px;
 
 
     ul{

@@ -608,10 +608,11 @@
         &2{
           &List{
             display: flex;
+            width: 100%;
 
             &Item{
               &1{
-                max-width: 410px;
+                width: 50%;
                 margin-right: 37px;
 
                 h3{
@@ -623,7 +624,7 @@
                 }
 
                 &Image{
-                  max-width: 410px;
+                  // max-width: 410px;
                   border: 1px solid #e6e6e6;
                   border-radius: 5px;
                 }
@@ -645,14 +646,14 @@
                   border-radius: 5px;
 
                   .btn{
-                    padding: 12px 90px;
                     font-size: 16px;
+                    text-align: center;
                   }
                 }
               }
 
               &2{
-                max-width: 447px;
+                width: 50%;
                 padding-left: 37px;
                 border-left: 1px solid #e6e6e6;
 
@@ -769,7 +770,206 @@
       }
     }
   }
+
+
+  &__3{
+    &Inner{
+      margin: 40px 10%;
+
+      &Title{
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e6e6e6;
+
+        p{
+          padding: 8px 10px;
+          margin-right: 20px;
+          background-color: #fe4521;
+          border-radius: 5px;
+          color: #ffff;
+          font-weight: bold;
+        }
+
+        h3{
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      &Descript{
+        &List{
+          display: flex;
+          width: 100%;
+
+          &Item{
+            width: 50%;
+            padding-left: 37px;
+            margin-top: 30px;
+            border-left: 1px solid #e6e6e6;
+
+            &:nth-child(1){
+              padding-left: 0;
+              margin-right: 37px;
+              border-left: none;
+            }
+
+            h3{
+              padding-left: 15px;
+              margin: 0 0 20px 0;
+              border-left: 2px solid #e6e6e6;
+              font-size: 18px;
+              font-weight: bold;
+            }
+
+            &Image{
+              border: 1px solid #e6e6e6;
+              border-radius: 5px;
+            }
+
+
+
+            p{
+              margin: 40px 0 0;
+              line-height: 1.5;
+            }
+
+            &Span{
+              span{
+                display: block;
+                padding: 30px 0 0 30px;
+                font-size: 14px;
+                line-height: 1.5;
+                position: relative;
+
+                &::before{
+                  content: "※";
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                }
+              }
+            }
+
+            &Btn{
+              padding: 40px 25px;
+              margin: 80px 0 0 0;
+              background-color: #f5f5f5;
+              border-radius: 5px;
+
+              .btn{
+                font-size: 16px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
+
+/* orico */
+
+.Craditcard__orico{
+  padding: 40px 10%;
+
+  .Sec-title{
+    padding: 0 0 20px;
+  }
+
+
+  &1{
+    &List{
+      &Item{
+        h3{
+          padding: 50px 0 50px 0;
+          border-bottom: 1px solid #e6e6e6;
+          font-size: 22px;
+          font-weight: bold;
+
+          span{
+            padding-left: 20px;
+            border-left: 2px solid #fe4521;
+          }
+        }
+
+        img{
+          width: 280px;
+          margin: 30px 0;
+        }
+
+
+        &Link{
+          display: table;
+          padding: 0 0 2px 0;
+          margin: 0 0 40px 0;
+          border-bottom: 1px solid #333;
+          font-size: 18px;
+          font-weight: bold;
+        }
+
+        &Btn{
+          padding: 40px;
+          // margin-bottom: 80px;
+          background-color: #f5f5f5;
+
+          .btn{
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 600px){
+  .Craditcard__orico{
+    .Sec-title{
+      padding: 0 0 20px;
+      font-size: 17px;
+
+      img{
+        margin-right: 10px;
+      }
+    }
+
+    &1{
+      &List{
+        &Item{
+          h3{
+            font-size: 17px;
+          }
+
+          img{
+            width: 165px;
+          }
+
+          a{
+            font-size: 14px;
+          }
+
+          .btn{
+            padding: 10px 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .Craditcard__orico{
+    padding: 40px 5%;
+  }
+}
+
+
+
+
+/* 他 SP */
+
+
 
 
 
@@ -803,6 +1003,8 @@
         }
 
         &Good{
+          padding: 10px 5% !important;
+
           &List{
             margin-bottom: 40px;
 
@@ -810,6 +1012,7 @@
               h3{
                 padding: 8px 20px;
                 font-size: 13px;
+                line-height: 1.5;
               }
 
               &Bottom{
@@ -1089,7 +1292,7 @@
           padding-bottom: 15px;
 
           p{
-            width: 126px;
+            width: 95px;
             padding: 5px 7px;
             font-size: 13px;
           }
@@ -1124,11 +1327,11 @@
 
               &Item{
                 &1{
-                  max-width: 410px;
+                  width: auto;
                   margin-right: 0;
 
                   h3{
-                    margin: 0 0 15px 15px;
+                    margin: 0 0 15px 0;
                     font-size: 15px;
                   }
 
@@ -1160,13 +1363,13 @@
                 }
 
                 &2{
-                  max-width: 410px !important;
+                  width: auto;
                   padding-left: 0;
                   border-left: none;
 
                   h3{
                     padding-left: 15px;
-                    margin: 0 0 20px 15px;
+                    margin: 0 0 20px 0;
                     font-size: 18px;
                     font-weight: bold;
                   }
@@ -1194,6 +1397,85 @@
                         bottom: 20px;
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__3{
+      &Inner{
+        &Title{
+          align-items: baseline;
+
+          p{
+            width: 104px;
+            padding: 3px 4px;
+            font-size: 13px;
+          }
+
+          h3{
+            font-size: 17px;
+            line-height: 1.5;
+          }
+        }
+
+        &Descript{
+          &List{
+            flex-direction: column;
+
+            &Item{
+              width: auto;
+              padding-left: 0;
+              margin-right: 0;
+              border-left: none;
+
+
+              &:nth-child(1){
+                padding-left: 0;
+                margin-right: 0;
+                border-left: none;
+              }
+
+
+              &Image{
+                border: 1px solid #e6e6e6;
+                border-radius: 5px;
+              }
+
+
+              &Btn{
+                margin: 30px 0 30px 0;
+
+                .btn{
+                  padding: 10px 10px;
+                  font-size: 15px;
+                }
+              }
+
+
+              h3{
+                padding-left: 15px;
+                margin: 0 0 20px 0;
+                font-size: 18px;
+                font-weight: bold;
+              }
+
+
+
+              p{
+                margin: 30px 0 0;
+                font-size: 15px;
+                line-height: 1.5;
+              }
+
+              &Span{
+                span{
+                  &::before{
+                    bottom: 0;
                   }
                 }
               }
@@ -1284,10 +1566,20 @@
           &2{
             &List{
               &Item1{
+                h3{
+                  margin: 0 0 20px 0;
+                }
+
                 &Btn{
                   .btn{
                     padding: 12px 15px;
                   }
+                }
+              }
+
+              &Item2{
+                h3{
+                  margin: 0 0 20px 0;
                 }
               }
             }
@@ -1353,6 +1645,12 @@
             }
           }
         }
+      }
+    }
+
+    &__3{
+      &Inner{
+        margin: 40px 5%;
       }
     }
   }

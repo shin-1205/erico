@@ -46,6 +46,7 @@ body{
 
 .btn{
   display: block;
+  max-width: 480px;
   padding: 16px 78px 15px 78px;
   background-color: #ffff;
   border: 1px solid #fe622f;
@@ -55,6 +56,7 @@ body{
   font-size: 20px;
   font-weight: bold;
   line-height: 1.5;
+  text-align: center;
   position: relative;
   transition: 0.3s;
 
@@ -299,8 +301,6 @@ body{
           }
         }
 
-        &:nth-child(1){
-        }
 
         &:nth-child(3){
           border-left: 1px solid #e6e6e6;
@@ -368,7 +368,7 @@ body{
 @media screen and(max-width: 600px){
   .Sec-title{
     align-items: center;
-    padding: 0 5% 20px;
+    padding: 0 0 20px;
 
     h2{
       font-size: 17px;
