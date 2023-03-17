@@ -10,7 +10,7 @@
 
   <div class="Creditcard">
 
-    <section class="Creditcard__title">
+    <section class="PageTitle">
       <li>
         <a href="">
           オリコTOP
@@ -21,22 +21,22 @@
       <li>
         <span></span>
         <a href="">
-          クレジットカード
+          <p>クレジットカード</p>
         </a>
       </li>
 
     </section>
 
-    <section class="Creditcard__hero">
-      <div class="Creditcard__heroInner">
+    <section class="Hero">
+      <div class="Hero__Inner">
 
-        <div class="Creditcard__heroInnerTitle">
+        <div class="Hero__InnerTitle">
           <h2>クレジットカード</h2>
 
           <p>クレジットカードは、商品やサービスのお支払いを「後払い」にできる決済手段のことです。審査によってクレジットカード会社から信用を得られると、クレジットカードが発行され後払いができるようになります。</p>
         </div>
 
-        <div class="Creditcard__heroInnerTitleSP">
+        <div class="Hero__InnerTitleSP">
           <img src="https://www.orico.co.jp/common/images/hdg/hdg-creditcard-sp-01.jpg" alt="">
         </div>
 

@@ -96,21 +96,21 @@
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="<?php echo home_url('/'); ?>">
+            <a href="<?php echo home_url('/'); ?>loan/">
               <span>
                 ローン
               </span>
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="<?php echo home_url('/'); ?>v">
+            <a href="<?php echo home_url('/'); ?>customer/">
               <span>
                 お客さまサポート
               </span>
             </a>
           </li>
           <li class="l-header__navBottomItem">
-            <a href="<?php echo home_url('/'); ?>">
+            <a href="<?php echo home_url('/'); ?>service/">
               <span>
                 便利なサービス
               </span>
@@ -224,21 +224,21 @@
             </a>
           </li>
           <li class="s-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>loan/">
               <span>
                 ローン
               </span>
             </a>
           </li>
           <li class="s-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>customer/">
               <span>
                 お客さまサポート
               </span>
             </a>
           </li>
           <li class="s-header__navBottomItem">
-            <a href="#">
+            <a href="<?php echo home_url('/'); ?>service/">
               <span>
                 便利なサービス
               </span>
@@ -272,7 +272,7 @@
       <div class="headerInner__wrap show">
 
         <div class="headerInner__top">
-          <a href="#">
+          <a href="<?php echo home_url('/'); ?>/">
             <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
             <span>クレジットカード トップ</span>
           </a>
