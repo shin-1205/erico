@@ -12,7 +12,7 @@
 
     <section class="PageTitle">
       <li>
-        <a href="<?php echo home_url('/'); ?>">
+        <a href="<?php echo home_url('/'); ?>/">
           オリコTOP
         </a>
       </li>

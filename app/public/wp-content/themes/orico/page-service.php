@@ -21,7 +21,7 @@
       <li>
         <span></span>
         <a href="">
-          <p>ローン</p>
+          <p>便利なサービス</p>
         </a>
       </li>
     </section>
