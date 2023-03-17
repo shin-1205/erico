@@ -432,6 +432,14 @@ body{
   }
 }
 
+@media screen and(max-width: 600px){
+  .LinkLeftRed{
+    a{
+      font-size: 17px;
+    }
+  }
+}
+
 
 /* Important Text */
 
@@ -452,6 +460,14 @@ body{
   }
 }
 
+@media screen and(max-width: 600px){
+  .ImportantText{
+    span{
+      font-size: 13px;
+    }
+  }
+}
+
 
 /* Text Left Circle */
 
@@ -459,7 +475,8 @@ body{
   a{
     display: block;
     padding: 0 0 0 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
     position: relative;
     transition: 0.3s;
 
@@ -482,6 +499,21 @@ body{
         position: absolute;
         top: 4px;
         left: 0;
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .TextLeftCircle{
+    font-size: 15px;
+
+    a{
+      span{
+        &:before{
+          top: 8px;
+        }
       }
     }
   }
