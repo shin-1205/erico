@@ -216,6 +216,8 @@
 /* First */
 
 .Loan__First{
+  margin: 0 0 120px 0;
+
   &Pic{
     max-width: 900px;
     margin: 0 auto;
@@ -657,6 +659,166 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+
+
+/* How */
+
+.Loan__How{
+  margin-bottom: 100px;
+
+  &Text{
+    padding: 40px 10%;
+    margin: 0 0 40px;
+  }
+
+  &Card{
+    // padding: 0 -10%;
+    background-color: #f5f5f5;
+    text-align: center;
+
+    &List{
+      display: flex;
+      gap: 30px;
+      padding: 60px 10% 20px 10%;
+
+      &Item{
+        width: 100%;
+        background-color: #ffff;
+        border-radius: 5px;
+
+        &Top{
+          padding: 40px 0 0 0;
+          border-bottom: 1px solid #e6e6e6;
+
+
+          &Pic{
+            width: 84px;
+            height: 84px;
+            padding-top: 20px;
+            margin: 0 auto 20px auto;
+            border: 3px solid #fe4521;
+            border-radius: 50px;
+            text-align: center;
+
+            img{
+              width: 40px;
+            }
+          }
+
+          h3{
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+          }
+
+          p{
+            margin-bottom: 20px;
+          }
+        }
+
+        &Mid{
+          margin: 30px 0;
+          border-bottom: 1px solid #e6e6e6;
+
+          h4{
+            margin-bottom: 20px;
+          }
+
+          p{
+            margin-bottom: 30px;
+
+            span{
+              color: #fe4521;
+              font-size: 32px;
+              font-weight: bold;
+            }
+          }
+        }
+
+        &Bot{
+          p{
+            margin: 30px;
+
+            span{
+              color: #fe4521;
+              font-size: 32px;
+              font-weight: bold;
+            }
+          }
+        }
+
+        &Button{
+          padding: 20px;
+          background: #fe622f;
+          background-image: linear-gradient(135deg, #ff0600 0, #ff7200 100%);
+          border-radius: 0 0 5px 5px;
+
+          span{
+            color: #ffff;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    &Text{
+      padding: 40px 5% 100px;
+      font-size: 14px;
+      text-align: left;
+      position: relative;
+
+      span{
+        display: block;
+        padding-left: 30px;
+        position: relative;
+
+        &::before{
+          content: "※";
+          // width: 100%;
+          // height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .Loan__How{
+    &Text{
+      padding: 40px 5%;
+    }
+
+    &Card{
+      &List{
+        gap: 5px;
+        padding: 40px 5% 20px 5%;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .Loan__How{
+    &Text{
+      padding: 40px 5%;
+    }
+
+    &Card{
+      &List{
+        padding: 40px 5% 20px 5%;
+      }
+
+      &Text{
+        padding: 40px 5% 100px;
       }
     }
   }

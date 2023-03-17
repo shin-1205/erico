@@ -674,6 +674,156 @@
 
     </section>
 
+    <section class="Loan__How">
+      <div class="Sec-title">
+        <span><img src="https://www.orico.co.jp/common/images/pict/pict-info-01.svg" alt=""></span>
+        <h2>
+          どうやって選べばいい？
+        </h2>
+      </div>
+
+      <!-- <div class="container"> -->
+
+      <div class="Loan__HowText">
+
+        <p>急な出費でもすぐに借りられるカードキャッシングやカードローン、まとまったお金が必要なら目的ローンなど、使いみちによってご検討ください。</p>
+
+      </div>
+
+      <div class="Loan__HowCard">
+
+        <ul class="Loan__HowCardList">
+
+          <!-- Item -->
+
+          <li class="Loan__HowCardListItem">
+            <a href="">
+
+              <div class="Loan__HowCardListItemTop">
+                <div class="Loan__HowCardListItemTopPic">
+                  <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
+                </div>
+                <h3>キャッシング</h3>
+                <p>ご利用可能枠の範囲内なら<br>
+                  1万円単位で何度でも利用可能！</p>
+              </div>
+              <div class="Loan__HowCardListItemMid">
+                <h4>実質年率</h4>
+                <p>年
+                  <span>15.0</span>
+                  ％～年
+                  <span>18.0</span>
+                  ％※
+                </p>
+              </div>
+              <div class="Loan__HowCardListItemBot">
+                <p>限度額</p>
+                <p>
+                  <span>10</span>
+                  万～
+                  <span>100</span>万
+                </p>
+              </div>
+
+              <div class="Loan__HowCardListItemButton">
+                <span>詳細</span>
+              </div>
+
+            </a>
+          </li>
+
+
+
+          <!-- Item -->
+
+          <li class="Loan__HowCardListItem">
+            <a href="">
+
+              <div class="Loan__HowCardListItemTop">
+                <div class="Loan__HowCardListItemTopPic">
+                  <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
+                </div>
+                <h3>キャッシング</h3>
+                <p>ご利用可能枠の範囲内なら<br>
+                  1万円単位で何度でも利用可能！</p>
+              </div>
+              <div class="Loan__HowCardListItemMid">
+                <h4>実質年率</h4>
+                <p>年
+                  <span>15.0</span>
+                  ％～年
+                  <span>18.0</span>
+                  ％※
+                </p>
+              </div>
+              <div class="Loan__HowCardListItemBot">
+                <p>限度額</p>
+                <p>
+                  <span>10</span>
+                  万～
+                  <span>100</span>万
+                </p>
+              </div>
+
+              <div class="Loan__HowCardListItemButton">
+                <span>詳細</span>
+              </div>
+
+            </a>
+          </li>
+
+
+          <!-- Item -->
+
+          <li class="Loan__HowCardListItem">
+            <a href="">
+
+              <div class="Loan__HowCardListItemTop">
+                <div class="Loan__HowCardListItemTopPic">
+                  <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
+                </div>
+                <h3>キャッシング</h3>
+                <p>ご利用可能枠の範囲内なら<br>
+                  1万円単位で何度でも利用可能！</p>
+              </div>
+              <div class="Loan__HowCardListItemMid">
+                <h4>実質年率</h4>
+                <p>年
+                  <span>15.0</span>
+                  ％～年
+                  <span>18.0</span>
+                  ％※
+                </p>
+              </div>
+              <div class="Loan__HowCardListItemBot">
+                <p>限度額</p>
+                <p>
+                  <span>10</span>
+                  万～
+                  <span>100</span>万
+                </p>
+              </div>
+
+              <div class="Loan__HowCardListItemButton">
+                <span>詳細</span>
+              </div>
+
+            </a>
+          </li>
+
+
+        </ul>
+
+        <div class="Loan__HowCardText">
+          <span>OricoCard THE POINTの場合</span>
+          <span>カードによっては貸付の利率が異なります</span>
+        </div>
+
+      </div>
+
+      <!-- </div> -->
+    </section>
+
   </div>
 
   <!-- loan Inner finish -->
