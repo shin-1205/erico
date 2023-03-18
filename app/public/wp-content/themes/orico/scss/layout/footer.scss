@@ -221,7 +221,7 @@ footer{
         }
 
         a{
-          font-size: 14px !important;
+          font-size: 13px !important;
         }
       }
 
@@ -273,6 +273,16 @@ footer{
       &__1{
         padding: 0 0 21px 15px;
         margin: 0 0 0 0;
+
+        &Nav{
+          &Menu{
+            ul{
+              li a{
+                font-size: 13px;
+              }
+            }
+          }
+        }
 
 
 

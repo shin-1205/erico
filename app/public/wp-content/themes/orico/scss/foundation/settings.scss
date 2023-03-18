@@ -253,7 +253,6 @@ body{
   ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     gap: 10px 0;
     width: 100%;
 
@@ -389,6 +388,7 @@ body{
 
     img{
       width: 24px;
+      margin-right: 10px;
     }
   }
 }
