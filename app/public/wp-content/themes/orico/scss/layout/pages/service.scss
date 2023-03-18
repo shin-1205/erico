@@ -1,3 +1,137 @@
+/* 〇〇別に見るあなたにぴったりのカード */
+
+.Service__Pay{
+  .Loan__QuestionInner{
+    &Left{
+      background-image: url("https://www.orico.co.jp/common/images/module/bg-box-05.jpg");
+
+      &Bottom{
+        padding-left: 13px;
+
+        a{
+          span{
+            display: block;
+
+
+            &::before{
+              content: "●";
+              width: 4px;
+              height: 4px;
+              font-size: 1px;
+              top: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    &Right{
+      background-image: url("https://www.orico.co.jp/common/images/module/bg-box-06.jpg");
+
+      &Bottom{
+        padding-left: 13px;
+
+        a{
+          span{
+            display: block;
+
+            &::before{
+              content: "●";
+              width: 4px;
+              height: 4px;
+              font-size: 1px;
+              top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &Btn{
+    margin-bottom: 80px;
+
+    .btn{
+      a{
+        span::after{
+          top: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 600px){
+  .Service__Pay{
+    border-bottom: 3px solid #f5f5f5;
+
+    .Sec-title{
+      h2{
+        font-size: 16px;
+      }
+    }
+
+    &Text{
+      margin: 20px 0 30px 0;
+    }
+
+    .Loan__Question{
+      padding-bottom: 30px;
+      margin-bottom: 0;
+
+
+      &Inner{
+        &Left{
+          padding: 30px 20px 40px;
+
+          h2{
+            span{
+              font-size: 17px;
+            }
+          }
+
+          &Bottom{
+            span{
+              font-size: 15px;
+            }
+          }
+        }
+
+        &Right{
+          padding: 30px 20px 40px;
+
+          h2{
+            span{
+              font-size: 17px;
+            }
+          }
+
+          &Bottom{
+            span{
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    &Btn{
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .Service{
+    .Loan__AlreadyCardItem{
+      width: 50%;
+    }
+  }
+}
+
+/* Pay */
+
 .Service{
   &__Pay{
     &Text{
@@ -36,6 +170,7 @@
 
     &Btn{
       padding: 30px;
+      margin-bottom: 60px;
       background-color: #f5f5f5;
       border-radius: 5px;
 
@@ -90,14 +225,13 @@
               margin-bottom: 20px;
             }
           }
-
-          &Bot{
-          }
         }
       }
     }
 
     &Btn{
+      margin-bottom: 60px;
+
       .btn{
         width: 250px;
 
@@ -109,6 +243,150 @@
           }
         }
       }
+    }
+  }
+}
+
+
+
+/* Trivia */
+
+.Service__Trivia{
+  .Customer__Support{
+    h3{
+      margin: 10px 0 60px 0;
+    }
+
+    ul{
+      li{
+        width: 45%;
+        padding: 0 0 2px 0;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 600px){
+  .Service__Trivia{
+    .Customer__Support{
+      h3{
+        margin: 20px 0 50px 0;
+        font-size: 15px;
+      }
+
+      ul{
+        li{
+          width: 100%;
+          padding: 0 0 2px 0;
+        }
+      }
+    }
+  }
+}
+
+
+/* Dictionary */
+
+.Service__Dictionary{
+  .Customer__Support{
+    ul{
+      margin: 30px 0 30px 0;
+    }
+
+    .Loan__Already{
+      &Dictionary{
+        &List{
+          display: flex;
+          flex-wrap: wrap;
+          // gap: 30px 50px;
+          width: 100%;
+
+          &Item{
+            width: 20%;
+
+            h3{
+              margin: 30px 0 0 0;
+              font-weight: bold;
+            }
+
+            ul{
+              flex-direction: column;
+
+              li{
+                span{
+                  width: 100px;
+                }
+
+                .TextLeftCircle a span::before{
+                  top: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .Service__Dictionary{
+    .Customer__Support{
+      ul{
+        margin: 30px 0 30px 0;
+      }
+
+      .Loan__Already{
+        .LinkLeftRed{
+          margin: 30px 0 0 0;
+        }
+
+        &Dictionary{
+          &List{
+            display: flex;
+            flex-wrap: wrap;
+            // gap: 30px 50px;
+            width: 100%;
+
+            &Item{
+              width: 33%;
+
+              h3{
+                margin: 30px 0 0 0;
+                font-size: 15px;
+                font-weight: bold;
+              }
+
+              ul{
+                flex-direction: column;
+
+                li{
+                  span{
+                    width: 100px;
+                  }
+
+                  .TextLeftCircle a span::before{
+                    top: 8px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .Service__PayBtn{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 600px){
+  .Service{
+    .returnTop{
+      margin-bottom: 20px;
     }
   }
 }

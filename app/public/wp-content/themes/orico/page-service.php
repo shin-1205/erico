@@ -53,6 +53,8 @@
       </div>
     </section>
 
+    <!-- 〇〇別に見るあなたにぴったりのカード -->
+
     <section class="Service__Pay">
 
       <div class="Sec-title">
@@ -79,20 +81,47 @@
 
               <h2><span>職業や世代から選ぶ</span></h2>
 
-              <a href="">
-                <span>詳しくはこちら</span>
-              </a>
+              <div class="Loan__QuestionInnerLeftBottom">
+                <a href="">
+                  <span>学生・新社会人の方</span>
+                </a>
+
+                <a href="">
+                  <span>ビジネスマンの方</span>
+                </a>
+
+                <a href="">
+                  <span>旅行が好きな方</span>
+                </a>
+
+                <a href="">
+                  <span>自営業の方</span>
+                </a>
+              </div>
 
             </div>
 
             <div class="Loan__QuestionInnerRight">
 
-              <h2><span>クレジット辞典</span></h2>
+              <h2><span>趣味や用途から選ぶ</span></h2>
 
-              <a href="">
-                <span>詳しくはこちら</span>
-              </a>
+              <div class="Loan__QuestionInnerRightBottom">
+                <a href="">
+                  <span>旅行が好きな方</span>
+                </a>
 
+                <a href="">
+                  <span>ショッピングが好きな方</span>
+                </a>
+
+                <a href="">
+                  <span>補償やサービスを重視する方</span>
+                </a>
+
+                <a href="">
+                  <span>海外での利用が多い方</span>
+                </a>
+              </div>
             </div>
 
           </div>
@@ -103,8 +132,7 @@
         <div class="Service__PayBtn">
           <div class="btn">
             <a href="#">
-              あらゆるお支払いについて
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <span>〇〇別にカードを探す</span>
             </a>
           </div>
         </div>
@@ -118,9 +146,9 @@
     <section class="Loan__Already">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-important-01.svg" alt=""></span>
+        <span><img src="https://www.orico.co.jp/common/images/pict/pict-add-service-01.svg" alt=""></span>
         <h2>
-          トラブル・お困りのお客さま
+          こんな時に便利なオリコのサービス
         </h2>
       </div>
 
@@ -134,7 +162,9 @@
 
               <img src="https://www.orico.co.jp/common/images/pict/pict-support-02.svg" alt="">
 
-              <p>カードの紛失・盗難にあった</p>
+              <p>急な出費でも<br>
+                大丈夫！<br>
+                キャッシング</p>
 
             </a>
 
@@ -144,21 +174,10 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-03.svg" alt="">
+              <img src="https://www.orico.co.jp/common/images/pict/pict-shopping-01.svg" alt="">
 
-              <p>提携ATM/覚えのない明細がある</p>
-
-            </a>
-
-          </div>
-
-          <div class="Loan__AlreadyCardItem">
-
-            <a href="">
-
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-04.svg" alt="">
-
-              <p>カードの暗証番号を忘れた</p>
+              <p>ショッピングで<br>
+                リボ払い分分割払い</p>
 
             </a>
 
@@ -168,21 +187,11 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-05.svg" alt="">
+              <img src="https://www.orico.co.jp/common/images/pict/pict-phone-01.svg" alt="">
 
-              <p>eオリコサービスID･パスワードを忘れた</p>
-
-            </a>
-
-          </div>
-
-          <div class="Loan__AlreadyCardItem">
-
-            <a href="">
-
-              <img src="https://www.orico.co.jp/common/images/pict/pict-pay-03.svg" alt="">
-
-              <p>入金が間に合わなかった</p>
+              <p>ご利用明細などを<br>
+                簡単に確認！<br>
+                オリコ公式アプリ</p>
 
             </a>
 
@@ -192,9 +201,36 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-07.svg" alt="">
+              <img src="https://www.orico.co.jp/common/images/pict/pict-point-03.svg" alt="">
 
-              <p>SMS(確認コード)が届かない</p>
+              <p>ネットショッピング<br>
+                でポイントがたまる<br>
+                オリコモール</p>
+
+            </a>
+
+          </div>
+
+          <div class="Loan__AlreadyCardItem">
+
+            <a href="">
+
+              <img src="https://www.orico.co.jp/common/images/pict/pict-loan-03.svg" alt="">
+
+              <p>ローンサポート</p>
+
+            </a>
+
+          </div>
+
+          <div class="Loan__AlreadyCardItem">
+
+            <a href="">
+
+              <img src="https://www.orico.co.jp/common/images/pict/pict-travel-01.svg" alt="">
+
+              <p>実は旅行にも強い！<br>
+                オリコカード</p>
 
             </a>
 
@@ -211,9 +247,9 @@
     <section class="Service__Pay">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-contact-01.svg" alt=""></span>
+        <span><img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt=""></span>
         <h2>
-          お困りのお客さま
+          あらゆるお支払いに
         </h2>
       </div>
 
@@ -443,8 +479,7 @@
         <div class="Service__PayBtn">
           <div class="btn">
             <a href="#">
-              あらゆるお支払いについて
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <span>あらゆるお支払いについて</span>
             </a>
           </div>
         </div>
@@ -454,173 +489,541 @@
 
 
 
-    <!-- Support -->
+    <!-- Trivia -->
 
-    <section class="Customer__Support">
 
-      <div class="Loan__Already">
+    <section class="Service__Trivia">
 
-        <div class="Sec-title">
-          <span><img src="https://www.orico.co.jp/common/images/pict/pict-contact-01.svg" alt=""></span>
-          <h2>
-            お困りのお客さま
-          </h2>
-        </div>
+      <div class="Customer__Support">
 
-        <div class="container">
+        <div class="Loan__Already">
 
-          <h3>
-            日々の生活の中で賢くクレジットカードを使いたい方、新たにクレジットカードのお申込みを検討されている方に耳寄りな情報をご紹介します。
-          </h3>
-
-          <div class="LinkLeftRed">
-            <a href="">
-              ご注意ください
-              <span></span>
-            </a>
+          <div class="Sec-title">
+            <span><img src="https://www.orico.co.jp/common/images/pict/pict-knowledge-01.svg" alt=""></span>
+            <h2>
+              なるほど豆知識
+            </h2>
           </div>
 
-          <ul>
+          <div class="container">
 
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>当社名及び当社の類似名称を名乗る金融業者</span>
-                </a>
-              </div>
-            </li>
+            <h3>
+              日々の生活の中で賢くクレジットカードを使いたい方、新たにクレジットカードのお申込みを検討されている方に耳寄りな情報をご紹介します。
+            </h3>
 
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>盗難スリ</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>「日本クレジット協会」の名称を使用した詐欺行為にご注意ください！</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>架空請求</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>警察・カード会社を装う電話にご注意ください！</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>悪徳商法</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>商品代金全額返金の悪質手口にご注意ください！</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>フィッシング</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>スキミング</span>
-                </a>
-              </div>
-            </li>
-
-            <li>
-              <div class="TextLeftCircle">
-                <a href="">
-                  <span>ショッピング枠の現金化</span>
-                </a>
-              </div>
-            </li>
-
-          </ul>
-
-          <div class="Service__PayBtn">
-            <div class="btn">
-              <a href="#">
-                あらゆるお支払いについて
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            <div class="LinkLeftRed">
+              <a href="">
+                人気の豆知識
+                <span></span>
               </a>
             </div>
+
+            <ul>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>借入とは何か？借入先の区分と種類とは？</span>
+                  </a>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>カードローンの返済方法とは？返済シミュレーションもご紹介！</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>「日本クレジット協会」の名称を使用した詐欺行為にご注意ください！</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>クレジットカードの支払いが遅れるとどうなる？遅れてしまったときの対処法</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>意外と知らないクレジットカードの魅力！メリットとデメリットとは？</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>ETCカードの作り方を解説！選び方やおすすめカードも紹介</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>キャッシングとは？カードローンとの違いはあるの？</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>ショッピングリボ払いってなに？</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>リボ払いの一括返済とは？どんな特徴がある？繰り上げ返済との違いもご紹介</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>キャッシング機能とショッピング機能ってなに？どう違うの？</span>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="TextLeftCircle">
+                  <a href="">
+                    <span>クレジットカードとは？どんな仕組みで成り立っているの？</span>
+                  </a>
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="Service__PayBtn">
+              <div class="btn">
+                <a href="#">
+                  <span>なるほど豆知識を見る</span>
+                </a>
+              </div>
+            </div>
+
           </div>
 
-        </div>
 
+
+        </div>
 
 
       </div>
 
-
     </section>
 
 
-    <section class="Customer__Support">
+    <!-- dictionary -->
 
-      <div class="Loan__Already">
+    <section class="Service__Dictionary">
 
-        <div class="Sec-title">
-          <span><img src="https://www.orico.co.jp/common/images/pict/pict-contact-01.svg" alt=""></span>
-          <h2>
-            お困りのお客さま
-          </h2>
-        </div>
+      <div class="Customer__Support">
 
-        <div class="container">
+        <div class="Loan__Already">
 
-          <div class="LinkLeftRed">
-            <a href="">
-              お問合せ窓口
-              <span></span>
-            </a>
+          <div class="Sec-title">
+            <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-design-01.svg" alt=""></span>
+            <h2>
+              クレジット大辞典
+            </h2>
           </div>
 
-          <div class="Service__PayBtn">
-            <div class="btn">
-              <a href="#">
-                あらゆるお支払いについて
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+          <div class="container">
+
+            <div class="LinkLeftRed">
+              <a href="">
+                50音順
+                <span></span>
               </a>
             </div>
+
+            <div class="Loan__AlreadyDictionary">
+
+              <div class="Loan__AlreadyDictionaryList">
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>あ行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「あ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「い」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「う」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「え」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>か行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「か」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「き」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「く」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「こ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>さ行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「さ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「し」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「す」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「そ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>た行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「ち」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「て」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「と」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>な行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「の」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>は行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「は」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「ひ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「ふ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「ほ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>ま行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「ま」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「み」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「む」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「も」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>や行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「や」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「ゆ」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「う」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「え」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+                <div class="Loan__AlreadyDictionaryListItem">
+
+                  <h3>ら行用語</h3>
+
+
+                  <ul>
+
+                    <li>
+                      <div class="TextLeftCircle">
+                        <a href="">
+                          <span>「り」</span>
+                        </a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="Service__PayBtn">
+              <div class="btn">
+                <a href="#">
+                  <span>クレジット大辞典</span>
+                </a>
+              </div>
+            </div>
+
+
+
           </div>
+
+
 
         </div>
 
 
-
       </div>
 
-
     </section>
+
 
 
     <div class="container">
