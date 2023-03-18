@@ -798,9 +798,25 @@
     }
 
     &Card{
+      padding: 40px 3% 20px 3% !important;
+
       &List{
         gap: 5px;
-        padding: 40px 5% 20px 5%;
+        padding: 0 !important;
+
+        &Item{
+          &Top{
+            min-height: 355px;
+          }
+
+          &Mid{
+            min-height: 200px;
+          }
+        }
+      }
+
+      &Text{
+        padding: 40px 0 20px 0 !important;
       }
     }
   }
@@ -818,7 +834,7 @@
       }
 
       &Text{
-        padding: 40px 5% 100px;
+        // padding: 40px 5% 100px;
       }
     }
   }

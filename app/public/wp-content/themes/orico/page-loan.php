@@ -741,16 +741,16 @@
 
               <div class="Loan__HowCardListItemTop">
                 <div class="Loan__HowCardListItemTopPic">
-                  <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
+                  <img src="https://www.orico.co.jp/common/images/pict/pict-loan-04.svg" alt="">
                 </div>
-                <h3>キャッシング</h3>
-                <p>ご利用可能枠の範囲内なら<br>
-                  1万円単位で何度でも利用可能！</p>
+                <h3>カードローン</h3>
+                <p>急な出費でも安心<br>
+                  お近くのATMでいつでも</p>
               </div>
               <div class="Loan__HowCardListItemMid">
                 <h4>実質年率</h4>
                 <p>年
-                  <span>15.0</span>
+                  <span>4.5</span>
                   ％～年
                   <span>18.0</span>
                   ％※
@@ -761,7 +761,7 @@
                 <p>
                   <span>10</span>
                   万～
-                  <span>100</span>万
+                  <span>500</span>万
                 </p>
               </div>
 
@@ -782,16 +782,16 @@
                 <div class="Loan__HowCardListItemTopPic">
                   <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
                 </div>
-                <h3>キャッシング</h3>
-                <p>ご利用可能枠の範囲内なら<br>
-                  1万円単位で何度でも利用可能！</p>
+                <h3>目的別ローン</h3>
+                <p>計画的な<br>
+                  お借入れ・ご返済なら</p>
               </div>
               <div class="Loan__HowCardListItemMid">
                 <h4>実質年率</h4>
                 <p>年
-                  <span>15.0</span>
+                  <span>4.8</span>
                   ％～年
-                  <span>18.0</span>
+                  <span>16.2</span>
                   ％※
                 </p>
               </div>
@@ -800,7 +800,7 @@
                 <p>
                   <span>10</span>
                   万～
-                  <span>100</span>万
+                  <span>500</span>万
                 </p>
               </div>
 
