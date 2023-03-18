@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -155,7 +159,7 @@ body{
         font-size: 25px;
         font-weight: bold;
         position: absolute;
-        top: 10px;
+        top: 5px;
         left: -25px;
       }
     }
@@ -531,6 +535,223 @@ body{
           top: 8px;
         }
       }
+    }
+  }
+}
+
+
+
+/* Question */
+
+
+
+.Question{
+  margin: 0 0 30px 0;
+
+  nav{
+    display: none;
+  }
+
+  &Accordion{
+    padding: 20px 10%;
+
+    nav{
+      ul{
+        li{
+          padding: 30px 20px;
+          margin: 0 20px;
+          background-color: #f5f5f5;
+          border-radius: 10px;
+
+          .QuestionAccordionItemTop{
+            display: flex;
+
+
+            span{
+              margin-right: 20px;
+              color: #14b82f;
+              font-size: 15px;
+              font-weight: bold;
+              line-height: 1.75;
+            }
+
+
+            p{
+              font-size: 15px;
+              line-height: 1.75;
+            }
+          }
+
+          .QuestionAccordionItemBottom{
+            padding: 20px 40px;
+
+            h4{
+              margin: 20px 0;
+              font-weight: bold;
+            }
+
+            .LinkTextArrow{
+              a{
+                span{
+                  padding-top: 4px;
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .nav-open{
+      display: flex;
+      padding: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      position: relative;
+      transition: 0.3s;
+
+      h3{
+        font-size: 15px;
+      }
+
+
+
+      span{
+        margin-right: 20px;
+        color: #fd4522;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      &:hover{
+        margin: 0 20px;
+        background-color: #f5f5f5;
+      }
+
+      &:checked{
+        background-color: #14b82f;
+      }
+    }
+
+    .nav-open::before{
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url("https://www.orico.co.jp/common/images/icon/icon-open-01.svg") left center no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 20px;
+      transition: 0.3s;
+    }
+
+    .nav-open.active::before{
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: url("https://www.orico.co.jp/common/images/icon/icon-close-01.svg") left center no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 20px;
+      transition: 0.3s;
+    }
+  }
+
+  &__Btn{
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+
+    .btn{
+      margin: 0 auto;
+    }
+
+    img{
+      width: 8px;
+      position: absolute;
+      right: 15px;
+      bottom: 16px;
+    }
+  }
+}
+
+@media screen and (max-width:600px){
+  .Question{
+    &Accordion{
+      padding: 20px 0;
+
+      &Item{
+        .nav-open{
+          h3{
+            width: 270px;
+            font-size: 14px;
+            line-height: 1.5;
+          }
+
+          span{
+            margin-right: 10px;
+            font-size: 14px;
+            line-height: 1.5;
+          }
+
+          &::before{
+            width: 13px;
+            height: 13px;
+            top: 25px;
+          }
+
+          &.active::before{
+            width: 13px;
+            height: 13px;
+            top: 25px;
+          }
+        }
+      }
+
+      nav{
+        ul{
+          li{
+            span{
+              font-size: 14px;
+            }
+
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .container{
+      padding: 10px 5%;
+    }
+
+    &__Btn{
+      padding: 30px;
+
+
+      .btn{
+        padding: 10px 20px;
+        margin: 0 auto;
+      }
+
+      img{
+        width: 8px;
+        position: absolute;
+        right: 15px;
+        bottom: 16px;
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 1360px){
+  .Question{
+    &Accordion{
+      padding: 20px 5%;
     }
   }
 }

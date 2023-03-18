@@ -493,6 +493,10 @@
 
 @media screen and (max-width:600px){
   .Loan__First{
+    margin-bottom: 50px;
+    border-bottom: 3px solid #f5f5f5;
+
+
     &Text{
       margin-bottom: 0;
     }
@@ -794,7 +798,9 @@
 @media screen and(max-width: 600px){
   .Loan__How{
     &Text{
-      padding: 40px 5%;
+      padding: 20px 5%;
+      margin: 0 0 20px;
+      font-size: 15px;
     }
 
     &Card{
@@ -806,11 +812,62 @@
 
         &Item{
           &Top{
-            min-height: 355px;
+            min-height: 232px;
+            padding: 20px 0 0 0;
+
+
+
+            &Pic{
+              width: 60px;
+              height: 60px;
+              padding-top: 15px;
+
+              img{
+                width: 25px;
+              }
+            }
+
+            h3{
+              font-size: 15px;
+            }
+
+            p{
+              font-size: 13px;
+            }
           }
 
           &Mid{
-            min-height: 200px;
+            margin: 20px 0;
+
+            h4{
+              margin-bottom: 15px;
+              font-size: 15px;
+            }
+
+            p{
+              padding: 0 10px;
+              font-size: 15px;
+
+              span{
+                font-size: 20px;
+              }
+            }
+          }
+
+          &Bot{
+            p{
+              margin: 20px;
+              font-size: 15px;
+
+              span{
+                font-size: 20px;
+              }
+            }
+          }
+
+          &Button{
+            padding: 10px;
+            font-size: 15px;
           }
         }
       }
@@ -832,9 +889,291 @@
       &List{
         padding: 40px 5% 20px 5%;
       }
+    }
+  }
+}
 
-      &Text{
-        // padding: 40px 5% 100px;
+
+/* Already */
+
+.Loan__Already{
+  &Card{
+    display: flex;
+    margin: 50px 0;
+    border-bottom: 1px solid #f5f5f5;
+
+    &Item{
+      width: 33%;
+      padding: 60px 20px 70px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+      transition: 0.3s;
+
+
+      &:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+        transform: scale(1.1);
+      }
+
+      &:first-child{
+        border-left: none;
+      }
+
+
+      a{
+        img{
+          width: 48px;
+          margin-bottom: 15px;
+        }
+
+        p{
+          width: 202px;
+          margin: 0 auto;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .Loan__Already{
+    .container{
+      padding: 0 5%;
+    }
+
+    &Card{
+      &Item{
+        padding: 10px 20px 70px;
+
+        a{
+          p{
+            width: auto;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Use */
+
+
+
+.Loan__Use{
+  margin: 0 0 120px 0;
+
+  h3{
+    padding: 0 20px 10px 0;
+    margin: 40px 0 30px 0;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 22px;
+    font-weight: bold;
+
+    span{
+      padding-left: 20px;
+      border-left: 2px solid #fd4522;
+    }
+  }
+
+  p{
+    padding: 0 0 20px 0;
+  }
+
+  &Card{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      width: 279px;
+      border: 1px solid #e6e6e6;
+      border-radius: 5px;
+    }
+
+    a{
+      width: 86px;
+      margin: 30px 0;
+      border-bottom: 1px solid #333;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    p{
+      padding: 20px 0;
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .Loan__Use{
+    margin: 0 0 120px 0;
+
+    .container{
+      padding: 30px 5%;
+    }
+
+    h3{
+      margin: 0 0 20px 0;
+      font-size: 17px;
+    }
+
+    p{
+      padding: 0 0 20px 0;
+      font-size: 15px;
+    }
+
+    &Card{
+      img{
+        width: 165px;
+      }
+
+      a{
+        width: 67px;
+        margin: 15px 0 0 0;
+        font-size: 14px;
+      }
+
+      p{
+        width: 165px;
+        padding: 20px 0;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+
+/* Loan__Question */
+
+.Loan__Question{
+  margin-bottom: 60px;
+
+  &Inner{
+    display: flex;
+    justify-content: center;
+
+    &Left{
+      width: 100%;
+      padding: 40px 40px 75px;
+      background-image: url("https://www.orico.co.jp/common/images/module/bg-box-02.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border-radius: 5px 0 0 5px;
+      color: #ffff;
+
+
+
+      h2{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ffff;
+
+        span{
+          padding-left: 20px;
+          border-left: 2px solid #ffff;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      p{
+        margin: 30px 0;
+      }
+
+      a{
+        padding-bottom: 3px;
+        margin-left: 20px;
+        border-bottom: 1px solid #ffff;
+
+        span{
+          color: #ffff;
+          position: relative;
+
+          &::before{
+            content: "›";
+            width: 100%;
+            height: 100%;
+            color: #ffff;
+            position: absolute;
+            top: -4px;
+            left: -16px;
+          }
+        }
+      }
+    }
+
+    &Right{
+      width: 100%;
+      padding: 40px 40px 75px;
+      background-image: url("https://www.orico.co.jp/common/images/module/bg-box-04.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border-radius: 0 5px 5px 0;
+      color: #ffff;
+
+      h2{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ffff;
+
+        span{
+          padding-left: 20px;
+          border-left: 2px solid #ffff;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      p{
+        margin: 30px 0;
+      }
+
+      a{
+        padding-bottom: 3px;
+        margin-left: 20px;
+        border-bottom: 1px solid #ffff;
+
+        span{
+          color: #ffff;
+          position: relative;
+
+          &::before{
+            content: "›";
+            width: 100%;
+            height: 100%;
+            color: #ffff;
+            position: absolute;
+            top: -4px;
+            left: -16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 600px){
+  .Loan__Question{
+    .container{
+      padding: 0 5%;
+    }
+
+    &Inner{
+      flex-direction: column;
+
+      &Left{
+        border-radius: 5px 5px 0 0;
+      }
+
+      &Right{
+        border-radius: 0 0 5px 5px;
       }
     }
   }

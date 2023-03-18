@@ -971,6 +971,12 @@
 .returnTop{
   margin-bottom: 53px;
   text-align: right;
+
+  span{
+    &::before{
+      top: 3px;
+    }
+  }
 }
 
 .menu{
@@ -1866,6 +1872,10 @@
     .LinkTextTop{
       a span{
         font-size: 16px;
+
+        &::before{
+          top: 3px;
+        }
       }
     }
   }
