@@ -1,5 +1,5 @@
-<footer>
-  <div class="wrapper">
+<footer class="footer">
+  <div class="container">
 
 
 

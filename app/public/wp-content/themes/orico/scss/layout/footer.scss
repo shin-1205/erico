@@ -2,6 +2,10 @@ footer{
   padding: 100px 0 125px 0;
   background-color: #f5f5f5;
 
+  .container{
+    padding: 20px 5%;
+  }
+
 
   .footerInner{
     &__1{
@@ -75,11 +79,11 @@ footer{
         &App{
           display: flex;
           margin-left: 21px;
-          font-size: 16px;
+          font-size: 13px;
 
 
           img{
-            width: 16px;
+            width: 15px;
           }
         }
       }
@@ -212,21 +216,27 @@ footer{
 
 @media screen and(max-width: 600px){
   footer{
-    .footerInner{
-      .footerListSP{
-        li{
-          padding: 21px 34px 15px 10px;
-          margin: 0 15px !important;
-          ;
-        }
+    .container{
+      padding: 0 5%;
+    }
 
-        a{
-          font-size: 13px !important;
+    .footerInner{
+      &__SP{
+        &Link{
+          li{
+            padding: 21px 34px 15px 10px;
+            margin: 0 15px !important;
+            font-size: 13px;
+
+            a{
+              font-size: 13px !important;
+            }
+          }
         }
       }
 
       &__SP{
-        font-size: 15px;
+        font-size: 13px;
 
 
 
@@ -263,15 +273,14 @@ footer{
   footer{
     padding: 60px 0 0 0;
 
-    .wrapper{
-      padding: 0;
+    .container{
+      padding: 0 5%;
     }
 
 
 
     .footerInner{
       &__1{
-        padding: 0 0 21px 15px;
         margin: 0 0 0 0;
 
         &Nav{

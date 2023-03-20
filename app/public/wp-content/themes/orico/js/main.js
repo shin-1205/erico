@@ -106,6 +106,8 @@ $(function () {
 
 
 
+
+
 /* hero swiper slider */
 
 
@@ -149,15 +151,32 @@ $(document).ready(function () {
 
 /* News Area 1 TabMenu */
 
+// $(function () {
+//   $(".tab a").click(function () {
+//     $(this).parent().addClass("active").siblings(".active").removeClass("active");
+//     var tabContents = $(this).attr("href");
+//     $(tabContents).addClass("active").siblings(".active").removeClass("active");
+//     return false;
+//   });
+// });
+
+
 $(function () {
-  $(".tab a").click(function () {
-    $(this).parent().addClass("active").siblings(".active").removeClass("active");
-    var tabContents = $(this).attr("href");
-    $(tabContents).addClass("active").siblings(".active").removeClass("active");
-    return false;
+  /*初期表示*/
+  $('.tab-box').hide();
+  $('.tab-box').eq(0).show();
+  $('.tab-catList li').eq(0).addClass('is-active');
+  /*クリックイベント*/
+  $('.tab-catList li').each(function () {
+    $(this).on('click', function () {
+      var index = $('.tab-catList li').index(this);
+      $('.tab-catList li').removeClass('is-active');
+      $(this).addClass('is-active');
+      $('.tab-box').hide();
+      $('.tab-box').eq(index).show();
+    });
   });
 });
-
 
 
 

@@ -52,6 +52,13 @@ body{
   margin: 0 142px;
 }
 
+@media screen and(max-width: 1360px){
+  .wrapper{
+    padding: 0 15px;
+    // margin: 0 60px !important;
+  }
+}
+
 
 /* ボタン */
 
