@@ -23,3 +23,12 @@
 [19-Mar-2023 15:48:38 UTC] PHP Warning:  Attempt to read property "cat_name" on null in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php on line 617
 [19-Mar-2023 15:49:21 UTC] PHP Warning:  Undefined array key 0 in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php on line 627
 [19-Mar-2023 15:49:21 UTC] PHP Warning:  Attempt to read property "cat_name" on null in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php on line 627
+[20-Mar-2023 14:24:37 UTC] PHP Warning:  Undefined variable $query_instance in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php on line 80
+[20-Mar-2023 14:24:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php:80
+Stack trace:
+#0 /Users/shin/Local Sites/test310/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shin/Local Sites/test310/app/public/wp-blog-header.php(19): require_once('/Users/shin/Loc...')
+#2 /Users/shin/Local Sites/test310/app/public/index.php(17): require('/Users/shin/Loc...')
+#3 {main}
+  thrown in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php on line 80
+[20-Mar-2023 14:28:42 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting ")" in /Users/shin/Local Sites/test310/app/public/wp-content/themes/orico/front-page.php on line 83

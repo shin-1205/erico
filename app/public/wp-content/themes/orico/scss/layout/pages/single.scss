@@ -1,0 +1,120 @@
+.Single{
+  width: 100%;
+
+  &Inner{
+    margin: 40px 0;
+
+    &__Btn{
+      padding: 20px;
+      margin-top: 100px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+
+      .btn{
+        margin: 0 auto;
+
+        img{
+          width: 8px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+
+    &__Text{
+      h3{
+        margin-bottom: 40px;
+      }
+
+      &Span{
+        padding-left: 30px;
+        margin-bottom: 100px;
+        color: #999;
+        font-size: 14px;
+        position: relative;
+
+        &::before{
+          content: "※";
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      .Sec-title{
+        padding: 0 0 20px;
+        margin-bottom: 40px;
+      }
+
+      &Bottom{
+        display: flex;
+        width: 100%;
+        padding: 40px 20px;
+        margin-bottom: 50px;
+        background-color: #f5f5f5;
+
+        &Left{
+          width: 40%;
+          font-weight: bold;
+        }
+
+        &Right{
+          width: 60%;
+
+          h4{
+            color: #fe622f;
+            font-size: 30px;
+            font-weight: bold;
+          }
+
+          p{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 600px){
+  .SingleInner{
+    &__Text{
+      h3{
+        font-size: 15px;
+      }
+
+      &Span{
+        margin-bottom: 50px;
+      }
+
+      .Sec-title{
+        padding: 0 0 7px;
+        margin-bottom: 20px;
+      }
+
+      &Bottom{
+        flex-direction: column;
+        margin-bottom: 30px;
+
+
+
+        &Left{
+          width: 100%;
+          margin-bottom: 20px;
+          font-size: 14px;
+        }
+
+        &Right{
+          width: 100%;
+
+          h4{
+            font-size: 18px;
+          }
+
+          p{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -71,38 +71,41 @@
 
       <div class="NewsArea__list">
 
-        <dl class="NewsArea__listItem">
-          <dt>
-            2023年02月27日
-          </dt>
-          <dd>
-            <a href="#">
-              オリコをカルタフィッシングサイトの発生について
-            </a>
-          </dd>
-        </dl>
+
+
+        <?php
+        $args = array(
+        'post_type' => 'post',
+        'category_name' => 'important', // カテゴリをスラッグで指定する場合
+        'posts_per_page' => 3,
+        'order' => 'DESC',
+        );
+        $query_instance = new WP_Query($args);
+        ?>
+        <?php if ($query_instance->have_posts()): ?>
+        <?php while ( $query_instance->have_posts()): $query_instance->the_post(); ?>
 
         <dl class="NewsArea__listItem">
+
           <dt>
-            2023年02月27日
+            <?php the_time('Y年m月d日'); ?>
           </dt>
           <dd>
-            <a href="#">
-              令和5年1月24日からの大雪により被害を受けられた地域の皆さまへ
+            <a href="<?php echo get_permalink( $id );?>">
+              <?php the_title(); ?>
             </a>
           </dd>
+
         </dl>
 
-        <dl class="NewsArea__listItem">
-          <dt>
-            2023年02月27日
-          </dt>
-          <dd>
-            <a href="#">
-              令和4年12月17日からの大雪により被害を受けられた地域の皆さまへ
-            </a>
-          </dd>
-        </dl>
+        <?php endwhile ?>
+        <?php endif ?>
+        <?php wp_reset_postdata(); ?>
+
+
+
+
+
 
       </div>
 
@@ -582,9 +585,6 @@
          ?>
         <div class="tab">
 
-
-
-
           <ul class="tab-catList">
 
             <div class="NewsArea1__1">
@@ -599,8 +599,8 @@
               <li><span>すべて</span></li>
               <?php /*------- 各カテゴリー -------*/ ?>
               <?php
-      $terms = get_terms($add_cat);
-      foreach ((array)$terms as $term) : ?>
+                 $terms = get_terms($add_cat);
+                 foreach ((array)$terms as $term) : ?>
               <li><span><?php echo $term->name; ?></span></li>
               <?php endforeach; ?>
             </div>
@@ -610,11 +610,11 @@
           <?php /*------- すべて -------*/ ?>
           <div class="tab-box">
             <?php
-      $args = array(
-        'post_type' => $add_post,
-        'posts_per_page' => 6,
-      );
-      ?>
+              $args = array(
+                'post_type' => $add_post,
+                'posts_per_page' => 6,
+              );
+              ?>
             <?php $wp_query = new WP_Query($args); ?>
             <?php if ($wp_query->have_posts()) : ?>
             <ul class="tab-boxList">
@@ -696,7 +696,7 @@
       <div class="NewsArea1__Btn">
         <div class="btn">
           <a href="#">
-            よくある質問はこちらから
+            <a href="<?php echo home_url('/'); ?>news/">お知らせ一覧</a>
             <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
           </a>
         </div>

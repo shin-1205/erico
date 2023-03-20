@@ -52,27 +52,36 @@
 
               <div class="Headup__InnerList">
 
-                <dl class="Headup__InnerListItem">
+
+                <?php
+                 $args = array(
+                 'post_type' => 'post',
+                 'category_name' => 'important', // カテゴリをスラッグで指定する場合
+                 'posts_per_page' => 2,
+                 'order' => 'DESC',
+                 );
+                 $query_instance = new WP_Query($args);
+                 ?>
+                <?php if ($query_instance->have_posts()): ?>
+                <?php while ( $query_instance->have_posts()): $query_instance->the_post(); ?>
+
+                <dl class="NewsArea__listItem">
+
                   <dt>
-                    2023年02月27日
+                    <?php the_time('Y年m月d日'); ?>
                   </dt>
                   <dd>
                     <a href="#">
-                      オリコをカルタフィッシングサイトの発生について
+                      <?php the_title(); ?>
                     </a>
                   </dd>
+
                 </dl>
 
-                <dl class="Headup__InnerListItem">
-                  <dt>
-                    2023年02月27日
-                  </dt>
-                  <dd>
-                    <a href="#">
-                      令和4年12月17日からの大雪により被害を受けられた地域の皆さまへ
-                    </a>
-                  </dd>
-                </dl>
+                <?php endwhile ?>
+                <?php endif ?>
+                <?php wp_reset_postdata(); ?>
+
 
               </div>
 
