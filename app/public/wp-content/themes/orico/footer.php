@@ -21,21 +21,21 @@
 
               <li>
                 <a href="">
-                  <h3>eオリコサービス</h3>
+                  <h3>eエリコサービス</h3>
                   <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="">
-                  <h3>オリコポイントゲートウェイ</h3>
+                  <h3>エリコポイントゲートウェイ</h3>
                   <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="">
-                  <h3>オリコモール</h3>
+                  <h3>エリコモール</h3>
                   <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
                 </a>
               </li>
@@ -44,7 +44,7 @@
           </div>
           <div class="footerInner__1NavApp">
             <img src="https://www.orico.co.jp/common/images/icon/icon-app-01.svg" alt="">
-            <p>オリコ公式アプリ</p>
+            <p>エリコ公式アプリ</p>
           </div>
 
         </div>
@@ -87,25 +87,25 @@
 
             <li>
               <a href="">
-                オリコカードのサービス・機能一覧
+                エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
               <a href="">
-                eオリコサービスとは
+                eエリコサービスとは
               </a>
             </li>
 
             <li>
               <a href="">
-                ポイント（オリコポイント・暮らスマイル）
+                ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
               <a href="">
-                オリコポイントゲートウェイとは・オリコモールとは
+                エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
@@ -117,7 +117,7 @@
 
             <li>
               <a href="">
-                オリコカードをご利用中のお客さま
+                エリコカードをご利用中のお客さま
               </a>
             </li>
 
@@ -148,25 +148,25 @@
 
             <li>
               <a href="">
-                オリコカードのサービス・機能一覧
+                エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
               <a href="">
-                eオリコサービスとは
+                eエリコサービスとは
               </a>
             </li>
 
             <li>
               <a href="">
-                ポイント（オリコポイント・暮らスマイル）
+                ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
               <a href="">
-                オリコポイントゲートウェイとは・オリコモールとは
+                エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
@@ -178,7 +178,7 @@
 
             <li>
               <a href="">
-                オリコカードをご利用中のお客さま
+                エリコカードをご利用中のお客さま
               </a>
             </li>
 
@@ -209,25 +209,25 @@
 
             <li>
               <a href="">
-                オリコカードのサービス・機能一覧
+                エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
               <a href="">
-                eオリコサービスとは
+                eエリコサービスとは
               </a>
             </li>
 
             <li>
               <a href="">
-                ポイント（オリコポイント・暮らスマイル）
+                ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
               <a href="">
-                オリコポイントゲートウェイとは・オリコモールとは
+                エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
@@ -239,7 +239,7 @@
 
             <li>
               <a href="">
-                オリコカードをご利用中のお客さま
+                エリコカードをご利用中のお客さま
               </a>
             </li>
 
@@ -270,25 +270,25 @@
 
             <li>
               <a href="">
-                オリコカードのサービス・機能一覧
+                エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
               <a href="">
-                eオリコサービスとは
+                eエリコサービスとは
               </a>
             </li>
 
             <li>
               <a href="">
-                ポイント（オリコポイント・暮らスマイル）
+                ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
               <a href="">
-                オリコポイントゲートウェイとは・オリコモールとは
+                エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
@@ -300,7 +300,7 @@
 
             <li>
               <a href="">
-                オリコカードをご利用中のお客さま
+                エリコカードをご利用中のお客さま
               </a>
             </li>
 
@@ -473,7 +473,7 @@
 
             <li>
               <a href="#">
-                eオリコサービス
+                eエリコサービス
                 <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
               </a>
             </li>
@@ -481,21 +481,21 @@
 
             <li>
               <a href="#">
-                オリコポイントゲートウェイ
+                エリコポイントゲートウェイ
                 <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
               </a>
             </li>
 
             <li>
               <a href="#">
-                オリコモール
+                エリコモール
                 <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
               </a>
             </li>
 
             <li>
               <a href="#">
-                <span>オリコ公式アプリ</span>
+                <span>エリコ公式アプリ</span>
               </a>
             </li>
 
@@ -538,45 +538,11 @@
         </div>
 
 
-        <div class="footerInner__SP4">
-          <div class="footerInner__SPTitle">
-            <h2>公式メディア</h2>
-          </div>
-
-          <div class="footerInner__SP4Icon">
-
-
-            <a href="">
-              <img src="https://www.orico.co.jp/common/images/icon/icon-cardnews-01.svg" alt="">
-            </a>
-
-            <a href="">
-              <img src="https://www.orico.co.jp/common/images/icon/icon-facebook-01.svg" alt="">
-            </a>
-
-            <a href="">
-              <img src="https://www.orico.co.jp/common/images/icon/icon-youtube-01.svg" alt="">
-            </a>
-
-            <a href="">
-              <img src="https://www.orico.co.jp/common/images/icon/icon-line-01.svg" alt="">
-            </a>
-
-          </div>
-
-        </div>
-
-
         <div class="footerInner__SP5">
           <div class="footerInner__SPTitle">
             <h2>コミュニケーションキャラクター</h2>
           </div>
 
-          <div class="footerInner__SP5Icon">
-            <a href="">
-              <img src="https://www.orico.co.jp/common/images/chara/chara-orico-bird-01.svg" alt="">
-            </a>
-          </div>
 
           <ul class="footerInner__SP5Link">
 
@@ -608,7 +574,7 @@
 
           <div class="footerInner__SP5Descript">
 
-            <img src="https://www.orico.co.jp/common/images/logo/privacy/privacy-01.png" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/モヤイ像アイコン.svg" alt="">
 
 
             <p>当社は個人情報の取扱いを適切に行う企業としてプライバシーマークの使用を認められた認定業者です。</p>
@@ -621,7 +587,7 @@
           </ul>
 
           <div class="footerInner__SP5Copy">
-            Copyright © Orient Corporation. All Rights Reserved.
+            Copyright © Erient Corporation. All Rights Reserved.
           </div>
 
         </div>

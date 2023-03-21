@@ -4,14 +4,12 @@
   <div class="sidebar__Inner">
 
     <ul>
-      <li><a href="">クレジットカード トップ</a></li>
-      <li><a href="">カード一覧</a></li>
-      <li><a href="">入会の流れ</a></li>
-      <li><a href="">オリコカードのサービス・機能</a></li>
-      <li><a href="">eオリコサービスとは</a></li>
-      <li><a href="">オリコポイントゲートウェイとは</a></li>
-      <li><a href="">新規入会キャンペーン</a></li>
-      <li><a href="">オリコカードをご利用中のお客さま</a></li>
+      <li><a href="<?php echo home_url('/'); ?>/">トップ</a></li>
+      <li><a href="<?php echo home_url('/'); ?>news/">お知らせ一覧</a></li>
+      <li><a href="<?php echo home_url('/'); ?>creditcard/">クレジットカード</a></li>
+      <li><a href="<?php echo home_url('/'); ?>loan/">ローン</a></li>
+      <li><a href="<?php echo home_url('/'); ?>customer/">お客さまサポート</a></li>
+      <li><a href="<?php echo home_url('/'); ?>service/">サービス</a></li>
     </ul>
 
   </div>

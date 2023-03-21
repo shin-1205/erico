@@ -12,29 +12,17 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/lp-enlighten-01-1360x453.png" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/Banner.png" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/new-normal-01-1360x453.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoWeb2.png" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/apple-pay-01-1360x453.png" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoCard6.png" alt="">
         </div>
-        <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/lp-oricocity2030-01-1360x453.jpg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/thepointupty-01-1360x453.jpg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/thepointpremiumgold-01-1360x450.jpg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/crest-01-1360x453.jpg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/webmeisai-01-1360x453.png" alt="">
-        </div>
+
+
+
       </div>
 
 
@@ -120,7 +108,7 @@
 
       <div class="CardArea__title">
         <div class="CardArea__titleImg">
-          <img src="https://www.orico.co.jp/common/images/pict/pict-info-01.svg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/おこづかいアイコン4.svg" alt="">
         </div>
         <h2>新たにカードの申し込みご検討の方</h2>
       </div>
@@ -130,11 +118,11 @@
         <div class="CardArea__listInner">
 
           <div class="CardArea__listImage">
-            <img src="https://www.orico.co.jp/common/images/card/thepoint/thepoint-01-mastercard.png" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/Card2.png" alt="">
           </div>
 
           <div class="CardArea__listTitle">
-            Orico Card THE POINT
+            Erico Card THE POINT
           </div>
 
           <div class="CardArea__listDescription">
@@ -147,29 +135,27 @@
         <div class="CardArea__listInner">
 
           <div class="CardArea__listImage">
-            <img
-              src="https://www.orico.co.jp/common/images/card/thepointpremiumgold/thepointpremiumgold-01-mastercard.png"
-              alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/Card1.png" alt="">
           </div>
 
           <div class="CardArea__listTitle">
-            Orico Card THE POINT <br>
+            Erico Card THE POINT <br>
             PREMIUM GOLD
           </div>
 
           <div class="CardArea__listDescription">
-            オリコポイントがたまる高還元率カード
+            エリコポイントがたまる高還元率カード
           </div>
 
         </div>
         <div class="CardArea__listInner">
 
           <div class="CardArea__listImage">
-            <img src="https://www.orico.co.jp/common/images/card/thepointupty/thepointupty-01-master.png" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/Card3.png" alt="">
           </div>
 
           <div class="CardArea__listTitle">
-            Orico Card THE POINT UPty
+            Erico Card THE POINT UPty
           </div>
 
           <div class="CardArea__listDescription">
@@ -180,15 +166,15 @@
         <div class="CardArea__listInner">
 
           <div class="CardArea__listImage">
-            <img src="https://www.orico.co.jp/common/images/card/platinum/platinum-01-mastercard.png" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/Card3.png" alt="">
           </div>
 
           <div class="CardArea__listTitle">
-            Orico Card THE PLATNIUM
+            Erico Card THE PLATNIUM
           </div>
 
           <div class="CardArea__listDescription">
-            最強パフォーマンス！『Orico Card THE PLATNIUM』
+            最強パフォーマンス！『Erico Card THE PLATNIUM』
           </div>
 
         </div>
@@ -201,15 +187,7 @@
     <div class="CardArea__btn">
 
       <div class="btn">
-        <a href="">
-          <span>
-            ぴったりのクレジットカードを探す
-          </span>
-        </a>
-      </div>
-
-      <div class="btn">
-        <a href="">
+        <a href="<?php echo home_url('/'); ?>creditcard/">
           <span>
             クレジットカードについて知る
           </span>
@@ -228,7 +206,7 @@
 
       <div class="ArticleArea__title">
         <div class="ArticleArea__titleImg">
-          <img src="https://www.orico.co.jp/common/images/pict/pict-recommend-02.svg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/愛アイコン2.svg" alt="">
         </div>
         <h2>おすすめ情報</h2>
       </div>
@@ -241,8 +219,7 @@
         <a href="#">
 
           <div class="ArticleArea__cardImage">
-            <img src="https://www.orico.co.jp/common/images/bnr/campaign/200901-mynumbercardpoint-01-860x534.png"
-              alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/mainapoint.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
             期間：2022/1/1〜2023/5/31
@@ -259,13 +236,13 @@
         <a href="#">
 
           <div class="ArticleArea__cardImage">
-            <img src="https://www.orico.co.jp/common/images/bnr/campaign/2301170416-thanksgiving-01-860x534.jpg" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/Frame4.png" alt="">
           </div>
           <div class="ArticleArea__cardDate">
             期間：2022/1/1〜2023/5/31
           </div>
           <div class="ArticleArea__cardTitle">
-            <p>マイナポイント事業</p>
+            <p>総勢250名にあたる!リボ払いご利用キャンペーン!</p>
           </div>
 
         </a>
@@ -276,13 +253,13 @@
         <a href="#">
 
           <div class="ArticleArea__cardImage">
-            <img src="https://www.orico.co.jp/common/images/bnr/campaign/2210030331-sprivo-01-860x534.jpg" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/giffycanvas.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
             期間：2022/1/1〜2023/5/31
           </div>
           <div class="ArticleArea__cardTitle">
-            <p>マイナポイント事業</p>
+            <p>エリコ感謝祭〜第1弾〜</p>
           </div>
 
         </a>
@@ -293,13 +270,13 @@
         <a href="#">
 
           <div class="ArticleArea__cardImage">
-            <img src="https://www.orico.co.jp/common/images/bnr/campaign/2209300531-welcome-01-860x534.jpg" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/7000.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
             期間：2022/1/1〜2023/5/31
           </div>
           <div class="ArticleArea__cardTitle">
-            <p>マイナポイント事業</p>
+            <p>ウェルカムキャンペーン</p>
           </div>
 
         </a>
@@ -338,7 +315,7 @@
 
       <div class="ArticleArea__topicsImage">
         <a href="">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/lp-oricocity2030-01-280x174.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoWeb5.png" alt="">
         </a>
         <a href="">
           <img src="https://www.orico.co.jp/common/images/bnr/other/lp-enlighten-01-280x174.png" alt="">
@@ -365,7 +342,7 @@
 
       <div class="LoginArea__title">
         <div class="LoginArea__titleImg">
-          <img src="https://www.orico.co.jp/common/images/pict/pict-card-03.svg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/公文書の書類アイコン.svg" alt="">
         </div>
         <h2>
           すでにカードをお持ちの方
@@ -383,14 +360,14 @@
           <div class="LoginArea__bottomLeftWrap">
 
 
-            <img src="https://www.orico.co.jp/common/images/logo/e-orico/e-orico-02.svg" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/e-Erico.png" alt="">
             <h3>ご利用明細の確認、ポイント(スマイル)の交換、各種手続きなどインターネットで簡単にできます。</h3>
 
 
             <div class="LoginArea__bottomLeftOrico">
               <span>
                 <a href="">
-                  eオリコサービスとは
+                  エリコサービスとは
                 </a>
               </span>
             </div>
@@ -401,7 +378,7 @@
               <p href="" class="LoginArea__bottomLeftButton1">
                 ログインする
               </p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-02.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙.svg" alt="">
 
             </a>
 
@@ -411,7 +388,7 @@
 
                 ご利用登録
               </p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
 
             </a>
 
@@ -439,26 +416,24 @@
           <div class="LoginArea__bottomRightCard">
 
             <div class="LoginArea__bottomRightCardTitle">
-              <img src="https://www.orico.co.jp/common/images/pict/pict-point-03.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/積み上げられたポイントアイコン.svg" alt="">
               <h3>ためたポイントを使う</h3>
             </div>
 
             <div class="LoginArea__bottomRightCardImage">
-              <img class="img-pc" src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-02-430x534.jpg"
-                alt="PC表示">
-              <img class="img-sp" src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-02-860x534.jpg"
-                alt="SP表示">
+              <img class="img-pc" src="<?php echo get_theme_file_uri(); ?>/icons/EricoGate.png" alt="PC表示">
+              <img class="img-sp" src="<?php echo get_theme_file_uri(); ?>/icons/EricoGate.png" alt="SP表示">
             </div>
 
             <div class="LoginArea__bottomRightCardName">
               <h4>
-                オリコポイントゲートウェイ
+                エリコポイントゲートウェイ
               </h4>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </div>
 
             <div class="LoginArea__bottomRightCardText">
-              ためたオリコポイントを、いろいろポイントやギフト券に交換できます！
+              エリコポイントを、いろいろポイントやギフト券に交換できます！
             </div>
 
           </div>
@@ -466,26 +441,24 @@
           <div class="LoginArea__bottomRightCard">
 
             <div class="LoginArea__bottomRightCardTitle">
-              <img src="https://www.orico.co.jp/common/images/pict/pict-point-05.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/ブタの貯金箱の線画アイコン.svg" alt="">
               <h3>ポイントをためる</h3>
             </div>
 
             <div class="LoginArea__bottomRightCardImage">
-              <img class="img-pc" src="https://www.orico.co.jp/common/images/logo/orico-mall/orico-mall-01-430x534.jpg"
-                alt="PC表示">
-              <img class="img-sp" src="https://www.orico.co.jp/common/images/logo/orico-mall/orico-mall-01-860x534.jpg"
-                alt="SP表示">
+              <img class="img-pc" src="<?php echo get_theme_file_uri(); ?>/icons/E-erioco.png" alt=" PC表示">
+              <img class="img-sp" src="<?php echo get_theme_file_uri(); ?>/icons/E-erioco.png" alt=" SP表示">
             </div>
 
             <div class="LoginArea__bottomRightCardName">
               <h4>
-                オリコモール
+                エリコモール
               </h4>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </div>
 
             <div class="LoginArea__bottomRightCardText">
-              オリコモール経由のショッピングでポイントをおトクにためよう！
+              エリコモール経由のショッピングでポイントをおトクにためよう！
             </div>
 
           </div>
@@ -503,13 +476,13 @@
           <div class="LoginArea__appImageWrap">
 
             <div class="LoginArea__appImageIcon">
-              <img src="https://www.orico.co.jp/common/images/logo/app/app-01.png" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoApp.png" alt="">
             </div>
 
 
             <div class="LoginArea__appImageText">
               <h3>
-                オリコ更新アプリをダウンロード
+                エリコ更新アプリをダウンロード
               </h3>
               <p>
                 ご請求総額やご利用明細の確認はもちろんたまったポイントもラクラク管理!
@@ -520,11 +493,11 @@
           <div class="LoginArea__appImageBtn">
 
             <a href="">
-              <img src="https://www.orico.co.jp/common/images/logo/applestore/applestore-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/applestore-01.svg" alt="">
             </a>
 
             <a href="">
-              <img src="https://www.orico.co.jp/common/images/logo/googlestore/googlestore-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/googlestore-01.svg" alt="">
             </a>
           </div>
         </div>
@@ -535,7 +508,7 @@
           <div class="LinkTextArrow">
             <a href="">
               <span>
-                オリコ更新アプリについて
+                エリコ更新アプリについて
               </span>
             </a>
           </div>
@@ -555,14 +528,14 @@
         </div>
 
 
-        <div class="LoginArea__appBtn">
+        <!-- <div class="LoginArea__appBtn">
           <div class="btn">
             <a href="#">
               よくある質問はこちらから
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
@@ -697,7 +670,7 @@
         <div class="btn">
           <a href="#">
             <a href="<?php echo home_url('/'); ?>news/">お知らせ一覧</a>
-            <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
           </a>
         </div>
 
@@ -713,7 +686,7 @@
       <div class="Caution__Inner">
 
         <div class="Caution__InnerLeft">
-          <img src="https://www.orico.co.jp/common/images/pict/pict-attention-01.svg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/注意マークのフリーアイコン.svg" alt="">
           <h2>ご注意ください</h2>
         </div>
 
@@ -834,32 +807,32 @@
             <ul>
               <li>
                 <a href="">
-                  <img src="https://www.orico.co.jp/common/images/bnr/other/attention-320x100.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/CardGif.gif" alt="">
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://www.orico.co.jp/common/images/bnr/other/securebrain-01-238x75.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/sakura.gif" alt="">
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://www.orico.co.jp/common/images/bnr/other/j-credit-01-238x75.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoWeb2.png" alt="">
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://www.orico.co.jp/common/images/bnr/other/customer-updates-01-238x75.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoCard6.png" alt="">
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://www.orico.co.jp/common/images/bnr/other/pin-01-238x75.png" alt="">
+                  <!-- <img src="https://www.orico.co.jp/common/images/bnr/other/pin-01-238x75.png" alt=""> -->
                 </a>
               </li>
               <li>
                 <a href="">
-                  <img src="https://www.orico.co.jp/common/images/bnr/other/encashment-01-238x75.png" alt="">
+                  <!-- <img src="https://www.orico.co.jp/common/images/bnr/other/encashment-01-238x75.png" alt=""> -->
                 </a>
               </li>
             </ul>

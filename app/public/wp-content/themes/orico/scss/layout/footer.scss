@@ -97,7 +97,7 @@ footer{
       border-bottom: 1px solid #e6e6e6;
 
       &Top{
-        display: none;
+        // display: none;
       }
 
       &List{
@@ -206,12 +206,120 @@ footer{
     }
 
     &__SP{
-      display: none;
+      // display: block;
     }
   }
 }
 
+.footerInner__SP{
+  &Title{
+    background-color: #e6e6e6;
+    font-size: 14px;
+    font-weight: bold;
 
+    h2{
+      padding: 10px 15px 10px;
+      color: #666;
+    }
+  }
+
+  .RightLink{
+    width: 8px;
+    position: relative;
+    top: -8px;
+    left: 3px;
+  }
+
+
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 15px 30px;
+
+    li{
+      width: 44%;
+      padding: 15px 0 0;
+      line-height: 1.5;
+    }
+  }
+
+
+  &4{
+    &Icon{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 15px 30px;
+
+
+      a img{
+        width: 22px;
+      }
+    }
+  }
+
+  &5{
+    &Icon{
+      padding: 20px 15px 30px;
+      border-bottom: 1px solid #e6e6e6;
+
+      a img{
+        width: 40px;
+      }
+    }
+
+    &Link{
+      padding: 0 0 0 15px;
+      margin: 0 !important;
+    }
+
+    &Descript{
+      display: flex;
+      align-items: center;
+      padding: 20px 15px;
+
+      img{
+        width: 34px;
+      }
+
+      p{
+        margin: 0 0 0 15px;
+        color: #666;
+        font-size: 12px;
+      }
+    }
+
+    &Search{
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e6e6e6;
+      position: relative;
+
+      input{
+        width: 100%;
+        padding: 10px;
+        border: none;
+      }
+
+      span::after{
+        content: "";
+        width: 16px;
+        height: 100%;
+        background: url("../../icons/検索用の虫眼鏡アイコン素材.svg") no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 97%;
+      }
+    }
+
+    &Copy{
+      padding: 0 15px 18px;
+      color: #666;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}
 
 
 @media screen and(max-width: 600px){
@@ -266,226 +374,180 @@ footer{
   }
 }
 
+footer{
+  padding: 60px 0 0 0;
+
+  .container{
+    padding: 0 5%;
+  }
 
 
 
-@media screen and(max-width: 1360px){
-  footer{
-    padding: 60px 0 0 0;
+  .footerInner{
+    &__1{
+      margin: 0 0 0 0;
 
-    .container{
-      padding: 0 5%;
-    }
-
-
-
-    .footerInner{
-      &__1{
-        margin: 0 0 0 0;
-
-        &Nav{
-          &Menu{
-            ul{
-              li a{
-                font-size: 13px;
-              }
+      &Nav{
+        &Menu{
+          ul{
+            li a{
+              font-size: 13px;
             }
           }
         }
+      }
 
 
 
-        &Icon{
-          max-width: 98px;
+      &Icon{
+        max-width: 98px;
+      }
+
+      &Nav{
+        display: none !important;
+      }
+    }
+
+    &__2{
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+      margin-bottom: 30px;
+
+      &Top{
+        display: block;
+        padding: 21px 44px 20px 15px;
+        border-bottom: 1px solid #e6e6e6;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.7;
+      }
+
+
+
+      &List{
+        ul{
+          display: none;
         }
+      }
+    }
 
-        &Nav{
-          display: none !important;
+    &__3{
+      display: none;
+    }
+
+    &__4{
+      display: none;
+    }
+  }
+}
+
+
+
+footer{
+  padding: 60px 0 0 0;
+
+  .container{
+    padding: 0 5%;
+  }
+
+
+
+  .footerInner{
+    &__1{
+      margin: 0 0 0 0;
+
+      &Nav{
+        &Menu{
+          ul{
+            li a{
+              font-size: 13px;
+            }
+          }
         }
       }
 
-      &__2{
-        flex-direction: column;
-        gap: 0;
-        padding: 0;
-        margin-bottom: 30px;
 
-        &Top{
-          display: block;
+
+      &Icon{
+        max-width: 98px;
+      }
+
+      &Nav{
+        display: none !important;
+      }
+    }
+
+    &__2{
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+      margin-bottom: 30px;
+
+      &Top{
+        display: block;
+        padding: 21px 44px 20px 15px;
+        border-bottom: 1px solid #e6e6e6;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.7;
+      }
+
+
+
+      &List{
+        h2{
           padding: 21px 44px 20px 15px;
+          margin: 0;
           border-bottom: 1px solid #e6e6e6;
           cursor: pointer;
           font-size: 14px;
-          font-weight: 600;
           line-height: 1.7;
         }
 
-
-
-        &List{
-          h2{
-            padding: 21px 44px 20px 15px;
-            margin: 0;
-            border-bottom: 1px solid #e6e6e6;
-            cursor: pointer;
-            font-size: 14px;
-            line-height: 1.7;
-          }
-
-          ul{
-            display: none;
-          }
-        }
-      }
-
-      &__3{
-        display: none;
-      }
-
-      &__4{
-        display: none;
-      }
-
-      &__SP{
-        display: block;
-
-        &Title{
-          background-color: #e6e6e6;
-          font-size: 14px;
-          font-weight: bold;
-
-          h2{
-            padding: 10px 15px 10px;
-            color: #666;
-          }
-        }
-
-        .RightLink{
-          width: 8px;
-          position: relative;
-          top: -8px;
-          left: 3px;
-        }
-
-
-
         ul{
-          display: flex;
-          flex-wrap: wrap;
-          margin: 20px 15px 30px;
-
-          li{
-            width: 44%;
-            padding: 15px 0 0;
-            line-height: 1.5;
-          }
-        }
-
-
-        &4{
-          &Icon{
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            padding: 20px 15px 30px;
-
-
-            a img{
-              width: 22px;
-            }
-          }
-        }
-
-        &5{
-          &Icon{
-            padding: 20px 15px 30px;
-            border-bottom: 1px solid #e6e6e6;
-
-            a img{
-              width: 40px;
-            }
-          }
-
-          &Link{
-            padding: 0 0 0 15px;
-            margin: 0 !important;
-          }
-
-          &Descript{
-            display: flex;
-            align-items: center;
-            padding: 20px 15px;
-
-            img{
-              width: 34px;
-            }
-
-            p{
-              margin: 0 0 0 15px;
-              color: #666;
-              font-size: 12px;
-            }
-          }
-
-          &Search{
-            padding-bottom: 20px;
-            border-bottom: 1px solid #e6e6e6;
-            position: relative;
-
-            input{
-              width: 100%;
-              padding: 10px;
-              border: none;
-            }
-
-            span::after{
-              content: "";
-              width: 16px;
-              height: 100%;
-              background: url("https://www.orico.co.jp/common/images/icon/icon-search-01.svg") no-repeat;
-              position: absolute;
-              top: 10px;
-              left: 97%;
-            }
-          }
-
-          &Copy{
-            padding: 0 15px 18px;
-            color: #666;
-            font-size: 12px;
-            font-weight: bold;
-          }
+          display: none;
         }
       }
+    }
 
-      .nav-open{
-        position: relative;
+    &__3{
+      display: none;
+    }
+
+    &__4{
+      display: none;
+    }
+
+    .nav-open{
+      position: relative;
+    }
+
+    .nav-open::before{
+      /* 閉じている時 */
+      content: "＋";
+      position: absolute;
+      right: 20px;
+    }
+
+    .nav-open.footerOpen::before{
+      /* 開いている時 */
+      content: "－";
+    }
+
+    .footerListSP{
+      display: none;
+
+      li{
+        padding: 21px 34px 15px 15px;
+        margin: 0;
+        border-bottom: 1px solid #e6e6e6;
       }
 
-      .nav-open::before{
-        /* 閉じている時 */
-        content: "＋";
-        position: absolute;
-        right: 20px;
-      }
-
-      .nav-open.footerOpen::before{
-        /* 開いている時 */
-        content: "－";
-      }
-
-      .footerListSP{
-        display: none;
-
-        li{
-          padding: 21px 34px 15px 15px;
-          margin: 0;
-          border-bottom: 1px solid #e6e6e6;
-        }
-
-        a{
-          font-size: 16px;
-        }
+      a{
+        font-size: 16px;
       }
     }
   }
