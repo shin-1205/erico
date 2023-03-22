@@ -13,7 +13,7 @@
     <section class="PageTitle">
       <li>
         <a href="<?php echo home_url('/'); ?>/">
-          オリコTOP
+          エリコTOP
         </a>
       </li>
 
@@ -37,12 +37,12 @@
         </div>
 
         <div class="Hero__InnerTitleSP">
-          <img src="https://www.orico.co.jp/common/images/hdg/hdg-creditcard-sp-01.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoHero.svg" alt="">
         </div>
 
         <div class="pageLink">
           <ul>
-            <li><a href="#"><span>オリコカードのメリット</span></a></li>
+            <li><a href="#"><span>エリコカードのメリット</span></a></li>
             <li><a href="#"><span>クレジットカードのおすすめ情報</span></a></li>
             <li><a href="#"><span>年会費無料だけじゃない！おトクなおすすめクレジットカード</span></a></li>
             <li><a href="#"><span>会員さま向けサービス</span></a></li>
@@ -59,14 +59,14 @@
       <div class="Creditcard__1Inner">
 
         <div class="Sec-title">
-          <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-01.svg" alt=""></span>
+          <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Credit card.svg" alt=""></span>
           <h2>
-            オリコカードのメリット
+            エリコカードのメリット
           </h2>
         </div>
 
         <div class="Creditcard__1InnerText">
-          年会費無料！なのに、高還元。ポイントがためやすい、使いやすいオリコカード
+          年会費無料！なのに、高還元。ポイントがためやすい、使いやすいエリコカード
         </div>
 
         <div class="Creditcard__1InnerGood">
@@ -79,9 +79,9 @@
 
                 <div class="Creditcard__1InnerGoodListItemBottom">
                   <p><span>年会費無料のクレジットカード</span>がおトク（ETC・家族カードも無料）</p>
-                  <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-01.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Erico2Cards.png" alt="">
 
-                  <span class="Creditcard__1InnerGoodListItemBottomArrow"></span>
+
                 </div>
               </a>
             </li>
@@ -89,13 +89,13 @@
             <li class="Creditcard__1InnerGoodListItem">
               <a href="">
 
-                <h3>メリット1</h3>
+                <h3>メリット2</h3>
 
                 <div class="Creditcard__1InnerGoodListItemBottom">
                   <p><span>ためやすい・使いやすい</span>ポイントサービス</p>
-                  <img src="https://www.orico.co.jp/common/images/logo/other/logo-17-350x218.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoBanner.png" alt="">
 
-                  <span class="Creditcard__1InnerGoodListItemBottomArrow"></span>
+
                 </div>
               </a>
             </li>
@@ -103,13 +103,13 @@
             <li class="Creditcard__1InnerGoodListItem">
               <a href="">
 
-                <h3>メリット1</h3>
+                <h3>メリット3</h3>
 
                 <div class="Creditcard__1InnerGoodListItemBottom">
                   <p><span>簡単・スピーディー！</span>使い勝手抜群の非接触決済</p>
-                  <img src="https://www.orico.co.jp/common/images/logo/other/logo-08-860x534.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Erico非接触.png" alt="">
 
-                  <span class="Creditcard__1InnerGoodListItemBottomArrow"></span>
+
 
                 </div>
               </a>
@@ -146,25 +146,24 @@
                   <ul>
 
                     <li>
-                      <img src="https://www.orico.co.jp/common/images/card/thepoint/thepoint-01-mastercard.png" alt="">
+                      <img src="<?php echo get_theme_file_uri(); ?>/icons/Card2.png" alt="">
                       <a href="">
-                        Orico Card THE POINT
+                        Erico Card THE POINT
                       </a>
 
-                      <p>オリコカード ザ ポイント</p>
+                      <p>エリコカード ザ ポイント</p>
 
                       <h4>最初に持つならこの1枚。入会後6ヵ月間はポイント還元率2％にアップ！</h4>
                       <span>オンライン入会</span>
                     </li>
 
                     <li>
-                      <img src="https://www.orico.co.jp/common/images/card/thepointupty/thepointupty-01-master.png"
-                        alt="">
+                      <img src="<?php echo get_theme_file_uri(); ?>/icons/Card1.png" alt="">
                       <a href="">
-                        Orico Card THE POINT UPty
+                        Erico Card THE POINT UPty
                       </a>
 
-                      <p>オリコカード ザ ポイント アプティ</p>
+                      <p>エリコカード ザ ポイント アプティ</p>
 
                       <h4>毎月のお支払額を 自由に設定したい方向け！入会後6ヵ月間はポイント還元率2%にアップ！</h4>
                       <span>オンライン入会</span>
@@ -196,12 +195,12 @@
                   <li>
                     <h4>常時1.0％</h4>
                     <p>入会後6ヵ月間は2.0％※</p>
-                    <span>上限は期間中最大5,000オリコポイントとなります。</span>
+                    <span>上限は期間中最大5,000エリコポイントとなります。</span>
                   </li>
                   <li>
                     <h4>常時1.0％</h4>
                     <p>入会後6ヵ月間は2.0％※</p>
-                    <span>上限は期間中最大5,000オリコポイントとなります。</span>
+                    <span>上限は期間中最大5,000エリコポイントとなります。</span>
                   </li>
                 </ul>
 
@@ -215,11 +214,11 @@
 
                 <ul>
                   <li>
-                    <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
-                    <img src="https://www.orico.co.jp/common/images/logo/jcb/jcb-02.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-01.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/jcb-02.svg" alt="">
                   </li>
                   <li>
-                    <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-01.svg" alt="">
                   </li>
                 </ul>
 
@@ -256,15 +255,11 @@
 
               <ul>
                 <li>
-                  <img
-                    src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-02.svg"
-                    alt="">
-                  <img src="https://www.orico.co.jp/common/images/logo/jcb/jcb-03.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-contactless-02.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/jcb-03.svg" alt="">
                 </li>
                 <li>
-                  <img
-                    src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-02.svg"
-                    alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-contactless-02.svg" alt="">
                 </li>
               </ul>
 
@@ -308,16 +303,16 @@
 
               <ul>
                 <li>
-                  <img src="https://www.orico.co.jp/common/images/card/etc/etc-01.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Card2.png" alt="">
                   <div class="Creditcard__1InnerGoodYearDescriptArticleInner">
                     <a href="">
                       ETCカード
                     </a>
-                    <p>オリコ発行のクレジットカードに付帯して発行できる！</p>
+                    <p>エリコ発行のクレジットカードに付帯して発行できる！</p>
                   </div>
                 </li>
                 <li>
-                  <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-04.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/loveloveIMGL9615_TP_V4.jpg" alt="">
                   <div class="Creditcard__1InnerGoodYearDescriptArticleInner">
                     <a href="">
                       家族カード
@@ -338,7 +333,7 @@
 
               <ul>
                 <li>
-                  <img src="https://www.orico.co.jp/common/images/card/tie_up/tie_up-19-mastercard.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Card3.png" alt="">
                   <div class="Creditcard__1InnerGoodYearDescriptArticleInner">
                     <a href="">
                       提携カード
@@ -366,7 +361,7 @@
 
         <div class="Creditcard__2InnerDescript">
           <div class="Creditcard__2InnerDescript1">
-            <p>オリコのポイントサービスには「オリコポイント」と「暮らスマイル」の2つのサービスがあります。</p>
+            <p>エリコのポイントサービスには「エリコポイント」と「暮らスマイル」の2つのサービスがあります。</p>
             <span>どちらのポイントがたまるかは、カードによって異なります。</span>
             <span>一部、提携先オリジナルポイントがたまるカードもございます。</span>
           </div>
@@ -377,13 +372,13 @@
           <ul class="Creditcard__2InnerDescript2List">
 
             <li class="Creditcard__2InnerDescript2ListItem1">
-              <h3>オリコポイントのここがお得！</h3>
+              <h3>エリコポイントのここがお得！</h3>
 
               <div class="Creditcard__2InnerDescript2ListItem1Image">
-                <img src="https://www.orico.co.jp/common/images/logo/oricopoint/oricopoint-01-860x534.jpg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoBanner.png" alt="">
               </div>
               <p>
-                <span>100円で1オリコポイント</span>
+                <span>100円で1エリコポイント</span>
 
                 で
 
@@ -391,7 +386,7 @@
 
                 さらに
 
-                <span>オリコモール</span>
+                <span>エリコモール</span>
 
                 経由のネットショッピングで
 
@@ -399,13 +394,13 @@
 
               </p>
 
-              <p>たまったオリコポイントは500オリコポイントからすぐに交換可能！各種オンラインギフト券へ交換したり、各種ポイントへ移行できます。</p>
+              <p>たまったエリコポイントは500エリコポイントからすぐに交換可能！各種オンラインギフト券へ交換したり、各種ポイントへ移行できます。</p>
 
               <div class="Creditcard__2InnerDescript2ListItem1Btn">
                 <div class="btn">
                   <a href="">
                     <span>
-                      オリコポイントについて
+                      エリコポイントについて
                     </span>
                   </a>
                 </div>
@@ -418,16 +413,16 @@
               <h3>暮らスマイルのここがお得！</h3>
 
               <div class="Creditcard__2InnerDescript2ListItem1Image">
-                <img src="https://www.orico.co.jp/common/images/logo/classmile/classmile-01-860x534.jpg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoSmile.png" alt="">
               </div>
 
-              <p>1,000円で1スマイル→5オリコポイントに交換可能！</p>
+              <p>1,000円で1スマイル→5エリコポイントに交換可能！</p>
 
               <div class="Creditcard__2InnerDescript2ListItem2Span">
                 <span>お客さまそれぞれのステージによって、ポイント（スマイル）加算倍率が変わります。</span>
               </div>
 
-              <p>たまったポイント（スマイル）は、200スマイルからお好きな商品に交換できます！eオリコサービスなら限定アイテムとの交換も可能です。</p>
+              <p>たまったポイント（スマイル）は、200スマイルからお好きな商品に交換できます！eエリコサービスなら限定アイテムとの交換も可能です。</p>
               <div class="Creditcard__2InnerDescript2ListItem1Btn">
                 <div class="btn">
                   <a href="">
@@ -449,14 +444,14 @@
 
           <div class="Creditcard__2InnerDescript3Link1">
             <a href="">
-              <p>eオリコサービス・オリコポイントゲートウェイご利用登録</p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-02.svg" alt="">
+              <p>eエリコサービス・エリコポイントゲートウェイご利用登録</p>
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/RightWhite.svg" alt="">
             </a>
           </div>
 
           <div class="Creditcard__2InnerDescript3Link2">
             <a href="">
-              <img src="https://www.orico.co.jp/common/images/icon/icon-arrow-03.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Right.svg" alt="">
               ご利用登録方法はこちら
 
             </a>
@@ -465,7 +460,7 @@
           <div class="Creditcard__2InnerDescript3Link3">
             <a href="">
               <span>
-                eオリコサービスとは
+                eエリコサービスとは
               </span>
             </a>
           </div>
@@ -473,7 +468,7 @@
           <div class="Creditcard__2InnerDescript3Link3">
             <a href="">
               <span>
-                オリコポイントゲートウェイとは・オリコモールとは
+                エリコポイントゲートウェイとは・エリコモールとは
               </span>
             </a>
           </div>
@@ -501,10 +496,10 @@
                 <h3>タッチ決済・電子マネーが使えます</h3>
 
                 <div class="Creditcard__3InnerDescriptListItemImage">
-                  <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-02.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Erico非接触.png" alt="">
                 </div>
 
-                <p>オリコのクレジットカードはiD（アイディ）・QUICPay・タッチ決済搭載カードが豊富!
+                <p>エリコのクレジットカードはiD（アイディ）・QUICPay・タッチ決済搭載カードが豊富!
                   コンビニやスーパーマーケットなどで専用端末にかざすだけで、簡単にお支払いができます。</p>
 
                 <div class="Creditcard__3InnerDescriptListItemSpan">
@@ -528,7 +523,7 @@
                 <h3>Apple Payが使えます</h3>
 
                 <div class="Creditcard__3InnerDescriptListItemImage">
-                  <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-03.png" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoCredit2.png" alt="">
                 </div>
 
                 <p>Apple
@@ -564,7 +559,7 @@
     <section class="Craditcard__orico">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-pay-02.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Bank Cards.svg" alt=""></span>
         <h2>
           クレジットカードのおすすめ情報
         </h2>
@@ -578,7 +573,7 @@
             <li class="Craditcard__orico1ListItem">
               <h3><span>新規入会キャンペーン</span></h3>
 
-              <img src="https://www.orico.co.jp/common/images/bnr/campaign/2209300531-welcome-01-860x534.jpg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Frame5.png" alt="">
 
 
               <a href="" class="Craditcard__orico1ListItemLink">
@@ -599,8 +594,7 @@
             <li class="Craditcard__orico1ListItem">
               <h3><span>会員さま向けキャンペーン</span></h3>
 
-              <img src="https://www.orico.co.jp/common/images/bnr/campaign/200901-mynumbercardpoint-01-860x534.png"
-                alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/baner1.png" alt="">
 
 
               <a href="" class="Craditcard__orico1ListItemLink">
@@ -631,7 +625,7 @@
     <section class="Craditcard__Black">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-02.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Credit card.svg" alt=""></span>
         <h2>
           年会費無料だけじゃない！おトクなおすすめクレジットカード
         </h2>
@@ -647,35 +641,33 @@
             <th>カード名</th>
 
             <td>
-              <img
-                src="https://www.orico.co.jp/common/images/card/thepointpremiumgold/thepointpremiumgold-01-mastercard.png"
-                alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Card2.png" alt="">
               <div class="Craditcard__BlackInnerTableNameLink">
                 <a href="">
-                  Orico Card THE POINT PREMIUM GOLD
+                  Erico Card THE POINT PREMIUM GOLD
                 </a>
               </div>
-              <p>オリコカード ザ ポイント プレミアム ゴールド</p>
+              <p>エリコカード ザ ポイント プレミアム ゴールド</p>
             </td>
 
             <td>
-              <img src="https://www.orico.co.jp/common/images/card/thegoldprime/thegoldprime-01-master.png" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Card1.png" alt="">
               <div class="Craditcard__BlackInnerTableNameLink">
                 <a href="">
-                  Orico Card THE GOLD PRIME
+                  Erico Card THE GOLD PRIME
                 </a>
               </div>
-              <p>オリコカード ザ ゴールド プライム</p>
+              <p>エリコカード ザ ゴールド プライム</p>
             </td>
 
             <td>
-              <img src="https://www.orico.co.jp/common/images/card/platinum/platinum-01-mastercard.png" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Card3.png" alt="">
               <div class="Craditcard__BlackInnerTableNameLink">
                 <a href="">
-                  Orico Card THE PLATINUM
+                  Erico Card THE PLATINUM
                 </a>
               </div>
-              <p>オリコカード ザ プラチナ</p>
+              <p>エリコカード ザ プラチナ</p>
             </td>
 
           </tr>
@@ -705,14 +697,14 @@
           <tr class="Craditcard__BlackInnerTableBrand">
             <th>ブランド</th>
             <td>
-              <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
-              <img src="https://www.orico.co.jp/common/images/logo/jcb/jcb-02.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/jcb-02.svg" alt="">
             </td>
             <td>
-              <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-01.svg" alt="">
             </td>
             <td>
-              <img src="https://www.orico.co.jp/common/images/logo/mastercard/mastercard-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-01.svg" alt="">
             </td>
 
           </tr>
@@ -739,7 +731,7 @@
                 <li><span>SIMサービス「Global Data Roaming by Flexiroam」</span></li>
                 <li><span>福利厚生</span></li>
                 <li><span>Mastercard優待特典</span></li>
-                <li><span>オリコマイドクター24H</span></li>
+                <li><span>エリコマイドクター24H</span></li>
                 <li><span>トラベルサポート</span></li>
               </ul>
             </td>
@@ -752,7 +744,7 @@
                 <li><span>SIMサービス「Global Data Roaming by Flexiroam」</span></li>
                 <li><span>福利厚生</span></li>
                 <li><span>Mastercard優待特典</span></li>
-                <li><span>オリコマイドクター24H</span></li>
+                <li><span>エリコマイドクター24H</span></li>
                 <li><span>トラベルサポート</span></li>
               </ul>
 
@@ -763,29 +755,22 @@
             <th>電子マネー・タッチ決済</th>
             <td>
               <img class="Craditcard__BlackInnerTableMobileMaster"
-                src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-02.svg"
-                alt="">
+                src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-contactless-02.svg" alt="">
               <img class="Craditcard__BlackInnerTableMobileJcb"
-                src="https://www.orico.co.jp/common/images/logo/jcb/jcb-03.svg" alt="">
+                src="<?php echo get_theme_file_uri(); ?>/icons/jcb-03.svg" alt="">
             </td>
             <td>
-              <img class="Craditcard__BlackInnerTableMobileId"
-                src="https://www.orico.co.jp/common/images/logo/id/id-01.svg" alt="">
-              <img class="Craditcard__BlackInnerTableMobileQ"
-                src="https://www.orico.co.jp/common/images/logo/quicpay/quicpay-01.svg" alt="">
               <img class="Craditcard__BlackInnerTableMobileMaster"
-                src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-01.svg"
-                alt="">
+                src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-contactless-02.svg" alt="">
+              <img class="Craditcard__BlackInnerTableMobileJcb"
+                src="<?php echo get_theme_file_uri(); ?>/icons/jcb-03.svg" alt="">
             </td>
 
             <td>
-              <img class="Craditcard__BlackInnerTableMobileId"
-                src="https://www.orico.co.jp/common/images/logo/id/id-01.svg" alt="">
-              <img class="Craditcard__BlackInnerTableMobileQ"
-                src="https://www.orico.co.jp/common/images/logo/quicpay/quicpay-01.svg" alt="">
               <img class="Craditcard__BlackInnerTableMobileMaster"
-                src="https://www.orico.co.jp/common/images/logo/mastercard-contactless/mastercard-contactless-01.svg"
-                alt="">
+                src="<?php echo get_theme_file_uri(); ?>/icons/mastercard-contactless-02.svg" alt="">
+              <img class="Craditcard__BlackInnerTableMobileJcb"
+                src="<?php echo get_theme_file_uri(); ?>/icons/jcb-03.svg" alt="">
             </td>
 
 
@@ -843,7 +828,7 @@
     <section class="Craditcard__Member">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-04.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Name Tag.svg" alt=""></span>
         <h2>
           会員さま向けサービス
         </h2>
@@ -856,11 +841,11 @@
 
             <li>
               <div class="Craditcard__MemberInner1Left">
-                <img src="https://www.orico.co.jp/common/images/logo/e-orico/e-orico-01-860x534.jpg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoBanner.png" alt="">
               </div>
               <div class="Craditcard__MemberInner1Right">
                 <a href="">
-                  eオリコサービス
+                  eエリコサービス
                 </a>
                 <p>さまざまなサービスが24時間365日インターネットでご利用いただけます。</p>
               </div>
@@ -868,19 +853,19 @@
 
             <li>
               <div class="Craditcard__MemberInner1Left">
-                <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-05.jpg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/PAK56_okaikeicureka20140208_TP_V4.jpg" alt="">
               </div>
               <div class="Craditcard__MemberInner1Right">
                 <a href="">
                   お支払い方法
                 </a>
-                <p>オリコカードのお支払方法や、ご返済についてのご案内をしております。</p>
+                <p>エリコカードのお支払方法や、ご返済についてのご案内をしております。</p>
               </div>
             </li>
 
             <li>
               <div class="Craditcard__MemberInner1Left">
-                <img src="https://www.orico.co.jp/creditcard/images/img-creditcard-06.jpg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/sakiphotoPAR539461119_TP_V4.jpg" alt="">
               </div>
               <div class="Craditcard__MemberInner1Right">
                 <a href="">
@@ -892,7 +877,7 @@
 
             <li>
               <div class="Craditcard__MemberInner1Left">
-                <img src="https://www.orico.co.jp/creditcard/service/images/img-service-04.jpg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/006elly181027C_TP_V4.jpg" alt="">
               </div>
               <div class="Craditcard__MemberInner1Right">
                 <a href="">
@@ -910,7 +895,7 @@
       <section class="Craditcard__Member">
 
         <div class="Sec-title">
-          <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-02.svg" alt=""></span>
+          <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Bank Cards.svg" alt=""></span>
           <h2>
             クレジットカードの選び方・使い方
           </h2>
@@ -923,7 +908,7 @@
 
               <li>
                 <div class="Craditcard__MemberInner1Left">
-                  <img src="https://www.orico.co.jp/service/knowledge/images/img-knowledge-system-01.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/SAKI037-_MKT50921513_TP_V4.jpg" alt="">
                 </div>
                 <div class="Craditcard__MemberInner1Right">
                   <a href="">
@@ -934,7 +919,7 @@
 
               <li>
                 <div class="Craditcard__MemberInner1Left">
-                  <img src="https://www.orico.co.jp/service/knowledge/images/img-knowledge-comparison-01.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/jengaIMGL1704_TP_V4.jpg" alt="">
                 </div>
                 <div class="Craditcard__MemberInner1Right">
                   <a href="">
@@ -945,7 +930,7 @@
 
               <li>
                 <div class="Craditcard__MemberInner1Left">
-                  <img src="https://www.orico.co.jp/service/knowledge/images/img-knowledge-beginner-01.jpg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/SEP_329915201730_TP_V4.jpg" alt="">
                 </div>
                 <div class="Craditcard__MemberInner1Right">
                   <a href="">
@@ -956,8 +941,7 @@
 
               <li>
                 <div class="Craditcard__MemberInner1Left">
-                  <img src="https://www.orico.co.jp/service/knowledge/images/img-knowledge-brand-company-grade-01.jpg"
-                    alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/unific_A04_TP_V4.jpg" alt="">
                 </div>
                 <div class="Craditcard__MemberInner1Right">
                   <a href="">
@@ -977,7 +961,7 @@
       <section class="Craditcard__Question">
 
         <div class="Sec-title">
-          <span><img src="https://www.orico.co.jp/common/images/pict/pict-info-02.svg" alt=""></span>
+          <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Inquiry.svg" alt=""></span>
           <h2>
             よくあるご質問
           </h2>
@@ -1023,7 +1007,7 @@
                     ポイントをためられる<br>
                     特典や付帯サービスを受けられる<br>
                     支払いをまとめられる<br>
-                    オリコのクレジットカードが選ばれる3つのメリット<br>
+                    エリコのクレジットカードが選ばれる3つのメリット<br>
                     <br>
                     1　ためやすい・使いやすいポイントサービス<br>
                     2　使い勝手抜群の電子マネー・タッチ決済（国際ブランドの非接触決済）・Apple Payが利用可能<br>
@@ -1057,7 +1041,7 @@
                     関連<br>
                     おすすめの人気クレジットカードはどれ？選び方・比較の仕方は？<br>
                     <br>
-                    また、オリコのクレジットカードをお探しの際にはこちらの「〇〇別に見るあなたにぴったりなカード」をご参照ください。職業や趣味等の切り口から、おすすめのオリコのクレジットカードをご紹介しております。
+                    また、エリコのクレジットカードをお探しの際にはこちらの「〇〇別に見るあなたにぴったりなカード」をご参照ください。職業や趣味等の切り口から、おすすめのエリコのクレジットカードをご紹介しております。
                   </p>
                 </li>
               </ul>
@@ -1117,7 +1101,7 @@
                     <br>
                     おトクにクレジットカードを利用する場合には、ポイントがたまりやすいかどうかに加えて、このポイントが使いやすいかどうかを調べると良いでしょう。<br>
                     <br>
-                    オリコのポイントには以下の使い道があります。<br>
+                    エリコのポイントには以下の使い道があります。<br>
                     <br>
                     提携ポイントやギフト券との交換に使える<br>
                     商品やチケットとの交換に使える<br>
@@ -1141,7 +1125,7 @@
                   <p>
                     年会費とは、クレジットカードを利用するために年に1度お支払いする費用のことです。付帯する保険やサービス等の利用料も、この年会費に含まれます。年会費の金額はクレジットカードごとに異なり、年会費無料のクレジットカードもあります。<br>
                     <br>
-                    オリコの年会費無料のクレジットカードはこちらの「年会費無料のクレジットカード一覧」をご参照ください。
+                    エリコの年会費無料のクレジットカードはこちらの「年会費無料のクレジットカード一覧」をご参照ください。
                   </p>
                 </li>
               </ul>
@@ -1159,7 +1143,7 @@
                 <li>
                   <span>A8</span>
                   <p>
-                    年会費をお支払いするタイミングは、クレジットカード会社によって異なります。オリコの場合には「会員登録日の翌々月の27日」に指定の口座より引き落としとなります。会員登録日が8月の場合には10月27日が年会費のお支払日となります。会員登録日はカードお届け時の台紙をご確認ください。<br>
+                    年会費をお支払いするタイミングは、クレジットカード会社によって異なります。エリコの場合には「会員登録日の翌々月の27日」に指定の口座より引き落としとなります。会員登録日が8月の場合には10月27日が年会費のお支払日となります。会員登録日はカードお届け時の台紙をご確認ください。<br>
                     <br>
                     ※ 27日が土日祝日の場合は翌営業日がお引落日となります。
                   </p>
@@ -1179,7 +1163,7 @@
                 <li>
                   <span>A9</span>
                   <p>
-                    オリコのクレジットカードは年齢18歳以上の方がお申込み可能です。なお、クレジットカードにより異なりますので各クレジットカードの「申込資格」をご確認ください。
+                    エリコのクレジットカードは年齢18歳以上の方がお申込み可能です。なお、クレジットカードにより異なりますので各クレジットカードの「申込資格」をご確認ください。
                   </p>
                 </li>
               </ul>

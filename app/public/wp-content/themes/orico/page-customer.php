@@ -13,7 +13,7 @@
     <section class="PageTitle">
       <li>
         <a href="<?php echo home_url('/'); ?>/">
-          オリコTOP
+          エリコTOP
         </a>
       </li>
 
@@ -37,7 +37,7 @@
         </div>
 
         <div class="Hero__InnerTitleSP">
-          <img src="https://www.orico.co.jp/common/images/hdg/hdg-support-01.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoHero.svg" alt="">
         </div>
 
         <div class="container">
@@ -46,7 +46,7 @@
             <div class="Headup__Inner">
 
               <div class="Headup__InnerTitle">
-                <img src="https://www.orico.co.jp/common/images/pict/pict-important-01.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/注意マークのフリーアイコン.svg" alt="">
                 <h2>重要なお知らせ</h2>
               </div>
 
@@ -107,7 +107,7 @@
     <section class="Loan__Already">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-important-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/注意マークのフリーアイコン.svg" alt=""></span>
         <h2>
           トラブル・お困りのお客さま
         </h2>
@@ -121,7 +121,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-02.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/No Credit Cards.svg" alt="">
 
               <p>カードの紛失・盗難にあった</p>
 
@@ -133,7 +133,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-03.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Note.svg" alt="">
 
               <p>提携ATM/覚えのない明細がある</p>
 
@@ -145,7 +145,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-04.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Quest.svg" alt="">
 
               <p>カードの暗証番号を忘れた</p>
 
@@ -157,9 +157,9 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-05.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Search Chat.png" alt="">
 
-              <p>eオリコサービスID･パスワードを忘れた</p>
+              <p>eエリコサービスID･パスワードを忘れた</p>
 
             </a>
 
@@ -169,7 +169,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-pay-03.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Money Bag.svg" alt="">
 
               <p>入金が間に合わなかった</p>
 
@@ -181,7 +181,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-07.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Mobile Email.svg" alt="">
 
               <p>SMS(確認コード)が届かない</p>
 
@@ -200,7 +200,7 @@
     <section class="Loan__Already">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-procedure-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/アンケート用紙のアイコン素材.svg" alt=""></span>
         <h2>
           ご用件から探す
         </h2>
@@ -214,7 +214,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-15.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Assignment.svg" alt="">
 
               <p>引落口座の登録・変更</p>
 
@@ -226,7 +226,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-10.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Cheque.svg" alt="">
 
               <p>ご利用明細・お支払い</p>
 
@@ -238,7 +238,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-11.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Paid Bill.svg" alt="">
 
               <p>お客さま情報の変更</p>
 
@@ -251,7 +251,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-12.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Sell.svg" alt="">
 
               <p>カードのご利用</p>
 
@@ -263,7 +263,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-13.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Create Document.svg" alt="">
 
               <p>カードのお申込み・更新・解約</p>
 
@@ -275,7 +275,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-14.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Debt.svg" alt="">
 
               <p>リボ・分割払い</p>
 
@@ -287,7 +287,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-09.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Cash Euro.svg" alt="">
 
               <p>キャッシング</p>
 
@@ -299,7 +299,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-16.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Return.svg" alt="">
 
               <p>クレジット契約のクーリング・オフ</p>
 
@@ -311,7 +311,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-apply-02.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/greenicons/Internet.svg" alt="">
 
               <p>各種証明書のWeb申請</p>
 
@@ -332,7 +332,7 @@
 
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-info-02.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Inquiry.svg" alt=""></span>
         <h2>
           よくあるご質問
         </h2>
@@ -352,8 +352,8 @@
           <li>
             <a href="">
               <span>Q</span>
-              <p>eオリコサービスのID・パスワードを忘れてしまいました。</p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <p>eエリコサービスのID・パスワードを忘れてしまいました。</p>
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </li>
 
@@ -362,7 +362,7 @@
             <a href="">
               <span>Q</span>
               <p>SMS（確認コード）が届きません。</p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </li>
 
@@ -370,7 +370,7 @@
             <a href="">
               <span>Q</span>
               <p>可能枠一杯に利用している場合いつから利用できるようになりますか？</p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </li>
 
@@ -378,7 +378,7 @@
             <a href="">
               <span>Q</span>
               <p>利用金額の一部または全額を繰上返済することはできますか？</p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </li>
 
@@ -386,7 +386,7 @@
             <a href="">
               <span>Q</span>
               <p>口座引落日は何日ですか？</p>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </li>
 
@@ -404,7 +404,7 @@
               <div class="Customer__QuestionSearchTopBoxLeft">
 
                 <input type="text">
-                <img src="https://www.orico.co.jp/common/images/icon/icon-search-01.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/検索用の虫眼鏡アイコン素材.svg" alt="">
 
               </div>
               <div class="Customer__QuestionSearchTopBoxRight">
@@ -433,12 +433,12 @@
                 </li>
                 <li>
                   <a href="">
-                    eオリコサービス
+                    eエリコサービス
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    オリコポイント
+                    エリコポイント
                   </a>
                 </li>
                 <li>
@@ -480,7 +480,7 @@
           <div class="btn">
             <a href="#">
               すべてのご質問をみる
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </div>
 
@@ -497,7 +497,7 @@
       <div class="Loan__Already">
 
         <div class="Sec-title">
-          <span><img src="https://www.orico.co.jp/common/images/pict/pict-contact-01.svg" alt=""></span>
+          <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Internal Call.svg" alt=""></span>
           <h2>
             お困りのお客さま
           </h2>
@@ -518,7 +518,7 @@
 
               <a href="">
 
-                <img src="https://www.orico.co.jp/common/images/pict/pict-mail-02.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/Mobile Email.svg" alt="">
 
                 <p>メールでのお問合せはこちら</p>
 
@@ -530,7 +530,7 @@
 
               <a href="">
 
-                <img src="https://www.orico.co.jp/common/images/pict/pict-contact-04.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/Rotary Dial Telephone.svg" alt="">
 
                 <p>お電話でのお問い合わせはこちら</p>
 
@@ -542,9 +542,9 @@
 
               <a href="">
 
-                <img src="https://www.orico.co.jp/common/images/pict/pict-contact-03.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/Radio Tower.svg" alt="">
 
-                <p>オリコテレホンサービス</p>
+                <p>エリコテレホンサービス</p>
 
               </a>
 
@@ -676,7 +676,7 @@
 
               <div class="Right">
 
-                <img src="https://www.orico.co.jp/common/images/bnr/other/lp-enlighten-01-560x329.png" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/Erico1819.png" alt="">
 
               </div>
 
@@ -687,7 +687,7 @@
           <article>
             <div class="LinkLeftRed">
               <a href="">
-                オリコの取組み
+                エリコの取組み
                 <span></span>
               </a>
             </div>
@@ -741,16 +741,14 @@
     </section>
 
 
-    <div class="container">
-      <div class="returnTop">
-        <div class="wrapper">
-          <div class="LinkTextTop">
-            <a href="#top">
-              <span>
-                ページトップ
-              </span>
-            </a>
-          </div>
+    <div class="returnTop">
+      <div class="wrapper">
+        <div class="LinkTextTop">
+          <a href="#top">
+            <span>
+              ページトップ
+            </span>
+          </a>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@
     <section class="PageTitle">
       <li>
         <a href="<?php echo home_url('/'); ?>/">
-          オリコTOP
+          エリコTOP
         </a>
       </li>
 

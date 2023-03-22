@@ -7,14 +7,14 @@
       <div class="footerInner__1">
 
         <div class="footerInner__1Icon">
-          <img src="https://www.orico.co.jp/common/images/logo/orico/orico-01.svg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoBlack.png" alt="">
         </div>
 
         <div class="footerInner__1Nav">
 
           <div class="footerInner__1NavSearch">
             <input type="text" placeholder="サイト内検索">
-            <img src="https://www.orico.co.jp/common/images/icon/icon-search-01.svg" alt="">
+            <img src="" alt="">
           </div>
           <div class="footerInner__1NavMenu">
             <ul>
@@ -22,28 +22,28 @@
               <li>
                 <a href="">
                   <h3>eエリコサービス</h3>
-                  <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="">
                   <h3>エリコポイントゲートウェイ</h3>
-                  <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="">
                   <h3>エリコモール</h3>
-                  <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                 </a>
               </li>
 
             </ul>
           </div>
           <div class="footerInner__1NavApp">
-            <img src="https://www.orico.co.jp/common/images/icon/icon-app-01.svg" alt="">
+            <img src="" alt="">
             <p>エリコ公式アプリ</p>
           </div>
 
@@ -352,7 +352,7 @@
             <li>
               <a href="">
                 法人・個人事業主のお客さま
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
               </a>
             </li>
 
@@ -360,7 +360,7 @@
             <li>
               <a href="">
                 加盟店サービス
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
               </a>
             </li>
 
@@ -368,7 +368,7 @@
             <li>
               <a href="">
                 企業情報
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
               </a>
             </li>
 
@@ -388,19 +388,19 @@
             <div class="footerInner__3RightTopIcon">
 
               <a href="">
-                <img src="https://www.orico.co.jp/common/images/icon/icon-cardnews-01.svg" alt="">
+                <img src="" alt="">
               </a>
 
               <a href="">
-                <img src="https://www.orico.co.jp/common/images/icon/icon-facebook-01.svg" alt="">
+                <img src="" alt="">
               </a>
 
               <a href="">
-                <img src="https://www.orico.co.jp/common/images/icon/icon-youtube-01.svg" alt="">
+                <img src="" alt="">
               </a>
 
               <a href="">
-                <img src="https://www.orico.co.jp/common/images/icon/icon-line-01.svg" alt="">
+                <img src="" alt="">
               </a>
 
             </div>
@@ -411,7 +411,7 @@
 
             <p>コミュニケーションキャラクター</p>
             <a href="">
-              <img src="https://www.orico.co.jp/common/images/chara/chara-orico-bird-01.svg" alt="">
+              <img src="" alt="">
             </a>
 
           </div>
@@ -421,7 +421,7 @@
 
       <div class="footerInner__4">
         <a href="">
-          <img src="https://www.orico.co.jp/common/images/logo/privacy/privacy-01.png" alt="">
+          <img src="" alt="">
         </a>
         <p>
           Copyright © Orient Corporation. All Rights Reserved.</p>
@@ -455,7 +455,7 @@
             <li>
               <a href="#">
                 カード紛失・盗難
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
@@ -474,7 +474,7 @@
             <li>
               <a href="#">
                 eエリコサービス
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
@@ -482,14 +482,14 @@
             <li>
               <a href="#">
                 エリコポイントゲートウェイ
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
             <li>
               <a href="#">
                 エリコモール
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
@@ -514,7 +514,7 @@
             <li>
               <a href="#">
                 法人・個人事業主のお客さま
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
@@ -522,14 +522,14 @@
             <li>
               <a href="#">
                 加盟店サービス
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
             <li>
               <a href="#">
                 企業情報サイト
-                <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" class="RightLink">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" class="RightLink">
               </a>
             </li>
 
@@ -573,11 +573,11 @@
           </ul>
 
           <div class="footerInner__SP5Descript">
+            <!-- 
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/Smart Home Checked.svg" alt="">
 
-            <img src="<?php echo get_theme_file_uri(); ?>/icons/モヤイ像アイコン.svg" alt="">
 
-
-            <p>当社は個人情報の取扱いを適切に行う企業としてプライバシーマークの使用を認められた認定業者です。</p>
+            <p>当社は個人情報の取扱いを適切に行う企業としてプライバシーマークの使用を認められた認定業者です。</p> -->
 
           </div>
 

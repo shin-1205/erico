@@ -39,7 +39,7 @@
         min-height: 230px;
         padding: 40px 10%;
         margin-bottom: 73px;
-        background-image: url("https://www.orico.co.jp/common/images/hdg/hdg-creditcard-01.jpg");
+        background-image: url("icons/EricoHero.svg");
         background-position: center center;
         background-size: cover;
 
@@ -1211,6 +1211,8 @@
             border-radius: 10px;
 
             img{
+              width: 202px;
+              height: 125px;
               border: 1px solid #e6e6e6;
               border-radius: 10px;
             }
@@ -1252,6 +1254,11 @@
 
             .Craditcard__MemberInner1Left{
               width: 50%;
+
+              img{
+                width: 165px;
+                height: 102px;
+              }
             }
 
             .Craditcard__MemberInner1Right{
@@ -1375,7 +1382,7 @@
       content: "";
       width: 20px;
       height: 20px;
-      background: url("https://www.orico.co.jp/common/images/icon/icon-open-01.svg") left center no-repeat;
+      background: url("icons/PlusRed.png") left center no-repeat;
       background-size: cover;
       position: absolute;
       right: 20px;
@@ -1386,7 +1393,7 @@
       content: "";
       width: 20px;
       height: 20px;
-      background: url("https://www.orico.co.jp/common/images/icon/icon-close-01.svg") left center no-repeat;
+      background: url("icons/MinusRed.png") left center no-repeat;
       background-size: cover;
       position: absolute;
       right: 20px;

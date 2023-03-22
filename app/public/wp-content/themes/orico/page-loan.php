@@ -13,7 +13,7 @@
     <section class="PageTitle">
       <li>
         <a href="<?php echo home_url('/'); ?>/">
-          オリコTOP
+          エリコTOP
         </a>
       </li>
 
@@ -37,7 +37,7 @@
         </div>
 
         <div class="Hero__InnerTitleSP">
-          <img src="https://www.orico.co.jp/common/images/hdg/hdg-loan-01.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoHero.svg" alt="">
         </div>
 
         <div class="pageLink">
@@ -56,7 +56,7 @@
 
     <section class="Loan__Kind">
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-loan-02.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Smart Home Checked.svg" alt=""></span>
         <h2>
           ローンの種類
         </h2>
@@ -73,7 +73,7 @@
           <ul class="Loan__KindInnerArticleList">
 
             <li class="Loan__KindInnerArticleListItem">
-              <img src="https://www.orico.co.jp/loan/images/img-loan-02.jpg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/bitcoinIMGL1741_TP_V4.jpg" alt="">
 
               <div class="LinkLeftRed">
                 <a href="">キャッシング
@@ -97,7 +97,7 @@
 
 
             <li class="Loan__KindInnerArticleListItem">
-              <img src="https://www.orico.co.jp/loan/images/img-loan-03.jpg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/sakiphotoPAR542371193_TP_V4.jpg" alt="">
 
               <div class="LinkLeftRed">
                 <a href="">カードローン
@@ -130,7 +130,7 @@
 
 
             <li class="Loan__KindInnerArticleListItem">
-              <img src="https://www.orico.co.jp/loan/images/img-loan-04.jpg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/sakiphotoPAR539461119_TP_V4.jpg" alt="">
 
               <div class="LinkLeftRed">
                 <a href="">提携ローン
@@ -139,7 +139,7 @@
               </div>
 
               <div class="Loan__KindInnerArticleListItemText">
-                <h3>オリコと提携するさまざまな加盟店でご利用できる提携ローンをご紹介いたします。お客さまのライフスタイルに合わせた多様な支払方法でサポートいたします。</h3>
+                <h3>エリコと提携するさまざまな加盟店でご利用できる提携ローンをご紹介いたします。お客さまのライフスタイルに合わせた多様な支払方法でサポートいたします。</h3>
 
               </div>
 
@@ -162,7 +162,7 @@
 
 
             <li class="Loan__KindInnerArticleListItem">
-              <img src="https://www.orico.co.jp/loan/images/img-loan-05.jpg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/006elly181027C_TP_V4.jpg" alt="">
 
               <div class="LinkLeftRed">
                 <a href="">目的ローン（融資）
@@ -194,7 +194,7 @@
 
 
             <li class="Loan__KindInnerArticleListItem">
-              <img src="https://www.orico.co.jp/loan/images/img-loan-06.jpg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/PK4131306PAR58116_TP_V4.jpg" alt="">
 
               <div class="LinkLeftRed">
                 <a href="">ビジネスローン（事業融資）
@@ -230,7 +230,7 @@
     <section class="Loan__First">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-support-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/愛アイコン2.svg" alt=""></span>
         <h2>
           初めてのローン
         </h2>
@@ -239,7 +239,7 @@
       <div class="container">
 
         <div class="Loan__FirstPic">
-          <img src="https://www.orico.co.jp/loan/images/img-loan-01.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoBanne4.svg" alt="">
         </div>
 
         <div class="Loan__FirstText">
@@ -288,7 +288,7 @@
                       </div>
 
                       <div class="Loan__FirstAccordionItemInnerItemRight">
-                        <img src="https://www.orico.co.jp/loan/images/img-loan-09.jpg" alt="">
+                        <img src="<?php echo get_theme_file_uri(); ?>/icons/Redsugar20207144_TP_V4.jpg" alt="">
                       </div>
 
                     </div>
@@ -434,12 +434,12 @@
 
 
                       <div class="Loan__FirstAccordionItemInnerItemRight SPOff">
-                        <img src="https://www.orico.co.jp/loan/images/img-loan-10.jpg" alt="">
+                        <img src="<?php echo get_theme_file_uri(); ?>/icons/bitcoinIMGL1741_TP_V4.jpg" alt="">
                       </div>
 
                       <div class="Loan__FirstAccordionItemInnerItemLeft">
 
-                        <p>お手持ちのオリコカードでご利用いただけるキャッシングサービス※です。</p>
+                        <p>お手持ちのエリコカードでご利用いただけるキャッシングサービス※です。</p>
 
                         <h5><span>キャッシング枠を設定されている場合のみとなります。</span></h5>
 
@@ -450,7 +450,7 @@
                       </div>
 
                       <div class="Loan__FirstAccordionItemInnerItemRight SPON">
-                        <img src="https://www.orico.co.jp/loan/images/img-loan-10.jpg" alt="">
+                        <img src="<?php echo get_theme_file_uri(); ?>/icons/bitcoinIMGL1741_TP_V4.jpg" alt="">
                       </div>
 
 
@@ -474,7 +474,7 @@
                     <div class="Loan__FirstAccordionItemInnerItem">
 
                       <div class="Loan__FirstAccordionItemInnerItemRight">
-                        <img src="https://www.orico.co.jp/loan/images/img-loan-11.jpg" alt="">
+                        <img src="<?php echo get_theme_file_uri(); ?>/icons/SAKI037-_MKT50501489_TP_V4.jpg" alt="">
                       </div>
 
                       <div class="Loan__FirstAccordionItemInnerItemLeft">
@@ -546,7 +546,7 @@
 
                           <a href="">
                             <span>
-                              オリコのカードローンについてもっと詳しく
+                              エリコのカードローンについてもっと詳しく
                             </span>
                           </a>
                         </div>
@@ -572,7 +572,7 @@
                     <div class="Loan__FirstAccordionItemInnerItem">
 
                       <div class="Loan__FirstAccordionItemInnerItemRight">
-                        <img src="https://www.orico.co.jp/loan/images/img-loan-12.jpg" alt="">
+                        <img src="<?php echo get_theme_file_uri(); ?>/icons/sakiphotoPAR539461119_TP_V4.jpg" alt="">
                       </div>
 
                       <div class="Loan__FirstAccordionItemInnerItemLeft">
@@ -602,7 +602,7 @@
                           <h4>提携ローン</h4>
 
                           <div class="Loan__FirstAccordionItemInnerBottomBoxInnerBottom">
-                            <p>オリコの提携加盟店での<br>
+                            <p>エリコの提携加盟店での<br>
                               お買い物を安心・便利に</p>
 
                             <span>あらゆる商品の購入費用を多様なお支払方法でサポートいたします。</span>
@@ -650,7 +650,7 @@
                           <a href="">
                             <span>ビジネスローンについてもっと詳しく
                             </span>
-                            <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+                            <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                           </a>
 
                         </div>
@@ -676,7 +676,7 @@
 
     <section class="Loan__How">
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-info-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Inquiry.svg" alt=""></span>
         <h2>
           どうやって選べばいい？
         </h2>
@@ -701,7 +701,7 @@
 
               <div class="Loan__HowCardListItemTop">
                 <div class="Loan__HowCardListItemTopPic">
-                  <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Coin in Hand.svg" alt="">
                 </div>
                 <h3>キャッシング</h3>
                 <p>ご利用可能枠の範囲内なら<br>
@@ -741,7 +741,7 @@
 
               <div class="Loan__HowCardListItemTop">
                 <div class="Loan__HowCardListItemTopPic">
-                  <img src="https://www.orico.co.jp/common/images/pict/pict-loan-04.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Estimate.svg" alt="">
                 </div>
                 <h3>カードローン</h3>
                 <p>急な出費でも安心<br>
@@ -780,7 +780,7 @@
 
               <div class="Loan__HowCardListItemTop">
                 <div class="Loan__HowCardListItemTopPic">
-                  <img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt="">
+                  <img src="<?php echo get_theme_file_uri(); ?>/icons/Man With Money.svg" alt="">
                 </div>
                 <h3>目的別ローン</h3>
                 <p>計画的な<br>
@@ -815,7 +815,7 @@
         </ul>
 
         <div class="Loan__HowCardText">
-          <span>OricoCard THE POINTの場合</span>
+          <span>EricoCard THE POINTの場合</span>
           <span>カードによっては貸付の利率が異なります</span>
         </div>
 
@@ -827,7 +827,7 @@
     <section class="Loan__Already">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-loan-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Bank Cards.svg" alt=""></span>
         <h2>
           すでにローンをご利用中の方はこちら
         </h2>
@@ -841,7 +841,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-quick-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Meeting Time.svg" alt="">
 
               <p>お急ぎの方へ<br>
                 即日振込・融資</p>
@@ -854,7 +854,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-atm-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Insert MasterCard.svg" alt="">
 
               <p>提携ATM/CDをお探しの方へ</p>
 
@@ -866,7 +866,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-pay-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Coin in Hand.svg" alt="">
 
               <p>クレジットカードで<br>
                 キャッシング</p>
@@ -883,7 +883,7 @@
 
     <section class="Loan__Use">
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-pay-03.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Money Bag.svg" alt=""></span>
         <h2>
           ローンご利用にあたって
         </h2>
@@ -901,7 +901,7 @@
 
         <div class="Loan__UseCard">
 
-          <img src="https://www.orico.co.jp/common/images/logo/pass/pass-01-350x218.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoShiharai.png" alt="">
 
           <a href="">
             支払PASS
@@ -919,7 +919,7 @@
     <section class="Question">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-info-02.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Inquiry.svg" alt=""></span>
         <h2>
           よくあるご質問
         </h2>
@@ -1022,7 +1022,7 @@
           <div class="btn">
             <a href="#">
               ローンについてのFAQはこちら
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </div>
         </div>
@@ -1068,16 +1068,14 @@
 
     </section>
 
-    <div class="container">
-      <div class="returnTop">
-        <div class="wrapper">
-          <div class="LinkTextTop">
-            <a href="#top">
-              <span>
-                ページトップ
-              </span>
-            </a>
-          </div>
+    <div class="returnTop">
+      <div class="wrapper">
+        <div class="LinkTextTop">
+          <a href="#top">
+            <span>
+              ページトップ
+            </span>
+          </a>
         </div>
       </div>
     </div>

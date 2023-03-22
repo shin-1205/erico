@@ -16,7 +16,7 @@
     <section class="PageTitle">
       <li>
         <a href="<?php echo home_url('/'); ?>/">
-          オリコTOP
+          エリコTOP
         </a>
       </li>
 
@@ -32,7 +32,7 @@
     <section class="SingleInner">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-important-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/注意マークのフリーアイコン.svg" alt=""></span>
         <h2>
           トラブル・お困りのお客さま
         </h2>
@@ -105,7 +105,7 @@
           <div class="btn">
             <a href="#">
               <a href="<?php echo home_url('/'); ?>news/">お知らせ一覧に戻る</a>
-              <img src="https://www.orico.co.jp/common/images/icon/icon-window-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
             </a>
           </div>
         </div>

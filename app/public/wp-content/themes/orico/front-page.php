@@ -53,7 +53,7 @@
     <div class="Newswrap">
 
       <div class="NewsArea__title">
-        <img src="https://www.orico.co.jp/common/images/pict/pict-important-01.svg" alt="">
+        <img src="<?php echo get_theme_file_uri(); ?>/icons/注意マークのフリーアイコン.svg" alt="">
         <h2>重要なお知らせ</h2>
       </div>
 
@@ -222,7 +222,7 @@
             <img src="<?php echo get_theme_file_uri(); ?>/icons/mainapoint.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
-            期間：2022/1/1〜2023/5/31
+            期間：2023/3/4〜2023/6/31
           </div>
           <div class="ArticleArea__cardTitle">
             <p>マイナポイント事業</p>
@@ -236,10 +236,10 @@
         <a href="#">
 
           <div class="ArticleArea__cardImage">
-            <img src="<?php echo get_theme_file_uri(); ?>/icons/Frame4.png" alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/icons/camani.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
-            期間：2022/1/1〜2023/5/31
+            期間：2023/2/1〜2023/5/25
           </div>
           <div class="ArticleArea__cardTitle">
             <p>総勢250名にあたる!リボ払いご利用キャンペーン!</p>
@@ -256,7 +256,7 @@
             <img src="<?php echo get_theme_file_uri(); ?>/icons/giffycanvas.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
-            期間：2022/1/1〜2023/5/31
+            期間：2023/2/14〜2023/5/31
           </div>
           <div class="ArticleArea__cardTitle">
             <p>エリコ感謝祭〜第1弾〜</p>
@@ -273,7 +273,7 @@
             <img src="<?php echo get_theme_file_uri(); ?>/icons/7000.gif" alt="">
           </div>
           <div class="ArticleArea__cardDate">
-            期間：2022/1/1〜2023/5/31
+            期間：2023/1/1〜2024/5/31
           </div>
           <div class="ArticleArea__cardTitle">
             <p>ウェルカムキャンペーン</p>
@@ -308,28 +308,6 @@
 
     </div>
 
-
-    <div class="ArticleArea__topics">
-
-      <h3>トピック・コンテンツ</h3>
-
-      <div class="ArticleArea__topicsImage">
-        <a href="">
-          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoWeb5.png" alt="">
-        </a>
-        <a href="">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/lp-enlighten-01-280x174.png" alt="">
-        </a>
-        <a href="">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/oricotori-01-280x174.jpg" alt="">
-        </a>
-        <a href="">
-          <img src="https://www.orico.co.jp/common/images/bnr/other/furusato-01-280x174.jpg" alt="">
-        </a>
-      </div>
-
-
-    </div>
 
 
 
@@ -528,14 +506,6 @@
         </div>
 
 
-        <!-- <div class="LoginArea__appBtn">
-          <div class="btn">
-            <a href="#">
-              よくある質問はこちらから
-              <img src="<?php echo get_theme_file_uri(); ?>icons/白紙の書類ファイルアイコン.svg" alt="">
-            </a>
-          </div>
-        </div> -->
 
       </div>
 
@@ -562,7 +532,7 @@
 
             <div class="NewsArea1__1">
               <div class="NewsArea1__1Img">
-                <img src="https://www.orico.co.jp/common/images/pict/pict-news-01.svg" alt="">
+                <img src="<?php echo get_theme_file_uri(); ?>/icons/Note.svg" alt="">
               </div>
               <h2>お知らせ</h2>
             </div>
@@ -825,16 +795,7 @@
                   <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoCard6.png" alt="">
                 </a>
               </li>
-              <li>
-                <a href="">
-                  <!-- <img src="https://www.orico.co.jp/common/images/bnr/other/pin-01-238x75.png" alt=""> -->
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <!-- <img src="https://www.orico.co.jp/common/images/bnr/other/encashment-01-238x75.png" alt=""> -->
-                </a>
-              </li>
+
             </ul>
           </div>
 

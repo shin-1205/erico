@@ -13,7 +13,7 @@
     <section class="PageTitle">
       <li>
         <a href="<?php echo home_url('/'); ?>/">
-          オリコTOP
+          エリコTOP
         </a>
       </li>
 
@@ -37,13 +37,13 @@
         </div>
 
         <div class="Hero__InnerTitleSP">
-          <img src="https://www.orico.co.jp/common/images/hdg/hdg-service-01.jpg" alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoHero.svg" alt="">
         </div>
 
         <div class="pageLink">
           <ul>
             <li><a href="#"><span>〇〇別に見るあなたにぴったりのカード</span></a></li>
-            <li><a href="#"><span>こんな時に便利なオリコのサービス</span></a></li>
+            <li><a href="#"><span>こんな時に便利なエリコのサービス</span></a></li>
             <li><a href="#"><span>あらゆるお支払いに</span></a></li>
             <li><a href="#"><span>なるほど豆知識</span></a></li>
             <li><a href="#"><span>クレジット大辞典</span></a></li>
@@ -58,7 +58,7 @@
     <section class="Service__Pay">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-02.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Credit card.svg" alt=""></span>
         <h2>
           〇〇別に見るあなたにぴったりのカード
         </h2>
@@ -68,7 +68,7 @@
 
         <div class="Service__PayText">
           <p>
-            どんなカードを選べばよいかわからない、そんなあなたにはオリコがおすすめのカードをご紹介いたします。
+            どんなカードを選べばよいかわからない、そんなあなたにはエリコがおすすめのカードをご紹介いたします。
           </p>
         </div>
 
@@ -146,9 +146,9 @@
     <section class="Loan__Already">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-add-service-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Coin in Hand.svg" alt=""></span>
         <h2>
-          こんな時に便利なオリコのサービス
+          こんな時に便利なエリコのサービス
         </h2>
       </div>
 
@@ -160,7 +160,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-support-02.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/No Credit Cards.svg" alt="">
 
               <p>急な出費でも<br>
                 大丈夫！<br>
@@ -174,7 +174,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-shopping-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Money Bag.svg" alt="">
 
               <p>ショッピングで<br>
                 リボ払い分分割払い</p>
@@ -187,11 +187,11 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-phone-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Mobile Email.svg" alt="">
 
               <p>ご利用明細などを<br>
                 簡単に確認！<br>
-                オリコ公式アプリ</p>
+                エリコ公式アプリ</p>
 
             </a>
 
@@ -201,11 +201,11 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-point-03.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Smart Home Checked.svg" alt="">
 
               <p>ネットショッピング<br>
                 でポイントがたまる<br>
-                オリコモール</p>
+                エリコモール</p>
 
             </a>
 
@@ -215,7 +215,7 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-loan-03.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Note.svg" alt="">
 
               <p>ローンサポート</p>
 
@@ -227,10 +227,10 @@
 
             <a href="">
 
-              <img src="https://www.orico.co.jp/common/images/pict/pict-travel-01.svg" alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/icons/Man With Money.svg" alt="">
 
               <p>実は旅行にも強い！<br>
-                オリコカード</p>
+                エリコカード</p>
 
             </a>
 
@@ -247,7 +247,7 @@
     <section class="Service__Pay">
 
       <div class="Sec-title">
-        <span><img src="https://www.orico.co.jp/common/images/pict/pict-cash-01.svg" alt=""></span>
+        <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Insert MasterCard.svg" alt=""></span>
         <h2>
           あらゆるお支払いに
         </h2>
@@ -257,7 +257,7 @@
 
         <div class="Service__PayText">
           <p>
-            オリコのクレジットカードはさまざまなお支払いにご利用いただけます。
+            エリコのクレジットカードはさまざまなお支払いにご利用いただけます。
           </p>
         </div>
 
@@ -269,7 +269,7 @@
 
                 <div class="Loan__HowCardListItemTop">
                   <div class="Loan__HowCardListItemTopPic">
-                    <img src="https://www.orico.co.jp/common/images/pict/pict-pay-03.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/Bank Cards.svg" alt="">
                   </div>
                   <h3>月々のお支払い</h3>
 
@@ -326,7 +326,7 @@
 
                 <div class="Loan__HowCardListItemTop">
                   <div class="Loan__HowCardListItemTopPic">
-                    <img src="https://www.orico.co.jp/common/images/pict/pict-contract-01.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/Money Bag.svg" alt="">
                   </div>
                   <h3>税金のお支払い</h3>
 
@@ -382,7 +382,7 @@
 
                 <div class="Loan__HowCardListItemTop">
                   <div class="Loan__HowCardListItemTopPic">
-                    <img src="https://www.orico.co.jp/common/images/pict/pict-insurance-01.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/Smart Home Checked.svg" alt="">
                   </div>
                   <h3>保険のお支払い</h3>
 
@@ -422,9 +422,9 @@
 
                 <div class="Loan__HowCardListItemTop">
                   <div class="Loan__HowCardListItemTopPic">
-                    <img src="https://www.orico.co.jp/common/images/pict/pict-point-02.svg" alt="">
+                    <img src="<?php echo get_theme_file_uri(); ?>/icons/Estimate.svg" alt="">
                   </div>
-                  <h3>オリコカードでおトクにご利用できるお支払い</h3>
+                  <h3>エリコカードでおトクにご利用できるお支払い</h3>
 
                 </div>
 
@@ -452,7 +452,7 @@
                     <li>
                       <div class="TextLeftCircle">
                         <a href="">
-                          <span>ネットショッピング（オリコモール）</span>
+                          <span>ネットショッピング（エリコモール）</span>
                         </a>
                       </div>
                     </li>
@@ -499,7 +499,7 @@
         <div class="Loan__Already">
 
           <div class="Sec-title">
-            <span><img src="https://www.orico.co.jp/common/images/pict/pict-knowledge-01.svg" alt=""></span>
+            <span><img src="<?php echo get_theme_file_uri(); ?>/icons/ブタの貯金箱の線画アイコン.svg" alt=""></span>
             <h2>
               なるほど豆知識
             </h2>
@@ -640,7 +640,7 @@
         <div class="Loan__Already">
 
           <div class="Sec-title">
-            <span><img src="https://www.orico.co.jp/common/images/pict/pict-card-design-01.svg" alt=""></span>
+            <span><img src="<?php echo get_theme_file_uri(); ?>/icons/Note.svg" alt=""></span>
             <h2>
               クレジット大辞典
             </h2>
@@ -958,21 +958,6 @@
                       </div>
                     </li>
 
-                    <li>
-                      <div class="TextLeftCircle">
-                        <a href="">
-                          <span>「う」</span>
-                        </a>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="TextLeftCircle">
-                        <a href="">
-                          <span>「え」</span>
-                        </a>
-                      </div>
-                    </li>
 
                   </ul>
 
@@ -1026,16 +1011,14 @@
 
 
 
-    <div class="container">
-      <div class="returnTop">
-        <div class="wrapper">
-          <div class="LinkTextTop">
-            <a href="#top">
-              <span>
-                ページトップ
-              </span>
-            </a>
-          </div>
+    <div class="returnTop">
+      <div class="wrapper">
+        <div class="LinkTextTop">
+          <a href="#top">
+            <span>
+              ページトップ
+            </span>
+          </a>
         </div>
       </div>
     </div>

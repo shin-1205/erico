@@ -28,19 +28,19 @@
       width: 56px;
       height: 56px;
       margin: auto 0;
-      background-color: rgba(255, 255, 255, 0.8);
+      // background-color: rgba(255, 255, 255, 0.3);
       border-radius: 50%;
       box-shadow: 0 0.5rem 1rem 0 rgb(0 0 0 / 5%);
+      opacity: 0.3;
       top: 40%;
     }
 
     &-next{
-      background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-14.svg") center center no-repeat;
+      background: url("icons/Circled Right.svg") center center no-repeat;
     }
 
     &-prev{
-      background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-14.svg") center center no-repeat;
-      transform: rotate(180deg);
+      background: url("icons/Back Arrow.svg") center center no-repeat;
     }
   }
 
@@ -148,7 +148,7 @@
   width: auto !important;
   margin: 0;
   position: absolute;
-  top: -52px !important;
+  top: -57px !important;
   left: auto !important;
   right: -200px;
 
@@ -586,16 +586,10 @@
 
         &Image{
           max-width: 313px;
-          height: 370px;
           margin-bottom: 27px;
           border: 1px solid #e6e6e6;
           border-radius: 5px;
           text-align: center;
-
-          img{
-            // width: 200px;
-            // margin-top: 146px;
-          }
         }
 
         &Name{
@@ -635,7 +629,7 @@
       height: 225px;
       padding: 50px;
       margin-bottom: 27px;
-      background-image: url("https://www.orico.co.jp/common/images/module/bg-box-03.jpg");
+      background-image: url("icons/BackBanner.svg");
       background-repeat: no-repeat;
       background-position: 35% 50%;
       background-size: cover;
@@ -1211,19 +1205,6 @@
         font-size: 15px;
         text-align: center;
         position: relative;
-
-        &::after{
-          content: "";
-          display: block;
-          width: 2%;
-          height: 100%;
-          background: url("https://www.orico.co.jp/common/images/icon/icon-arrow-03.svg")left center no-repeat;
-          background-size: 100%;
-          position: absolute;
-          top: -1px;
-          right: 105px;
-          transform: rotate(90deg);
-        }
       }
     }
   }
@@ -1287,9 +1268,9 @@
     }
 
     .swiper-pagination{
-      top: -55px;
+      top: -98px !important;
+      left: 204px !important;
       right: -105px !important;
-
 
       .swiper-pagination-bullet{
         width: 5px;
@@ -1519,6 +1500,7 @@
       flex-direction: column;
 
       &Left{
+        width: 100%;
         padding: 20px;
 
 
@@ -1573,6 +1555,7 @@
 
       &Right{
         gap: 15px;
+        width: 100%;
 
         &Card{
           &Title{
@@ -1779,7 +1762,7 @@
   .hero{
     .swiper-progress-bar{
       .swiper-pagination{
-        top: -94px !important;
+        top: -99px !important;
         left: auto !important;
         right: -150px;
 
