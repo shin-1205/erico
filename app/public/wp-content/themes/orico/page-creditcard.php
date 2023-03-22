@@ -8,7 +8,7 @@
 
   <!-- creditcard inner -->
 
-  <div class="Creditcard">
+  <div class="Creditcard" id="main">
 
     <section class="PageTitle">
       <li>

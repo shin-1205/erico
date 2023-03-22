@@ -8,7 +8,7 @@
 
   <!-- Customer Inner start -->
 
-  <div class="Customer">
+  <div class="Customer" id="main">
 
     <section class="PageTitle">
       <li>

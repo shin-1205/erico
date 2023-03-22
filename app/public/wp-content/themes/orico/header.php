@@ -25,8 +25,8 @@
 
       <div class="l-header__loginSP">
 
-        <a href="">
-          <img src="https://www.orico.co.jp/common/images/icon/icon-login-01.svg" alt="">
+        <a href="#">
+          <img src="<?php echo get_theme_file_uri(); ?>/icons/Door Sensor Alarmed.svg" alt="">
           <p>ログイン</p>
         </a>
 
@@ -124,7 +124,7 @@
       <div class="l-header__login">
         <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoBlack.png" alt="">
         <p>会員の方</p>
-        <a href="">
+        <a href="#">
           ログインする
 
           <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙.svg" alt="">
@@ -163,7 +163,7 @@
     <div class="s-header product-popup">
 
       <div class="s-header__logo">
-        <a href="#">
+        <a href="<?php echo home_url('/'); ?>">
           <img src="<?php echo get_theme_file_uri(); ?>/icons/Erico3.png" alt="">
         </a>
       </div>
@@ -211,7 +211,7 @@
 
         <ul class="s-header__navBottom tab">
           <li class="s-header__navBottomItem active">
-            <a href="#" class="active">
+            <a href="<?php echo home_url('/'); ?>" class="active">
               <span>
                 トップ
               </span>
@@ -252,7 +252,7 @@
       <div class="s-header__login">
         <img src="<?php echo get_theme_file_uri(); ?>/icons/EricoWhite.png" alt="">
 
-        <a href="">
+        <a href="#">
           ログインする
 
           <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙.svg" alt="">

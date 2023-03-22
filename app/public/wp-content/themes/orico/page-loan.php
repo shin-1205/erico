@@ -8,7 +8,7 @@
 
   <!-- loan Inner start -->
 
-  <div class="Loan">
+  <div class="Loan" id="main">
 
     <section class="PageTitle">
       <li>

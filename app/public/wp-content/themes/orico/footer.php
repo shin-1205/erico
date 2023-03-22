@@ -20,21 +20,21 @@
             <ul>
 
               <li>
-                <a href="">
+                <a href="#">
                   <h3>eエリコサービス</h3>
                   <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                 </a>
               </li>
 
               <li>
-                <a href="">
+                <a href="#">
                   <h3>エリコポイントゲートウェイ</h3>
                   <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                 </a>
               </li>
 
               <li>
-                <a href="">
+                <a href="#">
                   <h3>エリコモール</h3>
                   <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
                 </a>
@@ -58,7 +58,9 @@
         <!-- SPのみ -->
 
         <div class="footerInner__2Top nav-open">
-          <span>トップ</span>
+          <span>
+            <a href="<?php echo home_url('/'); ?>/">トップ</a>
+          </span>
         </div>
 
         <div class="footerInner__2List">
@@ -66,7 +68,7 @@
 
 
           <h2 class="nav-open">
-            <a href="">
+            <a href="<?php echo home_url('/'); ?>creditcard/">
               クレジットカード
             </a>
           </h2>
@@ -74,49 +76,49 @@
           <ul class="footerListSP">
 
             <li>
-              <a href="">
+              <a href="#">
                 カード一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 入会の流れ
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 eエリコサービスとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 新規入会キャンペーン
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードをご利用中のお客さま
               </a>
             </li>
@@ -127,7 +129,7 @@
         <div class="footerInner__2List">
 
           <h2 class="nav-open">
-            <a href="">
+            <a href="<?php echo home_url('/'); ?>loan/">
               ローン
             </a>
           </h2>
@@ -135,49 +137,49 @@
           <ul class="footerListSP">
 
             <li>
-              <a href="">
+              <a href="#">
                 カード一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 入会の流れ
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 eエリコサービスとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 新規入会キャンペーン
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードをご利用中のお客さま
               </a>
             </li>
@@ -188,7 +190,7 @@
         <div class="footerInner__2List">
 
           <h2 class="nav-open">
-            <a href="">
+            <a href="<?php echo home_url('/'); ?>customer/">
               お客さまサポート
             </a>
           </h2>
@@ -196,49 +198,49 @@
           <ul class="footerListSP">
 
             <li>
-              <a href="">
+              <a href="#">
                 カード一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 入会の流れ
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 eエリコサービスとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 新規入会キャンペーン
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードをご利用中のお客さま
               </a>
             </li>
@@ -249,7 +251,7 @@
         <div class="footerInner__2List">
 
           <h2 class="nav-open">
-            <a href="">
+            <a href="<?php echo home_url('/'); ?>service/">
               便利なサービス
             </a>
           </h2>
@@ -257,49 +259,49 @@
           <ul class="footerListSP">
 
             <li>
-              <a href="">
+              <a href="#">
                 カード一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 入会の流れ
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードのサービス・機能一覧
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 eエリコサービスとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 ポイント（エリコポイント・暮らスマイル）
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコポイントゲートウェイとは・エリコモールとは
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 新規入会キャンペーン
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 エリコカードをご利用中のお客さま
               </a>
             </li>
@@ -320,25 +322,25 @@
           <ul class="footerInner__3LeftTop">
 
             <li>
-              <a href="">
+              <a href="#">
                 各種規約・方針
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 サイトポリシー
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 個人情報の取り扱い
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 クレジットポリシー
               </a>
             </li>
@@ -350,7 +352,7 @@
           <ul class="footerInner__3LeftBottom">
 
             <li>
-              <a href="">
+              <a href="#">
                 法人・個人事業主のお客さま
                 <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
               </a>
@@ -358,7 +360,7 @@
 
 
             <li>
-              <a href="">
+              <a href="#">
                 加盟店サービス
                 <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
               </a>
@@ -366,7 +368,7 @@
 
 
             <li>
-              <a href="">
+              <a href="#">
                 企業情報
                 <img src="<?php echo get_theme_file_uri(); ?>/icons/白紙の書類ファイルアイコン.svg" alt="">
               </a>
@@ -380,28 +382,13 @@
           <div class="footerInner__3RightTop">
 
             <h3>
-              <a href="">
+              <a href="#">
                 公式メディア
               </a>
             </h3>
 
             <div class="footerInner__3RightTopIcon">
 
-              <a href="">
-                <img src="" alt="">
-              </a>
-
-              <a href="">
-                <img src="" alt="">
-              </a>
-
-              <a href="">
-                <img src="" alt="">
-              </a>
-
-              <a href="">
-                <img src="" alt="">
-              </a>
 
             </div>
 
@@ -410,7 +397,7 @@
           <div class="footerInner__3RightBottom">
 
             <p>コミュニケーションキャラクター</p>
-            <a href="">
+            <a href="#">
               <img src="" alt="">
             </a>
 
@@ -420,11 +407,11 @@
       </div>
 
       <div class="footerInner__4">
-        <a href="">
+        <a href="#">
           <img src="" alt="">
         </a>
         <p>
-          Copyright © Orient Corporation. All Rights Reserved.</p>
+          Copyright © Erient Corporation. All Rights Reserved.</p>
       </div>
 
 
@@ -547,25 +534,25 @@
           <ul class="footerInner__SP5Link">
 
             <li>
-              <a href="">
+              <a href="#">
                 各種規約・方針
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 サイトポリシー
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 個人情報の取り扱い
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="#">
                 クレジットポリシー
               </a>
             </li>
@@ -573,11 +560,7 @@
           </ul>
 
           <div class="footerInner__SP5Descript">
-            <!-- 
-            <img src="<?php echo get_theme_file_uri(); ?>/icons/Smart Home Checked.svg" alt="">
 
-
-            <p>当社は個人情報の取扱いを適切に行う企業としてプライバシーマークの使用を認められた認定業者です。</p> -->
 
           </div>
 
