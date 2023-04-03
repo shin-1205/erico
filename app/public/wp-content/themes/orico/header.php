@@ -19,6 +19,11 @@
 
 <body>
 
+  <!-- stalker mouse cursor -->
+  <div id="stalker"></div>
+
+  <!-- header -->
+
   <header id="#top">
     <div class="l-header">
 
